@@ -6,6 +6,9 @@
     <img alt="GitHub forks" src="https://img.shields.io/github/forks/whwdzg/whwdzg-s_recepies">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/whwdzg/whwdzg-s_recepies">
     <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/whwdzg/whwdzg-s_recepies">
+    <img alt="GitHub (Pre-)Release Date" src="https://img.shields.io/github/release-date-pre/whwdzg/whwdzg-s_recepies">
+    <img alt="GitHub release (with filter)" src="https://img.shields.io/github/v/release/whwdzg/whwdzg-s_recepies">
+    <img alt="GitHub tag (with filter)" src="https://img.shields.io/github/v/tag/whwdzg/whwdzg-s_recepies">
     </br>
 </div>
 
