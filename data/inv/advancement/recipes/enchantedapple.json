@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [ "i:enchantedapple" ]
+  },
+  "criteria": {
+    "gold_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [ { "item": "minecraft:gold_block" } ]
+      }
+    },
+    "apple": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [ { "item": "minecraft:apple"} ]
+      }
+    },
+    
+  },
+  "requirements": [
+    [
+      "gold_block",
+      "apple"
+    ]
+  ]
+}

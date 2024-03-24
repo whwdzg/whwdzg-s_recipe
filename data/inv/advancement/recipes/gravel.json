@@ -1,0 +1,20 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [ "i:gravel" ]
+  },
+  "criteria": {
+    "gravel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [ { "item": "minecraft:stone" } ]
+      }
+    },
+    
+  },
+  "requirements": [
+    [
+      "stone"
+    ]
+  ]
+}
