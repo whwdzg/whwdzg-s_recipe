@@ -1,20 +1,25 @@
 {
   "parent": "minecraft:recipes/root",
   "rewards": {
-    "recipes": [ "i:flint" ]
+    "recipes": [ "i:leather" ]
   },
   "criteria": {
-    "gravel": {
+    "rotten_flesh": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [ { "item": "minecraft:gravel" } ]
+        "items": [ { "item": "minecraft:rotten_flesh" } ]
       }
     },
     
   },
+  "display":{
+    "icon":{
+      "item":"minecraft:leather"
+    }
+  },
   "requirements": [
     [
-      "gravel"
+      "rotten_flesh"
     ]
   ]
 }

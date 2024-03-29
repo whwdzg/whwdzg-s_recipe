@@ -1,0 +1,31 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+      "recipes": [ "i:clay" ]
+    },
+    "criteria": {
+      "water_bucket": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [ { "item": "minecraft:water_bucket" } ]
+        }
+      },
+      "dirt": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [ { "item": "minecraft:dirt"} ]
+        }
+      },
+    },
+    "display":{
+      "icon":{
+        "item":"minecraft:clay"
+      }
+    },
+    "requirements": [
+      [
+        "water_bucket",
+        "dirt"
+      ]
+    ]
+  }

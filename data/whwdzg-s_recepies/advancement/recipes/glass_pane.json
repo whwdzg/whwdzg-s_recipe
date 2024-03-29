@@ -1,0 +1,25 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+      "recipes": [ "i:glass_pane" ]
+    },
+    "criteria": {
+      "glass": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [ { "item": "minecraft:glass" } ]
+        }
+      },
+      
+    },
+    "display":{
+      "icon":{
+        "item":"minecraft:glass_pane"
+      }
+    },
+    "requirements": [
+      [
+        "glass"
+      ]
+    ]
+  }
