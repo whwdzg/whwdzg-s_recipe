@@ -4,13 +4,18 @@
     "recipes": [ "i:gravel" ]
   },
   "criteria": {
-    "gravel": {
+    "stone": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [ { "item": "minecraft:stone" } ]
       }
     },
     
+  },
+  "display":{
+    "icon":{
+      "item":"minecraft:gravel"
+    }
   },
   "requirements": [
     [

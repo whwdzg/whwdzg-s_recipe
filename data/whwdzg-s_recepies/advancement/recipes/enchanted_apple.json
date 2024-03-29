@@ -18,6 +18,11 @@
     },
     
   },
+  "display":{
+    "icon":{
+      "item":"minecraft:enchanted_apple"
+    }
+  },
   "requirements": [
     [
       "gold_block",

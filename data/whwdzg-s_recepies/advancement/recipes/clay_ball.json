@@ -1,25 +1,25 @@
 {
     "parent": "minecraft:recipes/root",
     "rewards": {
-      "recipes": [ "i:glass_pane" ]
+      "recipes": [ "i:clay_ball" ]
     },
     "criteria": {
-      "glass": {
+      "clay": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
-          "items": [ { "item": "minecraft:glass" } ]
+          "items": [ { "item": "minecraft:clay" } ]
         }
       },
-      
+    
     },
     "display":{
       "icon":{
-        "item":"minecraft:glass_pane"
+        "item":"minecraft:clay_ball"
       }
     },
     "requirements": [
       [
-        "glass"
+        "clay"
       ]
     ]
   }

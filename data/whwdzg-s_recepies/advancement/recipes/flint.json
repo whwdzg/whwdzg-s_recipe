@@ -12,6 +12,11 @@
     },
     
   },
+  "display":{
+    "icon":{
+      "item":"minecraft:flint"
+    }
+  },
   "requirements": [
     [
       "gravel"

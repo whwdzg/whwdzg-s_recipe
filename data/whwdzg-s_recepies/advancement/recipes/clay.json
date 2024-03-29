@@ -17,6 +17,11 @@
         }
       },
     },
+    "display":{
+      "icon":{
+        "item":"minecraft:clay"
+      }
+    },
     "requirements": [
       [
         "water_bucket",

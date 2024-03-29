@@ -12,6 +12,11 @@
     },
     
   },
+  "display":{
+    "icon":{
+      "item":"minecraft:leather"
+    }
+  },
   "requirements": [
     [
       "rotten_flesh"
