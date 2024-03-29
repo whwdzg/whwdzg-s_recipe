@@ -4,23 +4,22 @@
       "recipes": [ "i:clay" ]
     },
     "criteria": {
-      "gold_block": {
+      "water_bucket": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
-          "items": [ { "item": "minecraft:potion" } ]
+          "items": [ { "item": "minecraft:water_bucket" } ]
         }
       },
-      "apple": {
+      "dirt": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
           "items": [ { "item": "minecraft:dirt"} ]
         }
       },
-      
     },
     "requirements": [
       [
-        "potion",
+        "water_bucket",
         "dirt"
       ]
     ]

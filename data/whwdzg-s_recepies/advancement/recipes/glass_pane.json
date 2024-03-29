@@ -4,7 +4,7 @@
       "recipes": [ "i:glass_pane" ]
     },
     "criteria": {
-      "gravel": {
+      "glass": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
           "items": [ { "item": "minecraft:glass" } ]
