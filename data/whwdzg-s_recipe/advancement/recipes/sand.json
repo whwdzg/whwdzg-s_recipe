@@ -1,25 +1,25 @@
 {
   "parent": "minecraft:recipes/root",
   "rewards": {
-    "recipes": [ "whwdzg's_recipe:gravel" ]
+    "recipes": [ "whwdzg-s_recipe:sand" ]
   },
   "criteria": {
-    "stone": {
+    "gravel": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [ { "item": "minecraft:stone" } ]
+        "items": [ { "item": "minecraft:gravel" } ]
       }
     },
     
   },
   "display":{
     "icon":{
-      "item":"minecraft:gravel"
+      "item":"minecraft:sand"
     }
   },
   "requirements": [
     [
-      "stone"
+      "gravel"
     ]
   ]
 }

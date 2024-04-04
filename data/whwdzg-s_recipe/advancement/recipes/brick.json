@@ -1,25 +1,25 @@
 {
     "parent": "minecraft:recipes/root",
     "rewards": {
-      "recipes": [ "whwdzg's_recipe:glowstone_dust" ]
+      "recipes": [ "whwdzg-s_recipe:brick" ]
     },
     "criteria": {
-      "glowstone": {
+      "bricks": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
-          "items": [ { "item": "minecraft:glowstone" } ]
+          "items": [ { "item": "minecraft:bricks" } ]
         }
       },
     
     },
     "display":{
       "icon":{
-        "item":"minecraft:glowstone_dust"
+        "item":"minecraft:brick"
       }
     },
     "requirements": [
       [
-        "glowstone"
+        "bricks"
       ]
     ]
   }

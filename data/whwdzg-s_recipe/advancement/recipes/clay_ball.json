@@ -1,25 +1,25 @@
 {
     "parent": "minecraft:recipes/root",
     "rewards": {
-      "recipes": [ "whwdzg's_recipe:quartz" ]
+      "recipes": [ "whwdzg-s_recipe:clay_ball" ]
     },
     "criteria": {
-      "quartz_block": {
+      "clay": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
-          "items": [ { "item": "minecraft:quartz_block" } ]
+          "items": [ { "item": "minecraft:clay" } ]
         }
       },
     
     },
     "display":{
       "icon":{
-        "item":"minecraft:quartz"
+        "item":"minecraft:clay_ball"
       }
     },
     "requirements": [
       [
-        "quartz_block"
+        "clay"
       ]
     ]
   }

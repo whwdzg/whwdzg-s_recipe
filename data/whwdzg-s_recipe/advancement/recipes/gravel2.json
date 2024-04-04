@@ -1,25 +1,25 @@
 {
   "parent": "minecraft:recipes/root",
   "rewards": {
-    "recipes": [ "whwdzg's_recipe:leather" ]
+    "recipes": [ "whwdzg-s_recipe:gravel2" ]
   },
   "criteria": {
-    "rotten_flesh": {
+    "cobblestone": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [ { "item": "minecraft:rotten_flesh" } ]
+        "items": [ { "item": "minecraft:cobblestone" } ]
       }
     },
     
   },
   "display":{
     "icon":{
-      "item":"minecraft:leather"
+      "item":"minecraft:gravel"
     }
   },
   "requirements": [
     [
-      "rotten_flesh"
+      "cobblestone"
     ]
   ]
 }

@@ -1,25 +1,25 @@
 {
     "parent": "minecraft:recipes/root",
     "rewards": {
-      "recipes": [ "whwdzg's_recipe:glass_pane" ]
+      "recipes": [ "whwdzg-s_recipe:cobblestone" ]
     },
     "criteria": {
-      "glass": {
+      "stone": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
-          "items": [ { "item": "minecraft:glass" } ]
+          "items": [ { "item": "minecraft:stone" } ]
         }
       },
-      
+    
     },
     "display":{
-      "icon":{
-        "item":"minecraft:glass_pane"
-      }
-    },
+        "icon":{
+          "item":"minecraft:cobblestone"
+        }
+      },
     "requirements": [
       [
-        "glass"
+        "stone"
       ]
     ]
   }

@@ -1,25 +1,25 @@
 {
     "parent": "minecraft:recipes/root",
     "rewards": {
-      "recipes": [ "whwdzg's_recipe:nether_brick" ]
+      "recipes": [ "whwdzg-s_recipe:quartz" ]
     },
     "criteria": {
-      "nether_bricks": {
+      "quartz_block": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
-          "items": [ { "item": "minecraft:nether_bricks" } ]
+          "items": [ { "item": "minecraft:quartz_block" } ]
         }
       },
     
     },
     "display":{
       "icon":{
-        "item":"minecraft:nether_brick"
+        "item":"minecraft:quartz"
       }
     },
     "requirements": [
       [
-        "nether_bricks"
+        "quartz_block"
       ]
     ]
   }

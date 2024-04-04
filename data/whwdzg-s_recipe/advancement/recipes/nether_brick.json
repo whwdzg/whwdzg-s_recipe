@@ -1,25 +1,25 @@
 {
     "parent": "minecraft:recipes/root",
     "rewards": {
-      "recipes": [ "whwdzg's_recipe:cobblestone" ]
+      "recipes": [ "whwdzg-s_recipe:nether_brick" ]
     },
     "criteria": {
-      "stone": {
+      "nether_bricks": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
-          "items": [ { "item": "minecraft:stone" } ]
+          "items": [ { "item": "minecraft:nether_bricks" } ]
         }
       },
     
     },
     "display":{
-        "icon":{
-          "item":"minecraft:cobblestone"
-        }
-      },
+      "icon":{
+        "item":"minecraft:nether_brick"
+      }
+    },
     "requirements": [
       [
-        "stone"
+        "nether_bricks"
       ]
     ]
   }
