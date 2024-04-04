@@ -1,0 +1,25 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+      "recipes": [ "whwdzg-s_recipe:magma_cream" ]
+    },
+    "criteria": {
+      "magma_block": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [ { "item": "minecraft:magma_block" } ]
+        }
+      },
+    
+    },
+    "display":{
+      "icon":{
+        "item":"minecraft:magma_cream"
+      }
+    },
+    "requirements": [
+      [
+        "magma_block"
+      ]
+    ]
+  }
