@@ -1,0 +1,25 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+      "recipes": [ "i:quartz" ]
+    },
+    "criteria": {
+      "quartz_block": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [ { "item": "minecraft:quartz_block" } ]
+        }
+      },
+    
+    },
+    "display":{
+      "icon":{
+        "item":"minecraft:quartz"
+      }
+    },
+    "requirements": [
+      [
+        "quartz_block"
+      ]
+    ]
+  }

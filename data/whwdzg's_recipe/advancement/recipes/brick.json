@@ -1,0 +1,25 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+      "recipes": [ "i:brick" ]
+    },
+    "criteria": {
+      "bricks": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [ { "item": "minecraft:bricks" } ]
+        }
+      },
+    
+    },
+    "display":{
+      "icon":{
+        "item":"minecraft:brick"
+      }
+    },
+    "requirements": [
+      [
+        "bricks"
+      ]
+    ]
+  }

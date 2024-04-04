@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:recipes/root",
   "rewards": {
-    "recipes": [ "i:gravel" ]
+    "recipes": [ "i:gravel4" ]
   },
   "criteria": {
     "cobbled_deepslate": {
