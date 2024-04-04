@@ -1,7 +1,7 @@
 {
     "parent": "minecraft:recipes/root",
     "rewards": {
-      "recipes": [ "i:nether_brick" ]
+      "recipes": [ "whwdzg's_recipe:nether_brick" ]
     },
     "criteria": {
       "nether_bricks": {

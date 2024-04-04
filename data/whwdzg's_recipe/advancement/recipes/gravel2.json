@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:recipes/root",
   "rewards": {
-    "recipes": [ "i:gravel2" ]
+    "recipes": [ "whwdzg's_recipe:gravel2" ]
   },
   "criteria": {
     "cobblestone": {

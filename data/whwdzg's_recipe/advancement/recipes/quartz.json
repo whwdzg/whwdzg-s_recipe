@@ -1,7 +1,7 @@
 {
     "parent": "minecraft:recipes/root",
     "rewards": {
-      "recipes": [ "i:quartz" ]
+      "recipes": [ "whwdzg's_recipe:quartz" ]
     },
     "criteria": {
       "quartz_block": {

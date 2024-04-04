@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:recipes/root",
   "rewards": {
-    "recipes": [ "i:leather" ]
+    "recipes": [ "whwdzg's_recipe:leather" ]
   },
   "criteria": {
     "rotten_flesh": {

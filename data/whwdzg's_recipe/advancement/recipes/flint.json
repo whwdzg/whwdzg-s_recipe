@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:recipes/root",
   "rewards": {
-    "recipes": [ "i:flint" ]
+    "recipes": [ "whwdzg's_recipe:flint" ]
   },
   "criteria": {
     "gravel": {

@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:recipes/root",
   "rewards": {
-    "recipes": [ "i:enchanted_apple" ]
+    "recipes": [ "whwdzg's_recipe:enchanted_apple" ]
   },
   "criteria": {
     "gold_block": {

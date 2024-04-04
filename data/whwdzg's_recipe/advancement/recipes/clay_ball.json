@@ -1,7 +1,7 @@
 {
     "parent": "minecraft:recipes/root",
     "rewards": {
-      "recipes": [ "i:clay_ball" ]
+      "recipes": [ "whwdzg's_recipe:clay_ball" ]
     },
     "criteria": {
       "clay": {

@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:recipes/root",
   "rewards": {
-    "recipes": [ "i:sand" ]
+    "recipes": [ "whwdzg's_recipe:sand" ]
   },
   "criteria": {
     "gravel": {
