@@ -1,0 +1,25 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+      "recipes": [ "whwdzg-s_recipe:cobblestone" ]
+    },
+    "criteria": {
+      "stone": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [ { "item": "minecraft:stone" } ]
+        }
+      },
+    
+    },
+    "display":{
+        "icon":{
+          "item":"minecraft:cobblestone"
+        }
+      },
+    "requirements": [
+      [
+        "stone"
+      ]
+    ]
+  }

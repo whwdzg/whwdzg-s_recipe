@@ -1,25 +1,25 @@
 {
     "parent": "minecraft:recipes/root",
     "rewards": {
-      "recipes": [ "i:clay_ball" ]
+      "recipes": [ "whwdzg-s_recipe:cobbled_deepslate" ]
     },
     "criteria": {
-      "clay": {
+      "deepslate": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
-          "items": [ { "item": "minecraft:clay" } ]
+          "items": [ { "item": "minecraft:deepslate" } ]
         }
       },
     
     },
     "display":{
-      "icon":{
-        "item":"minecraft:clay_ball"
-      }
-    },
+        "icon":{
+          "item":"minecraft:cobbled_deepslate"
+        }
+      },
     "requirements": [
       [
-        "clay"
+        "deepslate"
       ]
     ]
   }

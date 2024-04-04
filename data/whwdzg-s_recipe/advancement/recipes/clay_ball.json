@@ -1,0 +1,25 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+      "recipes": [ "whwdzg-s_recipe:clay_ball" ]
+    },
+    "criteria": {
+      "clay": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [ { "item": "minecraft:clay" } ]
+        }
+      },
+    
+    },
+    "display":{
+      "icon":{
+        "item":"minecraft:clay_ball"
+      }
+    },
+    "requirements": [
+      [
+        "clay"
+      ]
+    ]
+  }

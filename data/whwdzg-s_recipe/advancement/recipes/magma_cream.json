@@ -1,25 +1,25 @@
 {
     "parent": "minecraft:recipes/root",
     "rewards": {
-      "recipes": [ "i:glass_pane" ]
+      "recipes": [ "whwdzg-s_recipe:magma_cream" ]
     },
     "criteria": {
-      "glass": {
+      "magma_block": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
-          "items": [ { "item": "minecraft:glass" } ]
+          "items": [ { "item": "minecraft:magma_block" } ]
         }
       },
-      
+    
     },
     "display":{
       "icon":{
-        "item":"minecraft:glass_pane"
+        "item":"minecraft:magma_cream"
       }
     },
     "requirements": [
       [
-        "glass"
+        "magma_block"
       ]
     ]
   }

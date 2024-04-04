@@ -1,0 +1,25 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+      "recipes": [ "whwdzg-s_recipe:amethyst_shard" ]
+    },
+    "criteria": {
+      "amethyst_block": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [ { "item": "minecraft:amethyst_block" } ]
+        }
+      },
+    
+    },
+    "display":{
+      "icon":{
+        "item":"minecraft:amethyst_shard"
+      }
+    },
+    "requirements": [
+      [
+        "amethyst_block"
+      ]
+    ]
+  }

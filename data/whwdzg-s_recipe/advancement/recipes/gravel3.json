@@ -1,25 +1,25 @@
 {
   "parent": "minecraft:recipes/root",
   "rewards": {
-    "recipes": [ "i:sand" ]
+    "recipes": [ "whwdzg-s_recipe:gravel3" ]
   },
   "criteria": {
-    "gravel": {
+    "deepslate": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [ { "item": "minecraft:gravel" } ]
+        "items": [ { "item": "minecraft:deepslate" } ]
       }
     },
     
   },
   "display":{
     "icon":{
-      "item":"minecraft:sand"
+      "item":"minecraft:gravel"
     }
   },
   "requirements": [
     [
-      "gravel"
+      "deepslate"
     ]
   ]
 }

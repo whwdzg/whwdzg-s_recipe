@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [ "whwdzg-s_recipe:flint" ]
+  },
+  "criteria": {
+    "gravel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [ { "item": "minecraft:gravel" } ]
+      }
+    },
+    
+  },
+  "display":{
+    "icon":{
+      "item":"minecraft:flint"
+    }
+  },
+  "requirements": [
+    [
+      "gravel"
+    ]
+  ]
+}
