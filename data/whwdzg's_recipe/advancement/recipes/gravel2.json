@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [ "i:gravel" ]
+  },
+  "criteria": {
+    "cobblestone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [ { "item": "minecraft:cobblestone" } ]
+      }
+    },
+    
+  },
+  "display":{
+    "icon":{
+      "item":"minecraft:gravel"
+    }
+  },
+  "requirements": [
+    [
+      "cobblestone"
+    ]
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [ "i:gravel" ]
+  },
+  "criteria": {
+    "deepslate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [ { "item": "minecraft:deepslate" } ]
+      }
+    },
+    
+  },
+  "display":{
+    "icon":{
+      "item":"minecraft:gravel"
+    }
+  },
+  "requirements": [
+    [
+      "deepslate"
+    ]
+  ]
+}
