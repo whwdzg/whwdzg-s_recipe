@@ -1,25 +1,25 @@
 {
-    "parent": "minecraft:recipes/root",
+  "parent": "whw:recipes/root",
     "rewards": {
-      "recipes": [ "whwdzg-s_recipe:glass_pane" ]
+      "recipes": [ "whw:nether_brick" ]
     },
     "criteria": {
-      "glass": {
+      "nether_bricks": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
-          "items": [ { "item": "minecraft:glass" } ]
+          "items": [ { "item": "minecraft:nether_bricks" } ]
         }
       },
-      
+    
     },
     "display":{
       "icon":{
-        "item":"minecraft:glass_pane"
+        "item":"minecraft:nether_brick"
       }
     },
     "requirements": [
       [
-        "glass"
+        "nether_bricks"
       ]
     ]
   }

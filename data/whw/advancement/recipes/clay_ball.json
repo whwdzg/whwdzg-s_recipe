@@ -1,25 +1,25 @@
 {
-    "parent": "minecraft:recipes/root",
+  "parent": "whw:recipes/root",
     "rewards": {
-      "recipes": [ "whwdzg-s_recipe:nether_brick" ]
+      "recipes": [ "whw:clay_ball" ]
     },
     "criteria": {
-      "nether_bricks": {
+      "clay": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
-          "items": [ { "item": "minecraft:nether_bricks" } ]
+          "items": [ { "item": "minecraft:clay" } ]
         }
       },
     
     },
     "display":{
       "icon":{
-        "item":"minecraft:nether_brick"
+        "item":"minecraft:clay_ball"
       }
     },
     "requirements": [
       [
-        "nether_bricks"
+        "clay"
       ]
     ]
   }

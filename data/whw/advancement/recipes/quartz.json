@@ -1,25 +1,25 @@
 {
-    "parent": "minecraft:recipes/root",
+  "parent": "whw:recipes/root",
     "rewards": {
-      "recipes": [ "whwdzg-s_recipe:brick" ]
+      "recipes": [ "whw:quartz" ]
     },
     "criteria": {
-      "bricks": {
+      "quartz_block": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
-          "items": [ { "item": "minecraft:bricks" } ]
+          "items": [ { "item": "minecraft:quartz_block" } ]
         }
       },
     
     },
     "display":{
       "icon":{
-        "item":"minecraft:brick"
+        "item":"minecraft:quartz"
       }
     },
     "requirements": [
       [
-        "bricks"
+        "quartz_block"
       ]
     ]
   }

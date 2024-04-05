@@ -1,7 +1,7 @@
 {
-    "parent": "minecraft:recipes/root",
+  "parent": "whw:recipes/root",
     "rewards": {
-      "recipes": [ "whwdzg-s_recipe:cobbled_deepslate" ]
+      "recipes": [ "whw:cobbled_deepslate" ]
     },
     "criteria": {
       "deepslate": {

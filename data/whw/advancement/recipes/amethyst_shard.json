@@ -1,7 +1,7 @@
 {
-    "parent": "minecraft:recipes/root",
+    "parent": "whw:recipes/root",
     "rewards": {
-      "recipes": [ "whwdzg-s_recipe:amethyst_shard" ]
+      "recipes": [ "whw:amethyst_shard" ]
     },
     "criteria": {
       "amethyst_block": {

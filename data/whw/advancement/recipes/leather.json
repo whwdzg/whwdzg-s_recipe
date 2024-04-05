@@ -1,25 +1,25 @@
 {
-  "parent": "minecraft:recipes/root",
+  "parent": "whw:recipes/root",
   "rewards": {
-    "recipes": [ "whwdzg-s_recipe:sand" ]
+    "recipes": [ "whw:leather" ]
   },
   "criteria": {
-    "gravel": {
+    "rotten_flesh": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [ { "item": "minecraft:gravel" } ]
+        "items": [ { "item": "minecraft:rotten_flesh" } ]
       }
     },
     
   },
   "display":{
     "icon":{
-      "item":"minecraft:sand"
+      "item":"minecraft:leather"
     }
   },
   "requirements": [
     [
-      "gravel"
+      "rotten_flesh"
     ]
   ]
 }

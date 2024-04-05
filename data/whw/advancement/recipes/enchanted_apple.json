@@ -26,12 +26,12 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "whwdzg-s_recipe:enchanted_apple"
+        "recipe": "whw:enchanted_apple"
       }
     }
   },
   "rewards":{
-    "recipes": ["whwdzg-s_recipe:enchanted_apple"]
+    "recipes": ["whw:enchanted_apple"]
   },
   "requirements": [
     [

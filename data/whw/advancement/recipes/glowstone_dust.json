@@ -1,25 +1,25 @@
 {
-    "parent": "minecraft:recipes/root",
+  "parent": "whw:recipes/root",
     "rewards": {
-      "recipes": [ "whwdzg-s_recipe:clay_ball" ]
+      "recipes": [ "whw:glowstone_dust" ]
     },
     "criteria": {
-      "clay": {
+      "glowstone": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
-          "items": [ { "item": "minecraft:clay" } ]
+          "items": [ { "item": "minecraft:glowstone" } ]
         }
       },
     
     },
     "display":{
       "icon":{
-        "item":"minecraft:clay_ball"
+        "item":"minecraft:glowstone_dust"
       }
     },
     "requirements": [
       [
-        "clay"
+        "glowstone"
       ]
     ]
   }
