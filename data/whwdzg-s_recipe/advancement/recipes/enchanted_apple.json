@@ -1,32 +1,43 @@
 {
-  "parent": "minecraft:recipes/root",
-  "rewards": {
-    "recipes": [ "whwdzg-s_recipe:enchanted_apple" ]
-  },
   "criteria": {
-    "gold_block": {
+    "cobblestone": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [ { "item": "minecraft:gold_block" } ]
+        "items": [
+          {
+            "items": ["minecraft:gold_block"],
+            "count": {
+              "min": 8
+            }
+          }
+        ]
       }
     },
     "apple": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [ { "item": "minecraft:apple"} ]
+        "items": [
+          {
+            "items": ["minecraft:apple"]
+          }
+        ]
       }
     },
-    
-  },
-  "display":{
-    "icon":{
-      "item":"minecraft:enchanted_apple"
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "whwdzg-s_recipe:enchanted_apple"
+      }
     }
+  },
+  "rewards":{
+    "recipes": ["whwdzg-s_recipe:enchanted_apple"]
   },
   "requirements": [
     [
       "gold_block",
-      "apple"
+      "apple",
+      "has_the_recipe"
     ]
   ]
 }
