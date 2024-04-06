@@ -14,19 +14,3 @@
 
 # Modrinth
 [https://modrinth.com/datapack/whwdzgs-recipe](https://modrinth.com/datapack/whwdzgs-recipe)
-
-8Gold Bolcks+1apple=Enchanted Golden Apples(Craft Table)
-
-8Dirt+1Water Bucket=8Clay(Craft Table)
-
-Rotten Flesh=leather(furnature)
-
-stone=gravel(stone cutting)
-
-stone=cobble stone(stone cutting)
-
-gravel=sand(stone cutting)
-
-gravel=flint(stone cutting)
-
-glass=glass pane(stone cutting)
