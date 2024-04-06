@@ -23,21 +23,13 @@
         ]
       }
     },
-    "has_the_recipe": {
-      "trigger": "minecraft:recipe_unlocked",
-      "conditions": {
-        "recipe": "whw:enchanted_apple"
-      }
-    }
-  },
   "rewards":{
     "recipes": ["whw:enchanted_apple"]
   },
   "requirements": [
     [
       "gold_block",
-      "apple",
-      "has_the_recipe"
+      "apple"
     ]
   ]
 }
