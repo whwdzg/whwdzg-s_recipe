@@ -1,25 +1,25 @@
 {
-    "parent": "minecraft:recipes/root",
+  "parent": "whw:recipes/root",
     "rewards": {
-      "recipes": [ "whwdzg-s_recipe:magma_cream" ]
+      "recipes": [ "whw:brick" ]
     },
     "criteria": {
-      "magma_block": {
+      "bricks": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
-          "items": [ { "item": "minecraft:magma_block" } ]
+          "items": [ { "item": "minecraft:bricks" } ]
         }
       },
     
     },
     "display":{
       "icon":{
-        "item":"minecraft:magma_cream"
+        "item":"minecraft:brick"
       }
     },
     "requirements": [
       [
-        "magma_block"
+        "bricks"
       ]
     ]
   }

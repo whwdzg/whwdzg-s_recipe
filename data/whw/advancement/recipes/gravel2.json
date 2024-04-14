@@ -1,13 +1,13 @@
 {
-  "parent": "minecraft:recipes/root",
+  "parent": "whw:recipes/root",
   "rewards": {
-    "recipes": [ "whwdzg-s_recipe:gravel4" ]
+    "recipes": [ "whw:gravel2" ]
   },
   "criteria": {
-    "cobbled_deepslate": {
+    "cobblestone": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [ { "item": "minecraft:cobbled_deepslate" } ]
+        "items": [ { "item": "minecraft:cobblestone" } ]
       }
     },
     
@@ -19,7 +19,7 @@
   },
   "requirements": [
     [
-      "cobbled_deepslate"
+      "cobblestone"
     ]
   ]
 }
