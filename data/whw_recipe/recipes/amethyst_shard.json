@@ -1,8 +1,14 @@
 {
-    "type": "minecraft:stonecutting",
-    "count": 4,
-    "ingredient": {
-      "item": "minecraft:amethyst_block"
-    },
-    "result": "minecraft:amethyst_shard"
-  }
+  "type": "minecraft:crafting_shapeless",
+  "result": {
+      "item": "minecraft:amethyst_shard",
+      "count": 4
+  },
+  "ingredients": [
+      [
+          {
+              "item": "minecraft:amethyst_block" 
+          }
+      ]
+  ]
+}

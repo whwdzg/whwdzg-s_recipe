@@ -1,8 +1,14 @@
 {
-    "type": "minecraft:stonecutting",
-    "count": 4,
-    "ingredient": {
-      "item": "minecraft:glowstone"
-    },
-    "result": "minecraft:glowstone_dust"
-  }
+  "type": "minecraft:crafting_shapeless",
+  "result": {
+      "item": "minecraft:glowstone_dust",
+      "count": 4
+  },
+  "ingredients": [
+      [
+          {
+              "item": "minecraft:glowstone" 
+          }
+      ]
+  ]
+}
