@@ -1,7 +1,7 @@
 {
   "parent": "whw_recipe:recipes/root",
   "rewards": {
-    "recipes": [ "whw_recipe:gravel4" ]
+    "recipes": [ "whw_recipe:gravel6" ]
   },
   "criteria": {
     "andesite": {

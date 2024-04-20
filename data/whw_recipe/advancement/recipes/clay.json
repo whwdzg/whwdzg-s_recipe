@@ -15,7 +15,7 @@
         "conditions": {
           "items": [ { "item": "minecraft:dirt"} ]
         }
-      },
+      }
     },
     "display":{
       "icon":{
