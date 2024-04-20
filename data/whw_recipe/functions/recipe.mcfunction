@@ -1,3 +1,5 @@
+title @a actionbar {"text":"loading whwdzg's recipes...","color":"gold"}
+say loading whwdzg's recipes...
 recipe give @a whw_recipe:amethyst_shard
 recipe give @a whw_recipe:brick
 recipe give @a whw_recipe:chainmail_boots
@@ -30,7 +32,7 @@ recipe give @a whw_recipe:gunpowder2
 recipe give @a whw_recipe:iron_horse_armor
 recipe give @a whw_recipe:leather_horse_armor
 recipe give @a whw_recipe:leather
-recipe give @a whw_recipe:maga_cream
+recipe give @a whw_recipe:magma_cream
 recipe give @a whw_recipe:nether_brick
 recipe give @a whw_recipe:nether_wart
 recipe give @a whw_recipe:quartz
@@ -42,3 +44,5 @@ recipe give @a whw_recipe:sugar2
 recipe give @a whw_recipe:sugar3
 recipe give @a whw_recipe:sugar4
 recipe give @a whw_recipe:sugar5
+title @a actionbar {"text":"whwdzg's recipes loaded,enjoy!","color":"gold"}
+say whwdzg's recipes loaded,enjoy!
