@@ -1,0 +1,25 @@
+{
+  "parent": "whw_recipe:recipes/root",
+    "rewards": {
+      "recipes": [ "whw_recipe:tripwire" ]
+    },
+    "criteria": {
+      "white_wool": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [ { "item": "minecraft:white_wool" } ]
+        }
+      },
+    
+    },
+    "display":{
+      "icon":{
+        "item":"minecraft:tripwire"
+      }
+    },
+    "requirements": [
+      [
+        "white_wool"
+      ]
+    ]
+  }
