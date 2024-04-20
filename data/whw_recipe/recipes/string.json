@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shapeless",
   "result": {
-      "item": "minecraft:tripwire",
+      "item": "minecraft:string",
       "count": 4
   },
   "ingredients": [

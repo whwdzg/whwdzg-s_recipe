@@ -1,7 +1,7 @@
 {
   "parent": "whw_recipe:recipes/root",
     "rewards": {
-      "recipes": [ "whw_recipe:tripwire" ]
+      "recipes": [ "whw_recipe:string" ]
     },
     "criteria": {
       "white_wool": {
@@ -14,7 +14,7 @@
     },
     "display":{
       "icon":{
-        "item":"minecraft:tripwire"
+        "item":"minecraft:string"
       }
     },
     "requirements": [
