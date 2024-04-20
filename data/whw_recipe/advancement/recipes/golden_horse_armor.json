@@ -24,7 +24,7 @@
       }
     },
   "rewards":{
-    "recipes": ["whw_recipe:gold_horse_armor"]
+    "recipes": ["whw_recipe:golden_horse_armor"]
   },
   "requirements": [
     [
