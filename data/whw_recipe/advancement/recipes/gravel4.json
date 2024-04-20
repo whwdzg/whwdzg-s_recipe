@@ -9,7 +9,7 @@
       "conditions": {
         "items": [ { "item": "minecraft:cobbled_deepslate" } ]
       }
-    },
+    }
     
   },
   "display":{

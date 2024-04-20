@@ -1,7 +1,7 @@
 {
   "parent": "whw_recipe:recipes/root",
     "rewards": {
-      "recipes": [ "whw_recipe:sugar" ]
+      "recipes": [ "whw_recipe:sugar2" ]
     },
     "criteria": {
       "melon": {
@@ -9,7 +9,7 @@
         "conditions": {
           "items": [ { "item": "minecraft:melon" } ]
         }
-      },
+      }
     
     },
     "display":{

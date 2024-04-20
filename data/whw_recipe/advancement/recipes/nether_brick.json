@@ -9,7 +9,7 @@
         "conditions": {
           "items": [ { "item": "minecraft:nether_bricks" } ]
         }
-      },
+      }
     
     },
     "display":{
