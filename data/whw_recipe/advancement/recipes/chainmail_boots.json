@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "chain": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:chain"],
+          }
+        ]
+      }
+    },
+  "rewards":{
+    "recipes": ["whw_recipe:chainmail_boots"]
+  },
+  "requirements": [
+    [
+      "chain"
+    ]
+  ]
+}

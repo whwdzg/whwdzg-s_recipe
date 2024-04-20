@@ -1,0 +1,25 @@
+{
+  "parent": "whw_recipe:recipes/root",
+    "rewards": {
+      "recipes": [ "whw_recipe:sugar6" ]
+    },
+    "criteria": {
+      "beetroot_soup": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [ { "item": "minecraft:beetroot_soup" } ]
+        }
+      }
+    
+    },
+    "display":{
+      "icon":{
+        "item":"minecraft:sugar"
+      }
+    },
+    "requirements": [
+      [
+        "beetroot_soup"
+      ]
+    ]
+  }

@@ -1,0 +1,25 @@
+{
+  "parent": "whw_recipe:recipes/root",
+  "rewards": {
+    "recipes": [ "whw_recipe:gravel11" ]
+  },
+  "criteria": {
+    "blackstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [ { "item": "minecraft:blackstonee" } ]
+      }
+    }
+    
+  },
+  "display":{
+    "icon":{
+      "item":"minecraft:gravel"
+    }
+  },
+  "requirements": [
+    [
+      "blackstone"
+    ]
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "result": {
+      "item": "minecraft:clay",
+      "count": 8
+  },
+  "ingredients": [
+      [
+          {
+              "item": "minecraft:dirt" 
+          }
+      ],
+      [
+        {
+            "item": "minecraft:dirt" 
+        }
+      ],
+      [
+        {
+            "item": "minecraft:dirt" 
+        }
+      ],
+      [
+        {
+            "item": "minecraft:dirt" 
+        }
+     ],
+      [
+        {
+            "item": "minecraft:dirt" 
+        }
+      ],
+      [
+        {
+            "item": "minecraft:dirt" 
+        }
+      ],
+      [
+        {
+            "item": "minecraft:dirt" 
+        }
+      ],
+      [
+        {
+            "item": "minecraft:dirt" 
+        }
+      ],
+      [
+        {
+            "item": "minecraft:water_bucket" 
+        }
+      ]
+  ]
+}

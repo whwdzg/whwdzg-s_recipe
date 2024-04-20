@@ -1,0 +1,25 @@
+{
+  "parent": "whw_recipe:recipes/root",
+    "rewards": {
+      "recipes": [ "whw_recipe:sugar3" ]
+    },
+    "criteria": {
+      "pumpkin": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [ { "item": "minecraft:pumpkin" } ]
+        }
+      }
+    
+    },
+    "display":{
+      "icon":{
+        "item":"minecraft:sugar"
+      }
+    },
+    "requirements": [
+      [
+        "pumpkin"
+      ]
+    ]
+  }

@@ -1,0 +1,25 @@
+{
+  "parent": "whw_recipe:recipes/root",
+    "rewards": {
+      "recipes": [ "whw_recipe:nether_wart" ]
+    },
+    "criteria": {
+      "nether_wart_block": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [ { "item": "minecraft:nether_wart_block" } ]
+        }
+      }
+    
+    },
+    "display":{
+      "icon":{
+        "item":"minecraft:nether_wart"
+      }
+    },
+    "requirements": [
+      [
+        "nether_wart_block"
+      ]
+    ]
+  }

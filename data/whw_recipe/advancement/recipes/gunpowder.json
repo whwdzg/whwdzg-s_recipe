@@ -1,0 +1,38 @@
+{
+  "parent": "whw_recipe:recipes/root",
+    "rewards": {
+      "recipes": [ "whw_recipe:gunpowder" ]
+    },
+    "criteria": {
+      "coal": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [ { "item": "minecraft:coal" } ]
+        }
+      },
+      "gravel": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [ { "item": "minecraft:gravel"} ]
+        }
+      },
+      "flint": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [ { "item": "minecraft:flint"} ]
+        }
+      }
+    },
+    "display":{
+      "icon":{
+        "item":"minecraft:gunpowder"
+      }
+    },
+    "requirements": [
+      [
+        "coal",
+        "fint",
+        "garvel"
+      ]
+    ]
+  }

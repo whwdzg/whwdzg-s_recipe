@@ -1,0 +1,25 @@
+{
+  "parent": "whw_recipe:recipes/root",
+  "rewards": {
+    "recipes": [ "whw_recipe:gravel10" ]
+  },
+  "criteria": {
+    "basalt": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [ { "item": "minecraft:basalt" } ]
+      }
+    }
+    
+  },
+  "display":{
+    "icon":{
+      "item":"minecraft:gravel"
+    }
+  },
+  "requirements": [
+    [
+      "basalt"
+    ]
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "gold_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:gold_ingot"],
+            "count": {
+              "min": 6
+            }
+          }
+        ]
+      }
+    },
+    "saddle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:saddle"]
+          }
+        ]
+      }
+    },
+  "rewards":{
+    "recipes": ["whw_recipe:golden_horse_armor"]
+  },
+  "requirements": [
+    [
+      "gold_ingot",
+      "saddle"
+    ]
+  ]
+}

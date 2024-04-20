@@ -1,0 +1,25 @@
+{
+  "parent": "whw_recipe:recipes/root",
+    "rewards": {
+      "recipes": [ "whw_recipe:glowstone_dust" ]
+    },
+    "criteria": {
+      "glowstone": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [ { "item": "minecraft:glowstone" } ]
+        }
+      }
+    
+    },
+    "display":{
+      "icon":{
+        "item":"minecraft:glowstone_dust"
+      }
+    },
+    "requirements": [
+      [
+        "glowstone"
+      ]
+    ]
+  }
