@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "cobblestone": {
+    "gold_block": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
