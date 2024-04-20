@@ -4,10 +4,10 @@
       "recipes": [ "whw_recipe:sugar" ]
     },
     "criteria": {
-      "melon_slice": {
+      "melon": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
-          "items": [ { "item": "minecraft:melon_slice" } ]
+          "items": [ { "item": "minecraft:melon" } ]
         }
       },
     
@@ -19,7 +19,7 @@
     },
     "requirements": [
       [
-        "melon_slice"
+        "melon"
       ]
     ]
   }

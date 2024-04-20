@@ -4,10 +4,10 @@
       "recipes": [ "whw_recipe:sugar" ]
     },
     "criteria": {
-      "beetroot": {
+      "beetroot_soup": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
-          "items": [ { "item": "minecraft:beetroot" } ]
+          "items": [ { "item": "minecraft:beetroot_soup" } ]
         }
       },
     
@@ -19,7 +19,7 @@
     },
     "requirements": [
       [
-        "beetroot"
+        "beetroot_soup"
       ]
     ]
   }
