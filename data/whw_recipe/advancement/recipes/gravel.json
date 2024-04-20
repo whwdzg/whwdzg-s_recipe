@@ -1,7 +1,7 @@
 {
-  "parent": "whw:recipes/root",
+  "parent": "whw_recipe:recipes/root",
   "rewards": {
-    "recipes": [ "whw:gravel" ]
+    "recipes": [ "whw_recipe:gravel" ]
   },
   "criteria": {
     "stone": {

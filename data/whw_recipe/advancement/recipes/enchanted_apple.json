@@ -24,7 +24,7 @@
       }
     },
   "rewards":{
-    "recipes": ["whw:enchanted_apple"]
+    "recipes": ["whw_recipe:enchanted_apple"]
   },
   "requirements": [
     [

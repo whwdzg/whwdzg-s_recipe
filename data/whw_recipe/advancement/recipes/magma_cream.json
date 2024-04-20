@@ -1,7 +1,7 @@
 {
-  "parent": "whw:recipes/root",
+  "parent": "whw_recipe:recipes/root",
     "rewards": {
-      "recipes": [ "whw:magma_cream" ]
+      "recipes": [ "whw_recipe:magma_cream" ]
     },
     "criteria": {
       "magma_block": {
