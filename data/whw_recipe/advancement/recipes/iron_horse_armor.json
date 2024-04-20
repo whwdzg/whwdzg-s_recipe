@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "iron_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:iron_ingot"],
+            "count": {
+              "min": 6
+            }
+          }
+        ]
+      }
+    },
+    "saddle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:saddle"]
+          }
+        ]
+      }
+    },
+  "rewards":{
+    "recipes": ["whw_recipe:iron_horse_armor"]
+  },
+  "requirements": [
+    [
+      "iron_ingot",
+      "saddle"
+    ]
+  ]
+}

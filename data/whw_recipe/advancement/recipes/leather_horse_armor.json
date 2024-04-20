@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "leather": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:leather"],
+            "count": {
+              "min": 6
+            }
+          }
+        ]
+      }
+    },
+    "saddle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:saddle"]
+          }
+        ]
+      }
+    },
+  "rewards":{
+    "recipes": ["whw_recipe:leather_horse_armor"]
+  },
+  "requirements": [
+    [
+      "leather",
+      "saddle"
+    ]
+  ]
+}

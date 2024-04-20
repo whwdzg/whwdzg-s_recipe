@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:diamond"],
+            "count": {
+              "min": 6
+            }
+          }
+        ]
+      }
+    },
+    "saddle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:saddle"]
+          }
+        ]
+      }
+    },
+  "rewards":{
+    "recipes": ["whw_recipe:diamond_horse_armor"]
+  },
+  "requirements": [
+    [
+      "diamond",
+      "saddle"
+    ]
+  ]
+}
