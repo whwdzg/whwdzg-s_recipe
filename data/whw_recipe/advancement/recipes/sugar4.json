@@ -1,0 +1,25 @@
+{
+  "parent": "whw_recipe:recipes/root",
+    "rewards": {
+      "recipes": [ "whw_recipe:sugar" ]
+    },
+    "criteria": {
+      "sweet_berries": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [ { "item": "minecraft:sweet_berries" } ]
+        }
+      },
+    
+    },
+    "display":{
+      "icon":{
+        "item":"minecraft:sugar"
+      }
+    },
+    "requirements": [
+      [
+        "sweet_berries"
+      ]
+    ]
+  }
