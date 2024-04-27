@@ -30,7 +30,6 @@ recipe give @a whw_recipe:gravel11
 recipe give @a whw_recipe:gunpowder
 recipe give @a whw_recipe:gunpowder2
 recipe give @a whw_recipe:iron_horse_armor
-recipe give @a whw_recipe:leather_horse_armor
 recipe give @a whw_recipe:leather
 recipe give @a whw_recipe:magma_cream
 recipe give @a whw_recipe:nether_brick

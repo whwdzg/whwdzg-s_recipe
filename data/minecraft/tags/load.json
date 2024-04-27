@@ -1,3 +1,6 @@
 {
-    "recipe.mcfunction"
+    "values": [
+        "whw_recipe:reload",
+        "whw_recipe:recipe"
+    ]
 }
