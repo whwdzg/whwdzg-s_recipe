@@ -1,0 +1,25 @@
+{
+    "parent": "whw_recipe:recipes/root",
+    "rewards": {
+      "recipes": [ "whw_recipe:rabbit_hide" ]
+    },
+    "criteria": {
+      "leather": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [ { "item": "minecraft:leather" } ]
+        }
+      }
+    
+    },
+    "display":{
+      "icon":{
+        "item":"minecraft:rabbit_hide"
+      }
+    },
+    "requirements": [
+      [
+        "leather"
+      ]
+    ]
+  }
