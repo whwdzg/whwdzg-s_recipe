@@ -1,5 +1,6 @@
 title @a actionbar {"text":"loading whwdzg's recipes...","color":"gold"}
 say loading whwdzg's recipes...
+list
 recipe give @a whw_recipe:amethyst_shard
 recipe give @a whw_recipe:brick
 recipe give @a whw_recipe:chainmail_boots
