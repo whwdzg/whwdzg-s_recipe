@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "category":"disc",
   "result": {
       "item": "minecraft:clay",
       "count": 8

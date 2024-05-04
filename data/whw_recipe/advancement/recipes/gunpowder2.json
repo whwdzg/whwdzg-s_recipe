@@ -21,6 +21,12 @@
         "conditions": {
           "items": [ { "item": "minecraft:flint"} ]
         }
+      },
+      "sugar": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [ { "item": "minecraft:sugar"} ]
+        }
       }
     },
     "display":{
@@ -31,8 +37,9 @@
     "requirements": [
       [
         "charcoal",
-        "fint",
-        "garvel"
+        "flint",
+        "gravel",
+        "sugar"
       ]
     ]
   }
