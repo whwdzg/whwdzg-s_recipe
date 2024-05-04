@@ -36,6 +36,7 @@ recipe give @a whw_recipe:magma_cream
 recipe give @a whw_recipe:nether_brick
 recipe give @a whw_recipe:nether_wart
 recipe give @a whw_recipe:quartz
+recipe give @a whw_recipe:rabbit_hide
 recipe give @a whw_recipe:saddle
 recipe give @a whw_recipe:sand
 recipe give @a whw_recipe:string
