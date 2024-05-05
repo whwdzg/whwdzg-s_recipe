@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "bone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:bone"],
+            "count": {
+              "min": 8
+            }
+          }
+        ]
+      }
+    },
+  "rewards":{
+    "recipes": ["whw_recipe:skeleton_skull"]
+  },
+  "requirements": [
+    [
+      "bone"
+    ]
+  ]
+}
