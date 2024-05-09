@@ -22,6 +22,7 @@
 
 - **2.Where can I check out the recipes that are included in whwdzg's recipe?**
 
-  In Github Wiki of the whwdzg/whwdzg-s_recipe repo**(Not Finished Yet)**.
+  In Github Wiki of the whwdzg/whwdzg-s_recipe repo
+**(Not Finished Yet)**.
   
   You can check out the craft recipes in the recipe book of the craft table.I suggest to install Just Enough Items to check out the rest recipes.
