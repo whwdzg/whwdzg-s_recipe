@@ -20,7 +20,7 @@
 
   After you install the datapack/mod, type: /function whw_recipe:recipe
 
--**2.Where can I check out the recipes that are included in whwdzg's recipe?**
+- **2.Where can I check out the recipes that are included in whwdzg's recipe?**
 
   In Github Wiki of the whwdzg/whwdzg-s_recipe repo**(Not Finished Yet)**.
   
