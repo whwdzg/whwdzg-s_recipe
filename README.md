@@ -16,11 +16,11 @@
 [https://modrinth.com/datapack/whwdzgs-recipe](https://modrinth.com/datapack/whwdzgs-recipe)
 
 # Q&A
-**1.How to get the recipe?**
+- **1.How to get the recipe?**
 
   After you install the datapack/mod, type: /function whw_recipe:recipe
 
-**2.Where can I check out the recipes that are included in whwdzg's recipe?**
+-**2.Where can I check out the recipes that are included in whwdzg's recipe?**
 
   In Github Wiki of the whwdzg/whwdzg-s_recipe repo**(Not Finished Yet)**.
   
