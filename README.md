@@ -16,7 +16,7 @@
 [https://modrinth.com/datapack/whwdzgs-recipe](https://modrinth.com/datapack/whwdzgs-recipe)
 
 # Q&A
-1.How to get the recipe?
+**(1.How to get the recipe?)**
 
   After you install the datapack/mod, type: /function whw_recipe:recipe
 
