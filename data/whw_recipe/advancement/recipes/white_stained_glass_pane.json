@@ -1,0 +1,25 @@
+{
+  "parent": "whw_recipe:recipes/root",
+    "rewards": {
+      "recipes": [ "whw_recipe:white_stained_glass_pane" ]
+    },
+    "criteria": {
+      "white_stained_glass": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [ { "item": "minecraft:white_stained_glass" } ]
+        }
+      }
+      
+    },
+    "display":{
+      "icon":{
+        "item":"minecraft:white_stained_glass_pane"
+      }
+    },
+    "requirements": [
+      [
+        "white_stained_glass"
+      ]
+    ]
+  }
