@@ -1,0 +1,25 @@
+{
+  "parent": "whw_recipe:recipes/root",
+  "rewards": {
+    "recipes": [ "whw_recipe:stripped_crimson_hyphae" ]
+  },
+  "criteria": {
+    "crimson_hyphae": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [ { "item": "minecraft:crimson_hyphae" } ]
+      }
+    }
+    
+  },
+  "display":{
+    "icon":{
+      "item":"minecraft:stripped_crimson_hyphae"
+    }
+  },
+  "requirements": [
+    [
+      "crimson_hyphae"
+    ]
+  ]
+}

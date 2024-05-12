@@ -1,0 +1,25 @@
+{
+  "parent": "whw_recipe:recipes/root",
+  "rewards": {
+    "recipes": [ "whw_recipe:stripped_warped_hyphae" ]
+  },
+  "criteria": {
+    "warped_hyphae": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [ { "item": "minecraft:warped_hyphae" } ]
+      }
+    }
+    
+  },
+  "display":{
+    "icon":{
+      "item":"minecraft:stripped_warped_hyphae"
+    }
+  },
+  "requirements": [
+    [
+      "warped_hyphae"
+    ]
+  ]
+}

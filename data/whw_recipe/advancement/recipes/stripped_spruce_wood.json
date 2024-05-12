@@ -1,0 +1,25 @@
+{
+  "parent": "whw_recipe:recipes/root",
+  "rewards": {
+    "recipes": [ "whw_recipe:stripped_spruce_wood" ]
+  },
+  "criteria": {
+    "spruce_wood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [ { "item": "minecraft:spruce_wood" } ]
+      }
+    }
+    
+  },
+  "display":{
+    "icon":{
+      "item":"minecraft:stripped_spruce_wood"
+    }
+  },
+  "requirements": [
+    [
+      "spruce_wood"
+    ]
+  ]
+}
