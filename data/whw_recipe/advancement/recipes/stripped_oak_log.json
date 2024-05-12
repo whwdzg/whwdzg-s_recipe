@@ -1,0 +1,25 @@
+{
+  "parent": "whw_recipe:recipes/root",
+  "rewards": {
+    "recipes": [ "whw_recipe:stripped_oak_log" ]
+  },
+  "criteria": {
+    "oak_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [ { "item": "minecraft:oak_log" } ]
+      }
+    }
+    
+  },
+  "display":{
+    "icon":{
+      "item":"minecraft:stripped_oak_log"
+    }
+  },
+  "requirements": [
+    [
+      "oak_log"
+    ]
+  ]
+}

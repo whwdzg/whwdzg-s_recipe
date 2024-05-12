@@ -1,0 +1,25 @@
+{
+  "parent": "whw_recipe:recipes/root",
+  "rewards": {
+    "recipes": [ "whw_recipe:stripped_cherry_log" ]
+  },
+  "criteria": {
+    "cherry_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [ { "item": "minecraft:cherry_log" } ]
+      }
+    }
+    
+  },
+  "display":{
+    "icon":{
+      "item":"minecraft:stripped_cherry_log"
+    }
+  },
+  "requirements": [
+    [
+      "cherry_log"
+    ]
+  ]
+}

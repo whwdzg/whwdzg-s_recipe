@@ -1,0 +1,25 @@
+{
+  "parent": "whw_recipe:recipes/root",
+  "rewards": {
+    "recipes": [ "whw_recipe:stripped_dark_oak_log" ]
+  },
+  "criteria": {
+    "dark_oak_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [ { "item": "minecraft:dark_oak_log" } ]
+      }
+    }
+    
+  },
+  "display":{
+    "icon":{
+      "item":"minecraft:stripped_dark_oak_log"
+    }
+  },
+  "requirements": [
+    [
+      "dark_oak_log"
+    ]
+  ]
+}
