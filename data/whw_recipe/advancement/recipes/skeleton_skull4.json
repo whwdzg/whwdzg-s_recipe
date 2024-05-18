@@ -12,6 +12,7 @@
           }
         ]
       }
+    }
     },
   "rewards":{
     "recipes": ["whw_recipe:skeleton_skull4"]

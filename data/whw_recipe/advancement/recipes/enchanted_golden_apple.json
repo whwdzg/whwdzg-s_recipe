@@ -22,7 +22,8 @@
           }
         ]
       }
-    },
+    }
+  },  
   "rewards":{
     "recipes": ["whw_recipe:enchanted_golden_apple"]
   },
@@ -32,5 +33,4 @@
       "apple"
     ]
   ]
-}
 }

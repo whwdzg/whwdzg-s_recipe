@@ -35,6 +35,7 @@
           }
         ]
       }
+    }
     },
   "rewards":{
     "recipes": ["whw_recipe:heart_of_the_sea"]

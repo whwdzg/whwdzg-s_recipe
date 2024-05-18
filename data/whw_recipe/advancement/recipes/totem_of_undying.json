@@ -35,6 +35,7 @@
           }
         ]
       }
+    }
     },
   "rewards":{
     "recipes": ["whw_recipe:totem_of_undying"]
@@ -46,5 +47,4 @@
       "enchanted_golden_apple"
     ]
   ]
-}
 }

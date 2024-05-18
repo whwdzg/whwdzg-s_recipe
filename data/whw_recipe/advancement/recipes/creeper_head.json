@@ -22,7 +22,8 @@
           }
         ]
       }
-    },
+    }
+  },
   "rewards":{
     "recipes": ["whw_recipe:creeper_head"]
   },
