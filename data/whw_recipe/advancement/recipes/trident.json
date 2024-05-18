@@ -1,35 +1,36 @@
 {
   "criteria": {
-    "gold_block": {
+    "heart_of_the_sea":{
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": ["minecraft:gold_block"],
+            "items": ["minecraft:heart_of_the_sea"]
+          }
+        ]
+      }
+    },
+    "diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:diamond"],
             "count": {
-              "min": 8
+              "min": 5
             }
           }
         ]
       }
-    },
-    "apple": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": ["minecraft:apple"]
-          }
-        ]
-      }
+    }
     },
   "rewards":{
-    "recipes": ["whw_recipe:enchanted_apple"]
+    "recipes": ["whw_recipe:trident"]
   },
   "requirements": [
     [
-      "gold_block",
-      "apple"
+      "heart_of_the_sea",
+      "diamond"
     ]
   ]
 }

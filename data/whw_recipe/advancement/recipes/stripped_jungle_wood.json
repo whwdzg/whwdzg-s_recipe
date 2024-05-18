@@ -1,0 +1,25 @@
+{
+  "parent": "whw_recipe:recipes/root",
+  "rewards": {
+    "recipes": [ "whw_recipe:stripped_jungle_wood" ]
+  },
+  "criteria": {
+    "jungle_wood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [ { "item": "minecraft:jungle_wood" } ]
+      }
+    }
+    
+  },
+  "display":{
+    "icon":{
+      "item":"minecraft:stripped_jungle_wood"
+    }
+  },
+  "requirements": [
+    [
+      "jungle_wood"
+    ]
+  ]
+}

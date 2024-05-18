@@ -1,0 +1,25 @@
+{
+  "parent": "whw_recipe:recipes/root",
+  "rewards": {
+    "recipes": [ "whw_recipe:stripped_acacia_wood" ]
+  },
+  "criteria": {
+    "acacia_wood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [ { "item": "minecraft:acacia_wood" } ]
+      }
+    }
+    
+  },
+  "display":{
+    "icon":{
+      "item":"minecraft:stripped_acacia_wood"
+    }
+  },
+  "requirements": [
+    [
+      "acacia_wood"
+    ]
+  ]
+}

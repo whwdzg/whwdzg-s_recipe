@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "zombie_head": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:zombie_head"],
+            "count": {
+              "min": 1
+            }
+          }
+        ]
+      }
+    }
+    },
+  "rewards":{
+    "recipes": ["whw_recipe:skeleton_skull3"]
+  },
+  "requirements": [
+    [
+      "zombie_head"
+    ]
+  ]
+}

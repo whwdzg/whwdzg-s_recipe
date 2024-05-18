@@ -22,6 +22,7 @@
           }
         ]
       }
+    }
     },
   "rewards":{
     "recipes": ["whw_recipe:golden_horse_armor"]

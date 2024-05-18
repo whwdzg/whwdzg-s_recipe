@@ -1,0 +1,25 @@
+{
+  "parent": "whw_recipe:recipes/root",
+  "rewards": {
+    "recipes": [ "whw_recipe:stripped_oak_wood" ]
+  },
+  "criteria": {
+    "oak_wood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [ { "item": "minecraft:oak_wood" } ]
+      }
+    }
+    
+  },
+  "display":{
+    "icon":{
+      "item":"minecraft:stripped_oak_wood"
+    }
+  },
+  "requirements": [
+    [
+      "oak_wood"
+    ]
+  ]
+}

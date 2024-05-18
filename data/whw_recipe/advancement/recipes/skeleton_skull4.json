@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "creeper_head": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:creeper_head"],
+            "count": {
+              "min": 1
+            }
+          }
+        ]
+      }
+    }
+    },
+  "rewards":{
+    "recipes": ["whw_recipe:skeleton_skull4"]
+  },
+  "requirements": [
+    [
+      "creeper_head"
+    ]
+  ]
+}
