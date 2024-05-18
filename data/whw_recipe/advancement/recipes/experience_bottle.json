@@ -23,7 +23,7 @@
         ]
       }
     }
-    },
+  },
   "rewards":{
     "recipes": ["whw_recipe:experience_bottle"]
   },
@@ -31,5 +31,6 @@
     [
       "lapis_lazuli",
       "glass_bottle"
+    ]
   ]
 }
