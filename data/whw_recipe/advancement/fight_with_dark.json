@@ -24,7 +24,8 @@
          "frame": "challenge",    
          "announce_to_chat": true,     
          "hidden": false,   
-         "show_toast": true   
+         "show_toast": true,  
+         "background": "data/whw_recipe/background.png"
     },
     "requirements": [    
         ["torch"]
