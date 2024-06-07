@@ -1,31 +1,25 @@
 {
   "parent": "whw_recipe:recipes/root",
-    "rewards": {
-      "recipes": [ "whw_recipe:clay" ]
-    },
-    "criteria": {
-      "water_bucket": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [ { "item": "minecraft:water_bucket" } ]
-        }
-      },
-      "dirt": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [ { "item": "minecraft:dirt"} ]
-        }
+  "rewards": {
+    "recipes": [ "whw_recipe:clay" ]
+  },
+  "criteria": {
+    "mud": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [ { "item": "minecraft:mud" } ]
       }
-    },
-    "display":{
-      "icon":{
-        "item":"minecraft:clay"
-      }
-    },
-    "requirements": [
-      [
-        "water_bucket",
-        "dirt"
-      ]
+    }
+    
+  },
+  "display":{
+    "icon":{
+      "item":"minecraft:clays="
+    }
+  },
+  "requirements": [
+    [
+      "mud"
     ]
-  }
+  ]
+}
