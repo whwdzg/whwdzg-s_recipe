@@ -48,9 +48,12 @@ recipe give @a whw_recipe:light_gray_stained_glass_pane
 recipe give @a whw_recipe:lime_stained_glass_pane
 recipe give @a whw_recipe:magenta_stained_glass_pane
 recipe give @a whw_recipe:magma_cream
+recipe give @a whw_recipe:mud
 recipe give @a whw_recipe:nether_brick
 recipe give @a whw_recipe:nether_wart
 recipe give @a whw_recipe:orange_stained_glass_pane
+recipe give @a whw_recipe:petrified_oak_slab
+recipe give @a whw_recipe:pointed_dripstone
 recipe give @a whw_recipe:piglin_head
 recipe give @a whw_recipe:pink_stained_glass_pane
 recipe give @a whw_recipe:purple_stained_glass_pane

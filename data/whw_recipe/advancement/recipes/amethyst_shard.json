@@ -1,5 +1,5 @@
 {
-    "parent": "whw_recipe:recipes/root",
+    "parent": "whw_recipe:recipes",
     "rewards": {
       "recipes": [ "whw_recipe:amethyst_shard" ]
     },

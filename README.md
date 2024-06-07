@@ -12,6 +12,9 @@
     </br>
 </div>
 
+# Notice
+ I'm now need to deal with my exams for about couple of weeks, probably back at the middle of June.
+
 # Modrinth
 [https://modrinth.com/datapack/whwdzgs-recipe](https://modrinth.com/datapack/whwdzgs-recipe)
 

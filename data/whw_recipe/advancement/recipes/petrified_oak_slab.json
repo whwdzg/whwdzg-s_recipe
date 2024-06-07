@@ -1,0 +1,31 @@
+{
+  "parent": "whw_recipe:recipes/root",
+    "rewards": {
+      "recipes": [ "whw_recipe:petrified_oak_slab" ]
+    },
+    "criteria": {
+      "oak_slab": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [ { "item": "minecraft:oak_slab" } ]
+        }
+      },
+      "stone_slab": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [ { "item": "minecraft:stone_slab"} ]
+        }
+      }
+    },
+    "display":{
+      "icon":{
+        "item":"minecraft:petrified_oak_slab"
+      }
+    },
+    "requirements": [
+      [
+        "oak_slab",
+        "stone_slab"
+      ]
+    ]
+  }

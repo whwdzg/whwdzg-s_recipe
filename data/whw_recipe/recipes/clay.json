@@ -1,55 +1,9 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category":"disc",
-  "result": {
-      "item": "minecraft:clay",
-      "count": 8
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minecraft:mud"
   },
-  "ingredients": [
-      [
-          {
-              "item": "minecraft:dirt" 
-          }
-      ],
-      [
-        {
-            "item": "minecraft:dirt" 
-        }
-      ],
-      [
-        {
-            "item": "minecraft:dirt" 
-        }
-      ],
-      [
-        {
-            "item": "minecraft:dirt" 
-        }
-     ],
-      [
-        {
-            "item": "minecraft:dirt" 
-        }
-      ],
-      [
-        {
-            "item": "minecraft:dirt" 
-        }
-      ],
-      [
-        {
-            "item": "minecraft:dirt" 
-        }
-      ],
-      [
-        {
-            "item": "minecraft:dirt" 
-        }
-      ],
-      [
-        {
-            "item": "minecraft:water_bucket" 
-        }
-      ]
-  ]
+  "result": "minecraft:clay",
+  "experience": 1,
+  "cookingtime": 100
 }
