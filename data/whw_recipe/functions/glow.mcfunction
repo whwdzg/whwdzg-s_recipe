@@ -1,1 +1,0 @@
-effect give @a glowing infinite
