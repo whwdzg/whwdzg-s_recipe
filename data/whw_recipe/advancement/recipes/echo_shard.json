@@ -1,0 +1,25 @@
+{
+    "parent": "whw_recipe:recipes",
+    "rewards": {
+      "recipes": [ "whw_recipe:echo_shard" ]
+    },
+    "criteria": {
+      "sculk": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [ { "item": "minecraft:sculk" } ]
+        }
+      }
+    
+    },
+    "display":{
+      "icon":{
+        "item":"minecraft:echo_shard"
+      }
+    },
+    "requirements": [
+      [
+        "sculk"
+      ]
+    ]
+  }
