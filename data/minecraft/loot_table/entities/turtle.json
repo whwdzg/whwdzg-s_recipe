@@ -73,7 +73,7 @@
               "function": "minecraft:looting_enchant"
             }
           ],
-          "name": "minecraft:scute"
+          "name": "minecraft:turtle_scute"
         }
       ],
       "rolls": 1.0
