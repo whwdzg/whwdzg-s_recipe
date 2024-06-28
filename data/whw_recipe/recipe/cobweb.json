@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shapeless",
   "result": {
-      "item": "minecraft:cobweb",
+      "id": "minecraft:cobweb",
       "count": 1
   },
   "ingredients": [

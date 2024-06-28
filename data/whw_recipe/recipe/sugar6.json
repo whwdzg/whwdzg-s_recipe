@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shapeless",
   "result": {
-      "item": "minecraft:sugar",
+      "id": "minecraft:sugar",
       "count": 2
   },
   "ingredients": [

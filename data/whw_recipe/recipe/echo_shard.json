@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category":"misc",
   "result": {
-      "item": "minecraft:sculk",
+      "id": "minecraft:sculk",
       "count": 2
   },
   "ingredients": [

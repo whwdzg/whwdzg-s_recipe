@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category":"disc",
   "result": {
-      "item": "minecraft:bone",
+      "id": "minecraft:bone",
       "count": 8
   },
   "ingredients": [

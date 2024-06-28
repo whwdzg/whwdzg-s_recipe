@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category":"misc",
   "result": {
-      "item": "minecraft:pointed_dripstone",
+      "id": "minecraft:pointed_dripstone",
       "count": 4
   },
   "ingredients": [

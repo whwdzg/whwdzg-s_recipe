@@ -1,7 +1,7 @@
 {
     "type": "minecraft:crafting_shapeless",
     "result": {
-        "item": "minecraft:nether_wart",
+        "id": "minecraft:nether_wart",
         "count": 9
     },
     "ingredients": [

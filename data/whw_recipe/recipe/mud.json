@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category":"disc",
   "result": {
-      "item": "minecraft:mud",
+      "id": "minecraft:mud",
       "count": 8
   },
   "ingredients": [
