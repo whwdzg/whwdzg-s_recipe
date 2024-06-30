@@ -11,6 +11,6 @@
     }
   },
   "result": {
-    "d": "minecraft:skeleton_skull"
+    "id": "minecraft:skeleton_skull"
   }
 }
