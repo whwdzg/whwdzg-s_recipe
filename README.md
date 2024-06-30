@@ -13,7 +13,7 @@
 </div>
 
 # Modrinth
-[https://modrinth.com/datapack/whwdzg-s-recipe](https://modrinth.com/datapack/whwdzgs-recipe)
+[https://modrinth.com/datapack/whwdzg-s-recipe](https://modrinth.com/datapack/whwdzg-s-recipe)
 
 # Q&A
 - **1.How to get the recipe?**
