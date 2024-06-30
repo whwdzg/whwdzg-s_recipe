@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "minecraft:zombie_head"
-  },
-  "result": "minecraft:skeleton_skull",
-  "experience": 50,
-  "cookingtime": 100
-}

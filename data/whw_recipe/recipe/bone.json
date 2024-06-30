@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category":"disc",
+  "result": {
+      "id": "minecraft:bone",
+      "count": 8
+  },
+  "ingredients": [
+      [
+          {
+              "item": "minecraft:skeleton_skull" 
+          }
+      ]
+  ]
+}
