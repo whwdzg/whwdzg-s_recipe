@@ -4,5 +4,7 @@
     "ingredient": {
       "item": "minecraft:stone"
     },
-    "result": "minecraft:cobblestone"
+    "result": {
+      "id": "minecraft:cobblestone"
+    } 
   }

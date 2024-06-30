@@ -4,5 +4,7 @@
   "ingredient": {
     "item": "minecraft:mangrove_wood"
   },
-  "result": "minecraft:stripped_mangrove_wood"
+  "result": {
+    "id": "minecraft:stripped_mangrove_wood"
+  }
 }

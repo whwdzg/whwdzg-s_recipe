@@ -4,5 +4,7 @@
     "ingredient": {
       "item": "minecraft:bricks"
     },
-    "result": "minecraft:brick"
+    "result": {
+      "id": "minecraft:brick"
+    }
   }

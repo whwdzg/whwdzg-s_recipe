@@ -4,5 +4,7 @@
   "ingredient": {
     "item": "minecraft:acacia_wood"
   },
-  "result": "minecraft:stripped_acacia_wood"
+  "result": {
+    "id":"minecraft:stripped_acacia_wood"
+}
 }

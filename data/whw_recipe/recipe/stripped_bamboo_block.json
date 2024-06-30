@@ -4,5 +4,7 @@
   "ingredient": {
     "item": "minecraft:bamboo_block"
   },
-  "result": "minecraft:stripped_bamboo_block"
+  "result": {
+    "id": "minecraft:stripped_bamboo_block"
+  } 
 }

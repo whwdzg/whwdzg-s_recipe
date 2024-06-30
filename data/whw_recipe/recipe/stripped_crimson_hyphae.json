@@ -4,5 +4,7 @@
   "ingredient": {
     "item": "minecraft:crimson_hyphae"
   },
-  "result": "minecraft:stripped_crimson_hyphae"
+  "result": {
+    "id": "minecraft:stripped_crimson_hyphae"
+  }
 }

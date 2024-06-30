@@ -4,5 +4,7 @@
     "ingredient": {
       "item": "minecraft:red_stained_glass"
     },
-    "result": "minecraft:red_stained_glass_pane"
+    "result": {
+      "id":  "minecraft:red_stained_glass_pane"
+    }
   }

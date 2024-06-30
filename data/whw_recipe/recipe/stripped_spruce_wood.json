@@ -4,5 +4,7 @@
   "ingredient": {
     "item": "minecraft:spruce_wood"
   },
-  "result": "minecraft:stripped_spruce_wood"
+  "result": {
+    "id": "minecraft:stripped_spruce_wood"
+  }
 }

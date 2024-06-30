@@ -4,5 +4,7 @@
   "ingredient": {
     "item": "minecraft:cobbled_deepslate"
   },
-  "result": "minecraft:gravel"
+  "result": {
+    "id": "minecraft:gravel"
+  }
 }

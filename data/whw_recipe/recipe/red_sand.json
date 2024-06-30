@@ -4,5 +4,7 @@
   "ingredient": {
     "item": "minecraft:gravel"
   },
-  "result": "minecraft:red_sand"
+  "result": {
+      "id": "minecraft:red_sand"
+    }
 }

@@ -4,5 +4,7 @@
   "ingredient": {
     "item": "minecraft:birch_wood"
   },
-  "result": "minecraft:stripped_birch_wood"
+  "result": {
+    "id": "minecraft:stripped_birch_wood"
+  }
 }
