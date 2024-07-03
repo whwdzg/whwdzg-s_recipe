@@ -1,5 +1,5 @@
 <div align="center">
-    <img align="center" src="https://cdn.modrinth.com/data/aCXZzFav/51254c6117102a53e2c8c9a38968958dd4e19bab.png" alt="logo" width="200">
+    <img align="center" src="https://raw.githubusercontent.com/whwdzg/whwdzg-s_recipe/main/pack.png" alt="logo" width="200">
     <h1 align="center">whwdzg's_recipe</h1>
     <p align="enter">Add some recipes to Minecraft</p>
     <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/whwdzg/whwdzg-s_recipe">
