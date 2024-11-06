@@ -5,7 +5,7 @@
             "conditions": {
                 "items": [
                     {
-                        "items": "minecraft:torch"
+                        "items": "minecraft:crafting_table"
                     }
                 ]
             }
@@ -13,13 +13,13 @@
     },
     "display": {
         "icon": {    
-            "id": "minecraft:torch"
+            "id": "minecraft:bundle"
          },
          "title": {
-             "translate": "明争暗斗"
+             "translate": "whwdzg's recipe"
          },
          "description": {
-             "translate": "用你的火把逐渐点亮世界"
+             "translate": "Minecraft补充！完全！探索更合理的配方吧！"
          },
          "frame": "task",    
          "announce_to_chat": true,     
