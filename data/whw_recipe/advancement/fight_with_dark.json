@@ -21,11 +21,11 @@
          "description": {
              "translate": "用你的火把逐渐点亮世界"
          },
-         "frame": "challenge",    
+         "frame": "task",    
          "announce_to_chat": true,     
          "hidden": false,   
          "show_toast": true,  
-         "background": "data/whw_recipe/background.png"
+         "background": "minecraft:textures/block/oak_planks.png"
     },
     "requirements": [    
         ["torch"]
