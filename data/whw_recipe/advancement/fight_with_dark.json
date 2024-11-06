@@ -5,7 +5,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:torch"
+                        "items": "minecraft:torch"
                     }
                 ]
             }
@@ -13,7 +13,7 @@
     },
     "display": {
         "icon": {    
-            "item": "minecraft:torch"
+            "id": "minecraft:torch"
          },
          "title": {
              "translate": "明争暗斗"
