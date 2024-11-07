@@ -1,25 +1,21 @@
+
 {
-    "parent": "whw_recipe:recipes",
-    "rewards": {
-      "recipes": [ "whw_recipe:amethyst_shard" ]
-    },
-    "criteria": {
-      "amethyst_block": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [ { "item": "minecraft:amethyst_block" } ]
-        }
+  "criteria": {   
+      "torch": {    
+          "trigger": "minecraft:inventory_changed",    
+          "conditions": {
+              "items": [
+                  {
+                      "items": "minecraft:amethyst_block"
+                  }
+              ]
+          }
       }
-    
-    },
-    "display":{
-      "icon":{
-        "item":"minecraft:amethyst_shard"
-      }
-    },
-    "requirements": [
-      [
-        "amethyst_block"
-      ]
-    ]
+  },
+  "requirements": [    
+      ["torch"]
+  ],
+  "rewards": {    
+      "recipes": ["whw_recipe:amethyst_shard"]  
   }
+}
