@@ -1,0 +1,37 @@
+{
+    "criteria": {   
+        "ore_blocks_decomposition": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:quartz",
+                "ingredients": [
+                    {
+                        "items": "minecraft:quartz"
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "icon": {    
+            "id": "minecraft:amethyst_block"
+         },
+         "title": {
+             "translate": "早该如此"
+         },
+         "description": {
+             "translate": "分解原本不可分解的矿物块，然后开始质问Mojang。"
+         },
+         "frame": "task",    
+         "announce_to_chat": true,     
+         "hidden": false,   
+         "show_toast": true
+    },
+    "parent": "whw_recipe:whw_recipe",
+    "requirements": [    
+        ["ore_blocks_decomposition"]
+    ],
+    "rewards": {    
+        "experience": 10    
+    }
+}
