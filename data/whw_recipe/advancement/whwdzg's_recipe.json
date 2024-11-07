@@ -1,6 +1,6 @@
 {
     "criteria": {   
-        "torch": {    
+        "crafting_table": {    
             "trigger": "minecraft:inventory_changed",    
             "conditions": {
                 "items": [
@@ -28,7 +28,7 @@
          "background": "minecraft:textures/block/oak_planks.png"
     },
     "requirements": [    
-        ["torch"]
+        ["crafting_table"]
     ],
     "rewards": {    
         "experience": 10    
