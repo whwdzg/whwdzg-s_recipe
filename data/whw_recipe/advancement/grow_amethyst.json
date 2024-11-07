@@ -1,12 +1,12 @@
 {
     "criteria": {   
-        "ore_blocks_decomposition": {    
+        "budding_amethyst": {    
             "trigger": "minecraft:recipe_crafted",    
             "conditions": {
-                "recipe_id": "whw_recipe:quartz",
+                "recipe_id": "whw_recipe:budding_amethyst",
                 "ingredients": [
                     {
-                        "items": "minecraft:quartz"
+                        "items": ["minecraft:amethyst_block", "minecraft:amethyst_shard"]
                     }
                 ]
             }
@@ -17,19 +17,19 @@
             "id": "minecraft:amethyst_block"
          },
          "title": {
-             "translate": "早该如此"
+             "translate": "生长吧！紫水晶!"
          },
          "description": {
-             "translate": "分解原本不可分解的矿物块，然后开始质问Mojang。"
+             "translate": "制作紫水晶母岩，开始你的紫水晶农场。"
          },
-         "frame": "task",    
+         "frame": "goal",    
          "announce_to_chat": true,     
          "hidden": false,   
          "show_toast": true
     },
-    "parent": "whw_recipe:whw_recipe",
+    "parent": "whw_recipe:it_should_have_be",
     "requirements": [    
-        ["ore_blocks_decomposition"]
+        ["budding_amethyst"]
     ],
     "rewards": {    
         "experience": 10    

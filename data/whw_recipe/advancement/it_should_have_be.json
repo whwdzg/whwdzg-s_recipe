@@ -1,12 +1,23 @@
 {
     "criteria": {   
-        "ore_blocks_decomposition": {    
+        "amethyst_block_decomposition": {    
             "trigger": "minecraft:recipe_crafted",    
             "conditions": {
                 "recipe_id": "whw_recipe:amethyst_shard",
                 "ingredients": [
                     {
                         "items": "minecraft:amethyst_block"
+                    }
+                ]
+            }
+        },
+        "quartz_block_decomposition": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:quartz",
+                "ingredients": [
+                    {
+                        "items": "minecraft:quartz_block"
                     }
                 ]
             }
@@ -29,7 +40,7 @@
     },
     "parent": "whw_recipe:whw_recipe",
     "requirements": [    
-        ["ore_blocks_decomposition"]
+        ["amethyst_block_decomposition","quartz_block_decomposition"]
     ],
     "rewards": {    
         "experience": 10    
