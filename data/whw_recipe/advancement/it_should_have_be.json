@@ -3,6 +3,7 @@
         "ore_blocks_decomposition": {    
             "trigger": "minecraft:recipe_crafted",    
             "conditions": {
+                "recipe_id": "whw_recipe:amethyst_shard",
                 "ingredients": [
                     {
                         "items": "minecraft:amethyst_block"
@@ -24,7 +25,7 @@
          "frame": "task",    
          "announce_to_chat": true,     
          "hidden": false,   
-         "show_toast": true,  
+         "show_toast": true
     },
      "parent": "whw_recipe:whw_recipe",
     "requirements": [    
