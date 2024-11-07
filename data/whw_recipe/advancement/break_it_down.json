@@ -38,7 +38,7 @@
          "hidden": false,   
          "show_toast": true
     },
-    "parent": "whw_recipe:whw_recipe",
+    "parent": "whw_recipe:it_should_have_be",
     "requirements": [    
         ["bricks_decomposition","nether_bricks_decomposition"]
     ],
