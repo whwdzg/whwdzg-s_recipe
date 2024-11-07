@@ -1,7 +1,6 @@
-
 {
   "criteria": {   
-      "torch": {    
+      "amethyst_block": {    
           "trigger": "minecraft:inventory_changed",    
           "conditions": {
               "items": [
@@ -13,8 +12,9 @@
       }
   },
   "requirements": [    
-      ["torch"]
+      ["amethyst_block"]
   ],
+  "parent": "whw_recipe:whw_recipe",
   "rewards": {    
       "recipes": ["whw_recipe:amethyst_shard"]  
   }

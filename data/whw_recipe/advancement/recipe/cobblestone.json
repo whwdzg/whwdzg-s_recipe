@@ -1,25 +1,21 @@
 {
-  "parent": "whw_recipe:recipes/root",
-    "rewards": {
-      "recipes": [ "whw_recipe:cobblestone" ]
-    },
-    "criteria": {
-      "stone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [ { "item": "minecraft:stone" } ]
-        }
+  "criteria": {   
+      "stone": {    
+          "trigger": "minecraft:inventory_changed",    
+          "conditions": {
+              "items": [
+                  {
+                      "items": "minecraft:stone"
+                  }
+              ]
+          }
       }
-    
-    },
-    "display":{
-        "icon":{
-          "item":"minecraft:cobblestone"
-        }
-      },
-    "requirements": [
-      [
-        "stone"
-      ]
-    ]
+  },
+  "requirements": [    
+      ["stone"]
+  ],
+  "parent": "whw_recipe:whw_recipe",
+  "rewards": {    
+      "recipes": ["whw_recipe:cobblestone"]  
   }
+}
