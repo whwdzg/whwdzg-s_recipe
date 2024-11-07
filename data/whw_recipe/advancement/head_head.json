@@ -51,7 +51,7 @@
     },
     "parent": "whw_recipe:skeleton_skull",
     "requirements": [    
-        ["zombie_head"]
+        ["zombie_head","creeper_head","piglin_head"]
     ],
     "rewards": {    
         "experience": 10    
