@@ -20,7 +20,7 @@
              "translate": "至尊食物"
          },
          "description": {
-             "translate": "老玩家会回忆的东西。"
+             "translate": "老玩家会回忆的东西"
          },
          "frame": "challenge",    
          "announce_to_chat": true,     

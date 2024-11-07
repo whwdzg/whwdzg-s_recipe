@@ -31,7 +31,7 @@
              "translate": "打破砖墙"
          },
          "description": {
-             "translate": "拆东墙，补西墙。"
+             "translate": "拆东墙，补西墙"
          },
          "frame": "task",    
          "announce_to_chat": true,     

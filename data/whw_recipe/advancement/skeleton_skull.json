@@ -1,12 +1,12 @@
 {
     "criteria": {   
-        "budding_amethyst": {    
+        "skeleton_skull": {    
             "trigger": "minecraft:recipe_crafted",    
             "conditions": {
-                "recipe_id": "whw_recipe:budding_amethyst",
+                "recipe_id": "whw_recipe:skeleton_skull",
                 "ingredients": [
                     {
-                        "items": ["minecraft:amethyst_block", "minecraft:amethyst_shard"]
+                        "items": ["minecraft:bone"]
                     }
                 ]
             }
@@ -14,22 +14,22 @@
     },
     "display": {
         "icon": {    
-            "id": "minecraft:budding_amethyst"
+            "id": "minecraft:skeleton_skull"
          },
          "title": {
-             "translate": "生长吧！紫水晶!"
+             "translate": "头颅骨"
          },
          "description": {
-             "translate": "制作紫水晶母岩，开始你的紫水晶农场"
+             "translate": "这是谁的颅骨？"
          },
-         "frame": "goal",    
+         "frame": "task",    
          "announce_to_chat": true,     
          "hidden": false,   
          "show_toast": true
     },
-    "parent": "whw_recipe:it_should_have_be",
+    "parent": "whw_recipe:whw_recipe",
     "requirements": [    
-        ["budding_amethyst"]
+        ["skeleton_skull"]
     ],
     "rewards": {    
         "experience": 10    

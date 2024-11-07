@@ -1,34 +1,34 @@
 {
     "criteria": {   
-        "iron_horse_armor": {    
+        "zombie_head": {    
             "trigger": "minecraft:recipe_crafted",    
             "conditions": {
-                "recipe_id": "whw_recipe:iron_horse_armor",
+                "recipe_id": "whw_recipe:zombie_head",
                 "ingredients": [
                     {
-                        "items": ["minecraft:iron_ingot","minecraft:leather_horse_armor"]
+                        "items": ["minecraft:skeleton_skull","minecraft:rotten_flesh"]
                     }
                 ]
             }
         },
-        "golden_horse_armor": {    
+        "creeper_head": {    
             "trigger": "minecraft:recipe_crafted",    
             "conditions": {
-                "recipe_id": "whw_recipe:golden_horse_armor",
+                "recipe_id": "whw_recipe:creeper_head",
                 "ingredients": [
                     {
-                        "items": ["minecraft:gold_ingot","minecraft:leather_horse_armor"]
+                        "items": ["minecraft:skeleton_skull","minecraft:gunpowder"]
                     }
                 ]
             }
         },
-        "diamond_horse_armor": {    
+        "piglin_head": {    
             "trigger": "minecraft:recipe_crafted",    
             "conditions": {
-                "recipe_id": "whw_recipe:diamond_horse_armor",
+                "recipe_id": "whw_recipe:piglin_head",
                 "ingredients": [
                     {
-                        "items": ["minecraft:diamond","minecraft:leather_horse_armor"]
+                        "items": ["minecraft:skeleton_skull","minecraft:porkchop"]
                     }
                 ]
             }
@@ -36,22 +36,22 @@
     },
     "display": {
         "icon": {    
-            "id": "minecraft:diamond_horse_armor"
+            "id": "minecraft:creeper_head"
          },
          "title": {
-             "translate": "骑士护甲"
+             "translate": "头头是道"
          },
          "description": {
-             "translate": "锻造更好的马铠，然后准备为你的宝马装备它。"
+             "translate": "首级仙人，就得有首级"
          },
-         "frame": "task",    
+         "frame": "goal",    
          "announce_to_chat": true,     
          "hidden": false,   
          "show_toast": true
     },
-    "parent": "whw_recipe:make_saddle",
+    "parent": "whw_recipe:skeleton_skull",
     "requirements": [    
-        ["iron_horse_armor","golden_horse_armor","diamond_horse_armor"]
+        ["zombie_head"]
     ],
     "rewards": {    
         "experience": 10    

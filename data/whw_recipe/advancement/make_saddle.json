@@ -1,12 +1,12 @@
 {
     "criteria": {   
-        "budding_amethyst": {    
+        "saddle": {    
             "trigger": "minecraft:recipe_crafted",    
             "conditions": {
-                "recipe_id": "whw_recipe:budding_amethyst",
+                "recipe_id": "whw_recipe:saddle",
                 "ingredients": [
                     {
-                        "items": ["minecraft:amethyst_block", "minecraft:amethyst_shard"]
+                        "items": ["minecraft:iron_ingot","minecraft:leather","minecraft:string"]
                     }
                 ]
             }
@@ -14,22 +14,22 @@
     },
     "display": {
         "icon": {    
-            "id": "minecraft:budding_amethyst"
+            "id": "minecraft:saddle"
          },
          "title": {
-             "translate": "生长吧！紫水晶!"
+             "translate": "坐骑之始"
          },
          "description": {
-             "translate": "制作紫水晶母岩，开始你的紫水晶农场"
+             "translate": "准备好你的鞍，踏上世界征途"
          },
-         "frame": "goal",    
+         "frame": "task",    
          "announce_to_chat": true,     
          "hidden": false,   
          "show_toast": true
     },
-    "parent": "whw_recipe:it_should_have_be",
+    "parent": "whw_recipe:whw_recipe",
     "requirements": [    
-        ["budding_amethyst"]
+        ["saddle"]
     ],
     "rewards": {    
         "experience": 10    
