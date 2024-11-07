@@ -14,7 +14,7 @@
     },
     "display": {
         "icon": {    
-            "id": "minecraft:amethyst_block"
+            "id": "minecraft:budding_amethyst"
          },
          "title": {
              "translate": "生长吧！紫水晶!"
