@@ -27,7 +27,7 @@
          "hidden": false,   
          "show_toast": true
     },
-    "parent": "whw_recipe:whw_recipe",
+    "parent": "whw_recipe:make_horse_armor",
     "requirements": [    
         ["saddle"]
     ],
