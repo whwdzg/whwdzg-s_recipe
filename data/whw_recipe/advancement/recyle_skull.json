@@ -57,7 +57,7 @@
          },
          "frame": "challenge",    
          "announce_to_chat": true,     
-         "hidden": false,   
+         "hidden": false,
          "show_toast": true
     },
     "parent": "whw_recipe:head_head",
@@ -65,6 +65,6 @@
         ["zombie_head_to", "creeper_head_to", "piglin_head_to", "wither_skeleton_skull_to"]
     ],
     "rewards": {    
-        "experience": 100    
+        "experience": 100 
     }
 }

@@ -62,7 +62,7 @@
     },
     "parent": "whw_recipe:whw_recipe",
     "requirements": [    
-        ["amethyst_block_decomposition","quartz_block_decomposition","glowstone_decomposition"]
+        ["amethyst_block_decomposition","quartz_block_decomposition","glowstone_decomposition","clay_decomposition"]
     ],
     "rewards": {    
         "experience": 10    
