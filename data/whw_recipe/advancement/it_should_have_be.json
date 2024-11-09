@@ -25,7 +25,7 @@
         "glowstone_decomposition": {    
             "trigger": "minecraft:recipe_crafted",    
             "conditions": {
-                "recipe_id": "whw_recipe:dlowstone_dust",
+                "recipe_id": "whw_recipe:glowstone_dust",
                 "ingredients": [
                     {
                         "items": "minecraft:glowstone"

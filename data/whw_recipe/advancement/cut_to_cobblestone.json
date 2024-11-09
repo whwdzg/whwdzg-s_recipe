@@ -38,7 +38,7 @@
          "hidden": false,   
          "show_toast": true
     },
-    "parent": "whw_recipe:whw_recipe",
+    "parent": "whw_recipe:grine_to_gravel",
     "requirements": [    
         ["cobblestone","cobbled_deepslate"]
     ],

@@ -27,7 +27,7 @@
          "hidden": false,   
          "show_toast": true
     },
-    "parent": "whw_recipe:make_horse_amor",
+    "parent": "whw_recipe:make_chainmail_armor",
     "requirements": [    
         ["enchanted_golden_apple"]
     ],

@@ -47,7 +47,7 @@
     },
     "display": {
         "icon": {    
-            "id": "minecraft:diamond_horse_armor"
+            "id": "minecraft:chainmail_chestplate"
          },
          "title": {
              "translate": "隐藏护甲"

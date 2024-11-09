@@ -137,7 +137,7 @@
          "hidden": false,   
          "show_toast": true
     },
-    "parent": "whw_recipe:whw_recipe",
+    "parent": "whw_recipe:strip_the_woods",
     "requirements": [    
         ["stone","cobblestone","deepslate","cobbled_deepslate","diorite","andesite","granite","calcite","tuff","basalt","blackstone"]
     ],
