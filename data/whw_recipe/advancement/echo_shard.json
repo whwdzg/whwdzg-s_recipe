@@ -20,7 +20,7 @@
              "translate": "幽匿碎片"
          },
          "description": {
-             "translate": "用幽匿块合成幽匿碎片，这质量守恒吗？"
+             "translate": "用幽匿块合成回声碎片，这质量守恒吗？"
          },
          "frame": "task",    
          "announce_to_chat": true,     
