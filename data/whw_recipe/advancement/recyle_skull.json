@@ -60,7 +60,7 @@
          "hidden": false,   
          "show_toast": true
     },
-    "parent": "whw_recipe:skeleton_skull",
+    "parent": "whw_recipe:head_head",
     "requirements": [    
         ["zombie_head_to", "creeper_head_to", "piglin_head_to", "wither_skeleton_skull_to"]
     ],
