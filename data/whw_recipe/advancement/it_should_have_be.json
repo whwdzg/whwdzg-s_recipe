@@ -21,6 +21,17 @@
                     }
                 ]
             }
+        },
+        "glowstone_decomposition": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:dlowstone_dust",
+                "ingredients": [
+                    {
+                        "items": "minecraft:glowstone"
+                    }
+                ]
+            }
         }
     },
     "display": {
@@ -40,7 +51,7 @@
     },
     "parent": "whw_recipe:whw_recipe",
     "requirements": [    
-        ["amethyst_block_decomposition","quartz_block_decomposition"]
+        ["amethyst_block_decomposition","quartz_block_decomposition","glowstone_decomposition"]
     ],
     "rewards": {    
         "experience": 10    

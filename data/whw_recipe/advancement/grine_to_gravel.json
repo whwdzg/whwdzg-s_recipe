@@ -1,0 +1,147 @@
+{
+    "criteria": {   
+        "stone": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:gravel",
+                "ingredients": [
+                    {
+                        "items": "minecraft:stone"
+                    }
+                ]
+            }
+        },
+        "cobblestone": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:gravel2",
+                "ingredients": [
+                    {
+                        "items": "minecraft:cobblestone"
+                    }
+                ]
+            }
+        },
+        "deepslate": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:gravel3",
+                "ingredients": [
+                    {
+                        "items": "minecraft:deepslate"
+                    }
+                ]
+            }
+        },
+        "cobbled_deepslate": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:gravel4",
+                "ingredients": [
+                    {
+                        "items": "minecraft:cobbled_deepslate"
+                    }
+                ]
+            }
+        },
+        "diorite": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:gravel5",
+                "ingredients": [
+                    {
+                        "items": "minecraft:diorite"
+                    }
+                ]
+            }
+        },
+        "andesite": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:gravel6",
+                "ingredients": [
+                    {
+                        "items": "minecraft:andesite"
+                    }
+                ]
+            }
+        },
+        "granite": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:gravel7",
+                "ingredients": [
+                    {
+                        "items": "minecraft:granite"
+                    }
+                ]
+            }
+        },
+        "calcite": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:gravel8",
+                "ingredients": [
+                    {
+                        "items": "minecraft:calcite"
+                    }
+                ]
+            }
+        },
+        "tuff": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:gravel9",
+                "ingredients": [
+                    {
+                        "items": "minecraft:tuff"
+                    }
+                ]
+            }
+        },
+        "basalt": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:gravel10",
+                "ingredients": [
+                    {
+                        "items": "minecraft:basalt"
+                    }
+                ]
+            }
+        },
+        "blackstone": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:gravel11",
+                "ingredients": [
+                    {
+                        "items": "minecraft:blackstone"
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "icon": {    
+            "id": "minecraft:gravel"
+         },
+         "title": {
+             "translate": "研磨成砾"
+         },
+         "description": {
+             "translate": "使用切石机将石头研磨成沙砾，废石的最好去处"
+         },
+         "frame": "task",    
+         "announce_to_chat": true,     
+         "hidden": false,   
+         "show_toast": true
+    },
+    "parent": "whw_recipe:whw_recipe",
+    "requirements": [    
+        ["stone","cobblestone","deepslate","cobbled_deepslate","diorite","andesite","granite","calcite","tuff","basalt","blackstone"]
+    ],
+    "rewards": {    
+        "experience": 10    
+    }
+}
