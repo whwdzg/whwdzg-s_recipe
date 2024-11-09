@@ -32,6 +32,17 @@
                     }
                 ]
             }
+        },
+        "clay_decomposition": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:clay_ball",
+                "ingredients": [
+                    {
+                        "items": "minecraft:clay"
+                    }
+                ]
+            }
         }
     },
     "display": {
