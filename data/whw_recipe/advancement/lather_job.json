@@ -1,0 +1,37 @@
+{
+    "criteria": {   
+        "rabbit_hide": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:rabbit_hide",
+                "ingredients": [
+                    {
+                        "items":"minecraft:leather"
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "icon": {    
+            "id": "minecraft:rabbit_hide"
+         },
+         "title": {
+             "translate": "皮革工艺"
+         },
+         "description": {
+             "translate": "兔子皮制作皮革，皮革制作兔子皮..."
+         },
+         "frame": "task",    
+         "announce_to_chat": true,     
+         "hidden": false,   
+         "show_toast": true
+    },
+    "parent": "whw_recipe:string",
+    "requirements": [    
+        ["rabbit_hide"]
+    ],
+    "rewards": {    
+        "experience": 10    
+    }
+}
