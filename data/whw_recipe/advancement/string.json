@@ -1,0 +1,37 @@
+{
+    "criteria": {   
+        "string": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:string",
+                "ingredients": [
+                    {
+                        "items": "minecraft:white_wool"
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "icon": {    
+            "id": "minecraft:string"
+         },
+         "title": {
+             "translate": "羊毛制线"
+         },
+         "description": {
+             "translate": "羊毛本来就是纺织的材料，不是吗"
+         },
+         "frame": "task",    
+         "announce_to_chat": true,     
+         "hidden": false,   
+         "show_toast": true
+    },
+    "parent": "whw_recipe:whw_recipe",
+    "requirements": [    
+        ["string"]
+    ],
+    "rewards": {    
+        "experience": 10    
+    }
+}

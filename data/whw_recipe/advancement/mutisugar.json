@@ -1,0 +1,92 @@
+{
+    "criteria": {   
+        "sugar": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:sugar",
+                "ingredients": [
+                    {
+                        "items": "minecraft:apple"
+                    }
+                ]
+            }
+        },
+        "sugar2":{
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:sugar2",
+                "ingredients": [
+                    {
+                        "items": "minecraft:melon"
+                    }
+                ]
+            }
+        },
+        "sugar3":{
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:sugar3",
+                "ingredients": [
+                    {
+                        "items": "minecraft:pumpkin"
+                    }
+                ]
+            }
+        },
+        "sugar4":{
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:sugar4",
+                "ingredients": [
+                    {
+                        "items": "minecraft:sweet_berries"
+                    }
+                ]
+            }
+        },
+        "sugar5":{
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:sugar5",
+                "ingredients": [
+                    {
+                        "items": "minecraft:glow_berries"
+                    }
+                ]
+            }
+        },
+        "sugar6":{
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:sugar6",
+                "ingredients": [
+                    {
+                        "items": "minecraft:beetroot_soup"
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "icon": {    
+            "id": "minecraft:stripped_oak_wood"
+         },
+         "title": {
+             "translate": "果糖提取"
+         },
+         "description": {
+             "translate": "果糖也是糖！"
+         },
+         "frame": "task",    
+         "announce_to_chat": true,     
+         "hidden": false,   
+         "show_toast": true
+    },
+    "parent": "whw_recipe:whw_recipe",
+    "requirements": [    
+        ["sugar","sugar2","sugar3","sugar4","sugar5","sugar6"]
+    ],
+    "rewards": {    
+        "experience": 10    
+    }
+}
