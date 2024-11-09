@@ -17,10 +17,10 @@
             "id": "minecraft:flint"
          },
          "title": {
-             "translate": "精挑细筛"
+             "translate": "机床切石"
          },
          "description": {
-             "translate": "使用切石机从沙砾中筛出燧石，全能切石机无疑了"
+             "translate": "使用切石机从沙砾中筛出燧石，这是切石机干的活？"
          },
          "frame": "task",    
          "announce_to_chat": true,     
