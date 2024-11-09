@@ -1,0 +1,37 @@
+{
+    "criteria": {   
+        "echo_shard": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:echo_shard",
+                "ingredients": [
+                    {
+                        "items": "minecraft:sculk"
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "icon": {    
+            "id": "minecraft:echo_shard"
+         },
+         "title": {
+             "translate": "幽匿碎片"
+         },
+         "description": {
+             "translate": "用幽匿块合成回声碎片，这质量守恒吗？"
+         },
+         "frame": "task",    
+         "announce_to_chat": true,     
+         "hidden": false,   
+         "show_toast": true
+    },
+    "parent": "whw_recipe:whw_recipe",
+    "requirements": [    
+        ["echo_shard"]
+    ],
+    "rewards": {    
+        "experience": 10    
+    }
+}

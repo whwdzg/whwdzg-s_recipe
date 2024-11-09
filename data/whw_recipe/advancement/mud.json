@@ -1,0 +1,37 @@
+{
+    "criteria": {   
+        "mud": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:mud",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:water_bucket","minecraft:dirt"]
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "icon": {    
+            "id": "minecraft:mud"
+         },
+         "title": {
+             "translate": "和泥巴"
+         },
+         "description": {
+             "translate": "水多了，加点土；土多了，加点水"
+         },
+         "frame": "task",    
+         "announce_to_chat": true,     
+         "hidden": false,   
+         "show_toast": true
+    },
+    "parent": "whw_recipe:whw_recipe",
+    "requirements": [    
+        ["mud"]
+    ],
+    "rewards": {    
+        "experience": 10    
+    }
+}

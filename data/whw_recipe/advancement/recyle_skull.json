@@ -1,0 +1,70 @@
+{
+    "criteria": {   
+        "zombie_head_to": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:skeleton_skull3",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:zombie_head"]
+                    }
+                ]
+            }
+        },
+        "creeper_head_to": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:skeleton_skull4",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:creeper_head"]
+                    }
+                ]
+            }
+        },
+        "piglin_head_to": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:skeleton_skull5",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:piglin_head"]
+                    }
+                ]
+            }
+        },
+        "wither_skeleton_skull_to": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:skeleton_skull2",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:wither_skeleton_skull"]
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "icon": {    
+            "id": "minecraft:skeleton_skull"
+         },
+         "title": {
+             "translate": "头骨回收"
+         },
+         "description": {
+             "translate": "-不是，你在干什么！-移植头骨！"
+         },
+         "frame": "challenge",    
+         "announce_to_chat": true,     
+         "hidden": false,
+         "show_toast": true
+    },
+    "parent": "whw_recipe:head_head",
+    "requirements": [    
+        ["zombie_head_to", "creeper_head_to", "piglin_head_to", "wither_skeleton_skull_to"]
+    ],
+    "rewards": {    
+        "experience": 100 
+    }
+}

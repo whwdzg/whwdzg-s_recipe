@@ -1,0 +1,48 @@
+{
+    "criteria": {   
+        "bricks_decomposition": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:brick",
+                "ingredients": [
+                    {
+                        "items": "minecraft:bricks"
+                    }
+                ]
+            }
+        },
+        "nether_bricks_decomposition": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:nether_brick",
+                "ingredients": [
+                    {
+                        "items": "minecraft:nether_bricks"
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "icon": {    
+            "id": "minecraft:brick"
+         },
+         "title": {
+             "translate": "打破砖墙"
+         },
+         "description": {
+             "translate": "拆东墙，补西墙"
+         },
+         "frame": "task",    
+         "announce_to_chat": true,     
+         "hidden": false,   
+         "show_toast": true
+    },
+    "parent": "whw_recipe:it_should_have_be",
+    "requirements": [    
+        ["bricks_decomposition","nether_bricks_decomposition"]
+    ],
+    "rewards": {    
+        "experience": 10    
+    }
+}

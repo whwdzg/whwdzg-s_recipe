@@ -1,11 +1,11 @@
 {
     "criteria": {   
-        "torch": {    
+        "crafting_table": {    
             "trigger": "minecraft:inventory_changed",    
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:torch"
+                        "items": "minecraft:crafting_table"
                     }
                 ]
             }
@@ -13,22 +13,22 @@
     },
     "display": {
         "icon": {    
-            "item": "minecraft:torch"
+            "id": "minecraft:bundle"
          },
          "title": {
-             "translate": "明争暗斗"
+             "translate": "whwdzg's recipe"
          },
          "description": {
-             "translate": "用你的火把逐渐点亮世界"
+             "translate": "Minecraft补充！完全！探索更合理的配方吧！"
          },
-         "frame": "challenge",    
+         "frame": "task",    
          "announce_to_chat": true,     
          "hidden": false,   
          "show_toast": true,  
-         "background": "data/whw_recipe/background.png"
+         "background": "minecraft:textures/block/oak_planks.png"
     },
     "requirements": [    
-        ["torch"]
+        ["crafting_table"]
     ],
     "rewards": {    
         "experience": 10    

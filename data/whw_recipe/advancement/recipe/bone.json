@@ -1,25 +1,21 @@
 {
-  "parent": "whw_recipe:recipes/root",
-    "rewards": {
-      "recipes": [ "whw_recipe:bone" ]
-    },
-    "criteria": {
-      "skeleton_skull": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [ { "item": "minecraft:skeleton_skull" } ]
+    "criteria": {   
+        "skeleton_skull": {    
+            "trigger": "minecraft:inventory_changed",    
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:skeleton_skull"
+                    }
+                ]
+            }
         }
-      }
-    
     },
-    "display":{
-      "icon":{
-        "item":"minecraft:bone"
-      }
-    },
-    "requirements": [
-      [
-        "skeleton_skull"
-      ]
-    ]
+    "requirements": [    
+        ["skeleton_skull"]
+    ],
+    "parent": "whw_recipe:whw_recipe",
+    "rewards": {    
+        "recipes": ["whw_recipe:bone"]  
+    }
   }

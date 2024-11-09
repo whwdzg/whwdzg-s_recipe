@@ -1,0 +1,37 @@
+{
+    "criteria": {   
+        "light": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:light",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:glass","minecraft:glass"]
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "icon": {    
+            "id": "minecraft:light"
+         },
+         "title": {
+             "translate": "光芒四射"
+         },
+         "description": {
+             "translate": "啊，我的眼睛！"
+         },
+         "frame": "task",    
+         "announce_to_chat": true,     
+         "hidden": false,   
+         "show_toast": true
+    },
+    "parent": "whw_recipe:whw_recipe",
+    "requirements": [    
+        ["light"]
+    ],
+    "rewards": {    
+        "experience": 10    
+    }
+}

@@ -1,25 +1,21 @@
 {
-  "parent": "whw_recipe:recipes/root",
-    "rewards": {
-      "recipes": [ "whw_recipe:blue_stained_glass_pane" ]
-    },
-    "criteria": {
-      "blue_stained_glass": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [ { "item": "minecraft:blue_stained_glass" } ]
+    "criteria": {   
+        "blue_stained_glass": {    
+            "trigger": "minecraft:inventory_changed",    
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:blue_stained_glass"
+                    }
+                ]
+            }
         }
-      }
-      
     },
-    "display":{
-      "icon":{
-        "item":"minecraft:blue_stained_glass_pane"
-      }
-    },
-    "requirements": [
-      [
-        "blue_stained_glass"
-      ]
-    ]
+    "requirements": [    
+        ["blue_stained_glass"]
+    ],
+    "parent": "whw_recipe:whw_recipe",
+    "rewards": {    
+        "recipes": ["whw_recipe:blue_stained_glass_pane"]  
+    }
   }

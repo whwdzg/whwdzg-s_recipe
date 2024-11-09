@@ -1,0 +1,37 @@
+{
+    "criteria": {   
+        "skeleton_skull": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:skeleton_skull",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:bone"]
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "icon": {    
+            "id": "minecraft:skeleton_skull"
+         },
+         "title": {
+             "translate": "头颅骨"
+         },
+         "description": {
+             "translate": "这是谁的颅骨？"
+         },
+         "frame": "task",    
+         "announce_to_chat": true,     
+         "hidden": false,   
+         "show_toast": true
+    },
+    "parent": "whw_recipe:whw_recipe",
+    "requirements": [    
+        ["skeleton_skull"]
+    ],
+    "rewards": {    
+        "experience": 10    
+    }
+}
