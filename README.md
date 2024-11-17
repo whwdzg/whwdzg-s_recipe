@@ -18,11 +18,14 @@
 # Q&A
 - **1.How to get the recipe?**
 
-  After you install the datapack/mod, type: /function whw_recipe:recipe
+  After you install the datapack/mod, when you get the ingredients in each recipe, you can see the recipe in the tooltip.
 
 - **2.Where can I check out the recipes that are included in whwdzg's recipe?**
 
   In Github Wiki of the whwdzg/whwdzg-s_recipe repo
 **(Not Finished Yet)**.
+
+- **3.How can I get the advncemnets of the recipes?**
+  After you get crafting table, you can see the advancments in the menu.
   
   You can check out the craft recipes in the recipe book of the craft table.I suggest to install Just Enough Items to check out the rest recipes.
