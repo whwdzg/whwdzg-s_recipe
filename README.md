@@ -26,6 +26,7 @@
 **(Not Finished Yet)**.
 
 - **3.How can I get the advncemnets of the recipes?**
+
   After you get crafting table, you can see the advancments in the menu.
   
   You can check out the craft recipes in the recipe book of the craft table.I suggest to install Just Enough Items to check out the rest recipes.
