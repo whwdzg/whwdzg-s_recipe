@@ -1,5 +1,5 @@
 {
-  "parent": "whw_recipe:recipes/root",
+  "parent": "whw_recipe:whw_recipe",
   "rewards": {
     "recipes": [ "whw_recipe:stripped_crimson_stem" ]
   },
@@ -7,15 +7,10 @@
     "crimson_stem": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [ { "item": "minecraft:crimson_stem" } ]
+        "items": [ { "items": "minecraft:crimson_stem" } ]
       }
     }
     
-  },
-  "display":{
-    "icon":{
-      "item":"minecraft:stripped_crimson_stem"
-    }
   },
   "requirements": [
     [

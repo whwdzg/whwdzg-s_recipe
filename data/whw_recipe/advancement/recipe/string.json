@@ -1,5 +1,5 @@
 {
-  "parent": "whw_recipe:recipes/root",
+  "parent": "whw_recipe:whw_recipe",
     "rewards": {
       "recipes": [ "whw_recipe:string" ]
     },
@@ -7,15 +7,10 @@
       "white_wool": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
-          "items": [ { "item": "minecraft:white_wool" } ]
+          "items": [ { "items": "minecraft:white_wool" } ]
         }
       }
     
-    },
-    "display":{
-      "icon":{
-        "item":"minecraft:string"
-      }
     },
     "requirements": [
       [

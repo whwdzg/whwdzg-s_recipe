@@ -1,45 +1,51 @@
 {
-  "parent": "whw_recipe:recipes/root",
-    "rewards": {
-      "recipes": [ "whw_recipe:gunpowder" ]
-    },
-    "criteria": {
-      "coal": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [ { "item": "minecraft:coal" } ]
-        }
+  "criteria": {   
+      "coal": {    
+          "trigger": "minecraft:inventory_changed",    
+          "conditions": {
+              "items": [
+                  {
+                      "items": "minecraft:coal"
+                  }
+              ]
+          }
       },
-      "gravel": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [ { "item": "minecraft:gravel"} ]
-        }
+      "gravel":{
+          "trigger": "minecraft:inventory_changed",
+          "conditions": {
+            "items": [
+              {
+                "items": "minecraft:gravel"
+              }
+            ]
+          }
       },
-      "flint": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [ { "item": "minecraft:flint"} ]
-        }
+      "flint":{
+          "trigger": "minecraft:inventory_changed",
+          "conditions": {
+            "items": [
+              {
+                "items": "minecraft:flint"
+              }
+            ]
+          }
       },
-      "sugar": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [ { "item": "minecraft:sugar"} ]
-        }
+      "sugar":{
+          "trigger":"minecraft:inventory_changed",
+          "conditions": {
+            "items": [
+              {
+                "items": "sugar"
+              }
+            ]
+          } 
       }
-    },
-    "display":{
-      "icon":{
-        "item":"minecraft:gunpowder"
-      }
-    },
-    "requirements": [
-      [
-        "coal",
-        "flint",
-        "gravel",
-        "sugar"
-      ]
-    ]
+  },
+  "requirements": [    
+      ["coal","flint","gravel","sugar"]
+  ],
+  "parent": "whw_recipe:whw_recipe",
+  "rewards": {    
+      "recipes": ["whw_recipe:gunpowder"]  
   }
+}

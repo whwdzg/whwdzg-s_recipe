@@ -1,5 +1,5 @@
 {
-  "parent": "whw_recipe:recipes/root",
+  "parent": "whw_recipe:whw_recipe",
   "rewards": {
     "recipes": [ "whw_recipe:stripped_warped_stem" ]
   },
@@ -7,14 +7,8 @@
     "warped_stem": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [ { "item": "minecraft:warped_stem" } ]
+        "items": [ { "items": "minecraft:warped_stem" } ]
       }
-    }
-    
-  },
-  "display":{
-    "icon":{
-      "item":"minecraft:stripped_warped_stem"
     }
   },
   "requirements": [

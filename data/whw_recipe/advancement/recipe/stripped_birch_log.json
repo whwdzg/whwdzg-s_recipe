@@ -1,5 +1,5 @@
 {
-  "parent": "whw_recipe:recipes/root",
+  "parent": "whw_recipe:whw_recipe",
   "rewards": {
     "recipes": [ "whw_recipe:stripped_birch_log" ]
   },
@@ -7,15 +7,10 @@
     "birch_log": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [ { "item": "minecraft:birch_log" } ]
+        "items": [ { "items": "minecraft:birch_log" } ]
       }
     }
     
-  },
-  "display":{
-    "icon":{
-      "item":"minecraft:stripped_birch_log"
-    }
   },
   "requirements": [
     [

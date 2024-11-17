@@ -1,5 +1,5 @@
 {
-  "parent": "whw_recipe:recipes/root",
+  "parent": "whw_recipe:whw_recipe",
     "rewards": {
       "recipes": [ "whw_recipe:pointed_dripstone" ]
     },
@@ -7,18 +7,13 @@
       "dripstone_block": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
-          "items": [ { "item": "minecraft:dripstone_block"}]
+          "items": [ { "items": "minecraft:dripstone_block"}]
       }
-    
-    },
-    "display":{
-      "icon":{
-        "item":"minecraft:pointed_dripstone"
-      }
-    },
+    }
+  },
     "requirements": [
       [
         "dripstone_block"
       ]
     ]
-  }
+}

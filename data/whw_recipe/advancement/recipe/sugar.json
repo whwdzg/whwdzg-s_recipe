@@ -1,5 +1,5 @@
 {
-  "parent": "whw_recipe:recipes/root",
+  "parent": "whw_recipe:whw_recipe",
     "rewards": {
       "recipes": [ "whw_recipe:sugar" ]
     },
@@ -7,15 +7,10 @@
       "apple": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
-          "items": [ { "item": "minecraft:apple" } ]
+          "items": [ { "items": "minecraft:apple" } ]
         }
       }
     
-    },
-    "display":{
-      "icon":{
-        "item":"minecraft:sugar"
-      }
     },
     "requirements": [
       [

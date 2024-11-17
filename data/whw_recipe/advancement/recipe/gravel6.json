@@ -1,25 +1,21 @@
 {
-  "parent": "whw_recipe:recipes/root",
-  "rewards": {
-    "recipes": [ "whw_recipe:gravel6" ]
-  },
-  "criteria": {
-    "andesite": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [ { "item": "minecraft:andesite" } ]
+  "criteria": {   
+      "andesite": {    
+          "trigger": "minecraft:inventory_changed",    
+          "conditions": {
+              "items": [
+                  {
+                      "items": "minecraft:andesite"
+                  }
+              ]
+          }
       }
-    }
-    
   },
-  "display":{
-    "icon":{
-      "item":"minecraft:gravel"
-    }
-  },
-  "requirements": [
-    [
-      "andesite"
-    ]
-  ]
+  "requirements": [    
+      ["andesite"]
+  ],
+  "parent": "whw_recipe:whw_recipe",
+  "rewards": {    
+      "recipes": ["whw_recipe:gravel6"]  
+  }
 }

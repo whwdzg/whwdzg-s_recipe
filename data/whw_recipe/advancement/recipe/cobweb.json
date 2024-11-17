@@ -1,31 +1,31 @@
 {
-  "parent": "whw_recipe:recipes/root",
-    "rewards": {
-      "recipes": [ "whw_recipe:cobweb" ]
-    },
-    "criteria": {
-      "slime_ball": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [ { "item": "minecraft:slime_ball" } ]
-        }
+  "criteria": {   
+      "slime_ball": {    
+          "trigger": "minecraft:inventory_changed",    
+          "conditions": {
+              "items": [
+                  {
+                      "items": "minecraft:slime_ball"
+                  }
+              ]
+          }
       },
-      "string": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [ { "item": "minecraft:string"} ]
-        }
+      "string": {    
+          "trigger": "minecraft:inventory_changed",    
+          "conditions": {
+              "items": [
+                  {
+                      "items": "minecraft:string"
+                  }
+              ]
+          }
       }
-    },
-    "display":{
-      "icon":{
-        "item":"minecraft:cobweb"
-      }
-    },
-    "requirements": [
-      [
-        "slime_ball",
-        "string"
-      ]
-    ]
+  },
+  "requirements": [    
+      ["slime_ball","string"]
+  ],
+  "parent": "whw_recipe:whw_recipe",
+  "rewards": {    
+      "recipes": ["whw_recipe:cobweb"]  
   }
+}

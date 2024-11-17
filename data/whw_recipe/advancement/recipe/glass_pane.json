@@ -1,25 +1,21 @@
 {
-  "parent": "whw_recipe:recipes/root",
-    "rewards": {
-      "recipes": [ "whw_recipe:glass_pane" ]
-    },
-    "criteria": {
-      "glass": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [ { "item": "minecraft:glass" } ]
-        }
+  "criteria": {   
+      "glass": {    
+          "trigger": "minecraft:inventory_changed",    
+          "conditions": {
+              "items": [
+                  {
+                      "items": "minecraft:glass"
+                  }
+              ]
+          }
       }
-      
-    },
-    "display":{
-      "icon":{
-        "item":"minecraft:glass_pane"
-      }
-    },
-    "requirements": [
-      [
-        "glass"
-      ]
-    ]
+  },
+  "requirements": [    
+      ["glass"]
+  ],
+  "parent": "whw_recipe:whw_recipe",
+  "rewards": {    
+      "recipes": ["whw_recipe:glass_pane"]  
   }
+}

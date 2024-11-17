@@ -1,5 +1,5 @@
 {
-  "parent": "whw_recipe:recipes/root",
+  "parent": "whw_recipe:whw_recipe",
     "rewards": {
       "recipes": [ "whw_recipe:pink_stained_glass_pane" ]
     },
@@ -7,15 +7,10 @@
       "pink_stained_glass": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
-          "items": [ { "item": "minecraft:pink_stained_glass" } ]
+          "items": [ { "items": "minecraft:pink_stained_glass" } ]
         }
       }
       
-    },
-    "display":{
-      "icon":{
-        "item":"minecraft:pink_stained_glass_pane"
-      }
     },
     "requirements": [
       [
