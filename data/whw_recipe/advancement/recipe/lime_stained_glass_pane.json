@@ -1,25 +1,21 @@
 {
-  "parent": "whw_recipe:recipes/root",
-    "rewards": {
-      "recipes": [ "whw_recipe:lime_stained_glass_pane" ]
-    },
-    "criteria": {
-      "lime_stained_glass": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [ { "item": "minecraft:lime_stained_glass" } ]
-        }
+  "criteria": {   
+      "lime_stained_glass": {    
+          "trigger": "minecraft:inventory_changed",    
+          "conditions": {
+              "items": [
+                  {
+                      "items": "minecraft:lime_stained_glass"
+                  }
+              ]
+          }
       }
-      
-    },
-    "display":{
-      "icon":{
-        "item":"minecraft:lime_stained_glass_pane"
-      }
-    },
-    "requirements": [
-      [
-        "lime_stained_glass"
-      ]
-    ]
+  },
+  "requirements": [    
+      ["lime_stained_glass"]
+  ],
+  "parent": "whw_recipe:whw_recipe",
+  "rewards": {    
+      "recipes": ["whw_recipe:lime_stained_glass_pane"]  
   }
+}

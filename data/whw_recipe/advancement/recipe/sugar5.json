@@ -1,5 +1,5 @@
 {
-  "parent": "whw_recipe:recipes/root",
+  "parent": "whw_recipe:whw_recipe",
     "rewards": {
       "recipes": [ "whw_recipe:sugar5" ]
     },
@@ -7,15 +7,10 @@
       "glow_berries": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
-          "items": [ { "item": "minecraft:glow_berries" } ]
+          "items": [ { "items": "minecraft:glow_berries" } ]
         }
       }
     
-    },
-    "display":{
-      "icon":{
-        "item":"minecraft:sugar"
-      }
     },
     "requirements": [
       [

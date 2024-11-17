@@ -1,5 +1,5 @@
 {
-  "parent": "whw_recipe:recipes/root",
+  "parent": "whw_recipe:whw_recipe",
     "rewards": {
       "recipes": [ "whw_recipe:quartz" ]
     },
@@ -7,15 +7,10 @@
       "quartz_block": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
-          "items": [ { "item": "minecraft:quartz_block" } ]
+          "items": [ { "items": "minecraft:quartz_block" } ]
         }
       }
     
-    },
-    "display":{
-      "icon":{
-        "item":"minecraft:quartz"
-      }
     },
     "requirements": [
       [

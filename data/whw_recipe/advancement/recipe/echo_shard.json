@@ -1,25 +1,21 @@
 {
-    "parent": "whw_recipe:recipes",
-    "rewards": {
-      "recipes": [ "whw_recipe:echo_shard" ]
-    },
-    "criteria": {
-      "sculk": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [ { "item": "minecraft:sculk" } ]
-        }
+  "criteria": {   
+      "sculk": {    
+          "trigger": "minecraft:inventory_changed",    
+          "conditions": {
+              "items": [
+                  {
+                      "items": "minecraft:sculk"
+                  }
+              ]
+          }
       }
-    
-    },
-    "display":{
-      "icon":{
-        "item":"minecraft:echo_shard"
-      }
-    },
-    "requirements": [
-      [
-        "sculk"
-      ]
-    ]
+  },
+  "requirements": [    
+      ["sculk"]
+  ],
+  "parent": "whw_recipe:whw_recipe",
+  "rewards": {    
+      "recipes": ["whw_recipe:echo_shard"]  
   }
+}

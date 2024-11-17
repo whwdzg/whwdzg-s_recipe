@@ -1,5 +1,5 @@
 {
-  "parent": "whw_recipe:recipes/root",
+  "parent": "whw_recipe:whw_recipe",
   "rewards": {
     "recipes": [ "whw_recipe:stripped_bamboo_block" ]
   },
@@ -7,15 +7,10 @@
     "bamboo_block": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [ { "item": "minecraft:bamboo_block" } ]
+        "items": [ { "items": "minecraft:bamboo_block" } ]
       }
     }
     
-  },
-  "display":{
-    "icon":{
-      "item":"minecraft:stripped_bamboo_block"
-    }
   },
   "requirements": [
     [

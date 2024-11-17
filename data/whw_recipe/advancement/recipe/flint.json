@@ -1,25 +1,21 @@
 {
-  "parent": "whw_recipe:recipes/root",
-  "rewards": {
-    "recipes": [ "whw_recipe:flint" ]
-  },
-  "criteria": {
-    "gravel": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [ { "item": "minecraft:gravel" } ]
+  "criteria": {   
+      "gravel": {    
+          "trigger": "minecraft:inventory_changed",    
+          "conditions": {
+              "items": [
+                  {
+                      "items": "minecraft:gravel"
+                  }
+              ]
+          }
       }
-    }
-    
   },
-  "display":{
-    "icon":{
-      "item":"minecraft:flint"
-    }
-  },
-  "requirements": [
-    [
-      "gravel"
-    ]
-  ]
+  "requirements": [    
+      ["gravel"]
+  ],
+  "parent": "whw_recipe:whw_recipe",
+  "rewards": {    
+      "recipes": ["whw_recipe:flint"]  
+  }
 }

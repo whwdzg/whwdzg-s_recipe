@@ -1,5 +1,5 @@
 {
-  "parent": "whw_recipe:recipes/root",
+  "parent": "whw_recipe:whw_recipe",
     "rewards": {
       "recipes": [ "whw_recipe:purple_stained_glass_pane" ]
     },
@@ -7,15 +7,10 @@
       "purple_stained_glass": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
-          "items": [ { "item": "minecraft:purple_stained_glass" } ]
+          "items": [ { "items": "minecraft:purple_stained_glass" } ]
         }
       }
       
-    },
-    "display":{
-      "icon":{
-        "item":"minecraft:purple_stained_glass_pane"
-      }
     },
     "requirements": [
       [

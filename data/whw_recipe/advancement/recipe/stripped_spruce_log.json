@@ -1,5 +1,5 @@
 {
-  "parent": "whw_recipe:recipes/root",
+  "parent": "whw_recipe:whw_recipe",
   "rewards": {
     "recipes": [ "whw_recipe:stripped_spruce_log" ]
   },
@@ -7,17 +7,12 @@
     "spruce_log": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [ { "item": "minecraft:spruce_log" } ]
+        "items": [ { "items": "minecraft:spruce_log" } ]
       }
     }
     
   },
-  "display":{
-    "icon":{
-      "item":"minecraft:stripped_spruce_log"
-    }
-  },
-  "requirements": [
+     "requirements": [
     [
       "spruce_log"
     ]

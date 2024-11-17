@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "porkchoph": {
+    "porkchop": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

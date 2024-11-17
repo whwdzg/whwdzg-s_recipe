@@ -1,5 +1,5 @@
 {
-  "parent": "whw_recipe:recipes/root",
+  "parent": "whw_recipe:whw_recipe",
   "rewards": {
     "recipes": [ "whw_recipe:stripped_mangrove_wood" ]
   },
@@ -7,15 +7,10 @@
     "mangrove_wood": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [ { "item": "minecraft:mangrove_wood" } ]
+        "items": [ { "items": "minecraft:mangrove_wood" } ]
       }
     }
     
-  },
-  "display":{
-    "icon":{
-      "item":"minecraft:stripped_mangrove_wood"
-    }
   },
   "requirements": [
     [
