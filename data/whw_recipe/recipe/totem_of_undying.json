@@ -6,15 +6,15 @@
     " * "
   ],
   "key": {
-    "#": {
-      "item": "minecraft:experience_bottle"
-    },
-    "*": {
-      "item": "minecraft:gold_ingot"
-    },
-    "X": {
-      "item": "minecraft:enchanted_golden_apple"
-    }
+    "#": [
+       "minecraft:experience_bottle"
+    ],
+    "*": [
+       "minecraft:gold_ingot"
+    ],
+    "X": [
+       "minecraft:enchanted_golden_apple"
+    ]
   },
   "result": {
     "id": "minecraft:totem_of_undying"

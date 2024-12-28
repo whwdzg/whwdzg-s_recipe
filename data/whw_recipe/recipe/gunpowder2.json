@@ -6,24 +6,24 @@
   },
   "ingredients": [
       [
-          {
-              "item": "minecraft:gravel" 
-          }
+          
+               "minecraft:gravel" 
+          
       ],
       [
-        {
-            "item": "minecraft:flint" 
-        }
+        
+             "minecraft:flint" 
+        
       ],
       [
-        {
-            "item": "minecraft:charcoal" 
-        }
+        
+             "minecraft:charcoal" 
+        
       ],
       [
-        {
-            "item": "minecraft:sugar" 
-        }
+        
+             "minecraft:sugar" 
+        
       ]
   ]
 }

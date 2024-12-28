@@ -7,14 +7,14 @@
   },
   "ingredients": [
       [
-          {
-              "item": "minecraft:oak_slab"
-          }
+          
+               "minecraft:oak_slab"
+          
       ],
       [
-        {
-            "item": "minecraft:stone_slab"
-        }
+        
+             "minecraft:stone_slab"
+        
       ]
   ]
 }

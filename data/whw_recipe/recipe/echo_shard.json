@@ -6,10 +6,7 @@
     },
   "ingredients": [
       [
-          {
-            "item": "minecraft:sculk",
-             "count": 2
-          }
+       "minecraft:sculk"
       ]
   ]
 }

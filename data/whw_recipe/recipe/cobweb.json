@@ -6,14 +6,10 @@
   },
   "ingredients": [
       [
-          {
-              "item": "minecraft:slime_ball" 
-          }
+         "minecraft:slime_ball" 
       ],
       [
-        {
-            "item": "minecraft:string" 
-        }
+            "minecraft:string" 
       ]
   ]
 }

@@ -6,12 +6,12 @@
     "###"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:gunpowder"
-    },
-    "&": {
-      "item": "minecraft:skeleton_skull"
-    }
+    "#": [
+       "minecraft:gunpowder"
+    ],
+    "&":[
+       "minecraft:skeleton_skull"
+    ]
   },
   "result": {
     "id": "minecraft:creeper_head"

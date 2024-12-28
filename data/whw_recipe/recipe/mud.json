@@ -7,49 +7,49 @@
   },
   "ingredients": [
       [
-          {
-              "item": "minecraft:dirt" 
-          }
+          
+               "minecraft:dirt" 
+          
       ],
       [
-        {
-            "item": "minecraft:dirt" 
-        }
+        
+             "minecraft:dirt" 
+        
       ],
       [
-        {
-            "item": "minecraft:dirt" 
-        }
+        
+             "minecraft:dirt" 
+        
       ],
       [
-        {
-            "item": "minecraft:dirt" 
-        }
+        
+             "minecraft:dirt" 
+        
      ],
       [
-        {
-            "item": "minecraft:dirt" 
-        }
+        
+             "minecraft:dirt" 
+        
       ],
       [
-        {
-            "item": "minecraft:dirt" 
-        }
+        
+             "minecraft:dirt" 
+        
       ],
       [
-        {
-            "item": "minecraft:dirt" 
-        }
+        
+             "minecraft:dirt" 
+        
       ],
       [
-        {
-            "item": "minecraft:dirt" 
-        }
+        
+             "minecraft:dirt" 
+        
       ],
       [
-        {
-            "item": "minecraft:water_bucket" 
-        }
+        
+             "minecraft:water_bucket" 
+        
       ]
   ]
 }

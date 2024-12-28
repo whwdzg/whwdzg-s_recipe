@@ -6,12 +6,12 @@
     " * "
   ],
   "key": {
-    "*": {
-      "item": "minecraft:diamond"
-    },
-    "X": {
-      "item": "minecraft:heart_of_the_sea"
-    }
+    "*": [
+       "minecraft:diamond"
+    ],
+    "X": [
+       "minecraft:heart_of_the_sea"
+    ]
   },
   "result": {
     "id": "minecraft:trident"
