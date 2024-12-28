@@ -6,12 +6,12 @@
     " # "
   ],
   "key": {
-    "#": {
-      "item": "minecraft:glowstone_dust"
-    },
-    "X": {
-      "item": "minecraft:glass"
-    }
+    "#": [
+       "minecraft:glowstone_dust"
+    ],
+    "X": [
+       "minecraft:glass"
+    ]
   },
   "result": {
     "id": "minecraft:light"

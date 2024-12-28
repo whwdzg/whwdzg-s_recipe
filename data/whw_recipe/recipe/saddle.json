@@ -6,15 +6,15 @@
     "& &"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:leather"
-    },
-    "X": {
-      "item": "minecraft:string"
-    },
-    "&": {
-      "item": "minecraft:iron_ingot"
-    }
+    "#": [
+       "minecraft:leather"
+    ],
+    "X": [
+       "minecraft:string"
+    ],
+    "&": [
+       "minecraft:iron_ingot"
+    ]
   },
   "result": {
     "id": "minecraft:saddle"

@@ -6,12 +6,12 @@
     "###"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:rotten_flesh"
-    },
-    "&": {
-      "item": "minecraft:skeleton_skull"
-    }
+    "#": [
+       "minecraft:rotten_flesh"
+    ],
+    "&": [
+       "minecraft:skeleton_skull"
+    ]
   },
   "result": {
     "id": "minecraft:zombie_head"

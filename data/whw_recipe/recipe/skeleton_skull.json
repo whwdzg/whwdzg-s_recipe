@@ -6,9 +6,9 @@
     "###"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:bone"
-    }
+    "#": [
+       "minecraft:bone"
+    ]
   },
   "result": {
     "id": "minecraft:skeleton_skull"

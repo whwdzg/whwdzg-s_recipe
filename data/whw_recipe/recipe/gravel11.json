@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "minecraft:blackstone"
-  },
+  "ingredient": [
+     "minecraft:blackstone"
+  ],
   "result": {
     "id": "minecraft:gravel",
     "count": 1

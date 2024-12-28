@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "minecraft:diorite"
-  },
+  "ingredient": [
+     "minecraft:diorite"
+  ],
   "result": {
     "id": "minecraft:gravel",
     "count": 1

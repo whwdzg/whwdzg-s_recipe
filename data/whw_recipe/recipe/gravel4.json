@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "minecraft:cobbled_deepslate"
-  },
+  "ingredient": [
+     "minecraft:cobbled_deepslate"
+  ],
   "result": {
     "id": "minecraft:gravel",
     "count": 1

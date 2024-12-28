@@ -1,8 +1,8 @@
 {
   "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "minecraft:piglin_head"
-  },
+  "ingredient": [
+     "minecraft:piglin_head"
+  ],
   "result": {
     "id": "minecraft:skeleton_skull"
   },

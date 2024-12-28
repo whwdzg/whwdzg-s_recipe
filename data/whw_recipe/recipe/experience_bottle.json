@@ -6,12 +6,12 @@
     " # "
   ],
   "key": {
-    "#": {
-      "item": "minecraft:lapis_lazuli"
-    },
-    "X": {
-      "item": "minecraft:glass_bottle"
-    }
+    "#": [
+       "minecraft:lapis_lazuli"
+    ],
+    "X": [
+       "minecraft:glass_bottle"
+    ]
   },
   "result": {
     "id": "minecraft:experience_bottle"
