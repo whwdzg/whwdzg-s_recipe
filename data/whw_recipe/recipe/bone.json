@@ -1,13 +1,15 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "category":"misc",
+  "category":"disc",
   "result": {
-      "id": "minecraft:bone",
+      "item": "minecraft:bone",
       "count": 8
   },
   "ingredients": [
       [
-         "minecraft:skeleton_skull" 
+          {
+              "item": "minecraft:skeleton_skull" 
+          }
       ]
   ]
 }

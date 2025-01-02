@@ -6,14 +6,14 @@
     "###"
   ],
   "key": {
-    "#": [
-       "minecraft:porkchop"
-    ],
-    "&": [
-       "minecraft:skeleton_skull"
-    ]
+    "#": {
+      "item": "minecraft:porkchop"
+    },
+    "&": {
+      "item": "minecraft:skeleton_skull"
+    }
   },
   "result": {
-    "id": "minecraft:piglin_head"
+    "item": "minecraft:piglin_head"
   }
 }

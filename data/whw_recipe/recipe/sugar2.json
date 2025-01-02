@@ -1,14 +1,14 @@
 {
   "type": "minecraft:crafting_shapeless",
   "result": {
-      "id": "minecraft:sugar",
+      "item": "minecraft:sugar",
       "count": 1
   },
   "ingredients": [
       [
-          
-               "melon" 
-          
+          {
+              "item": "melon" 
+          }
       ]
   ]
 }

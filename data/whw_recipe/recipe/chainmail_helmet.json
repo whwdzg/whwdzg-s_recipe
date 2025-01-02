@@ -7,11 +7,11 @@
     "   "
   ],
   "key": {
-    "#": [
-       "minecraft:chain"
-    ]
+    "#": {
+      "item": "minecraft:chain"
+    }
   },
   "result": {
-    "id": "minecraft:chainmail_helmet"
+    "item": "minecraft:chainmail_helmet"
   }
 }

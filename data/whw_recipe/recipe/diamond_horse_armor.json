@@ -6,14 +6,14 @@
     "###"
   ],
   "key": {
-    "#": [
-       "minecraft:diamond"
-    ],
-    "X": [
-       "minecraft:leather_horse_armor"
-    ]
+    "#": {
+      "item": "minecraft:diamond"
+    },
+    "X": {
+      "item": "minecraft:leather_horse_armor"
+    }
   },
   "result": {
-    "id": "minecraft:diamond_horse_armor"
+    "item": "minecraft:diamond_horse_armor"
   }
 }

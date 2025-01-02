@@ -6,17 +6,17 @@
     "*#*"
   ],
   "key": {
-    "#": [
-       "minecraft:prismarine_crystals"
-    ],
-    "*": [
-       "minecraft:prismarine_shard"
-    ],
-    "X": [
-       "minecraft:diamond"
-    ]
+    "#": {
+      "item": "minecraft:prismarine_crystals"
+    },
+    "*": {
+      "item": "minecraft:prismarine_shard"
+    },
+    "X": {
+      "item": "minecraft:diamond"
+    }
   },
   "result": {
-    "id": "minecraft:heart_of_the_sea"
+    "item": "minecraft:heart_of_the_sea"
   }
 }

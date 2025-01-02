@@ -1,11 +1,9 @@
 {
   "type": "minecraft:smelting",
-  "ingredient": [
-    "minecraft:mud"
-  ],
-  "result": {
-      "id": "minecraft:clay"
-    },
+  "ingredient": {
+    "item": "minecraft:mud"
+  },
+  "result": "minecraft:clay",
   "experience": 1,
   "cookingtime": 100
 }

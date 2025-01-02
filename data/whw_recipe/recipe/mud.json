@@ -1,55 +1,55 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "category":"misc",
+  "category":"disc",
   "result": {
-      "id": "minecraft:mud",
+      "item": "minecraft:mud",
       "count": 8
   },
   "ingredients": [
       [
-          
-               "minecraft:dirt" 
-          
+          {
+              "item": "minecraft:dirt" 
+          }
       ],
       [
-        
-             "minecraft:dirt" 
-        
+        {
+            "item": "minecraft:dirt" 
+        }
       ],
       [
-        
-             "minecraft:dirt" 
-        
+        {
+            "item": "minecraft:dirt" 
+        }
       ],
       [
-        
-             "minecraft:dirt" 
-        
+        {
+            "item": "minecraft:dirt" 
+        }
      ],
       [
-        
-             "minecraft:dirt" 
-        
+        {
+            "item": "minecraft:dirt" 
+        }
       ],
       [
-        
-             "minecraft:dirt" 
-        
+        {
+            "item": "minecraft:dirt" 
+        }
       ],
       [
-        
-             "minecraft:dirt" 
-        
+        {
+            "item": "minecraft:dirt" 
+        }
       ],
       [
-        
-             "minecraft:dirt" 
-        
+        {
+            "item": "minecraft:dirt" 
+        }
       ],
       [
-        
-             "minecraft:water_bucket" 
-        
+        {
+            "item": "minecraft:water_bucket" 
+        }
       ]
   ]
 }
