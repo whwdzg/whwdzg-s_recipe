@@ -1,0 +1,2 @@
+scoreboard objectives add Killed_By killedByTeam
+scoreboard objectives setdisplay sidebar Killed_By

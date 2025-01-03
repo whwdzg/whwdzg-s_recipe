@@ -15,9 +15,6 @@
 # Modrinth
 [https://modrinth.com/datapack/whwdzg-s-recipe](https://modrinth.com/datapack/whwdzg-s-recipe)
 
-# MCMOD
-[https://www.mcmod.cn/class/17614.html](https://www.mcmod.cn/class/17614.html)
-
 # Q&A
 - **1.How to get the recipe?**
 
