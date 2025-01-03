@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "category":"disc",
+  "category":"misc",
   "result": {
       "item": "minecraft:mud",
       "count": 8
