@@ -36,8 +36,8 @@
 
 - **4.What's the differences between versions x.x.x.1 & x.x.x.0?**
 
- Currently whwdzg's recipe support 1.21.2+ & 1.13-1.20.4, x.x.x.0 is the pack for 1.13-1.20.4, x.x.x.1 is the pack for 1.21.2+
+    Currently whwdzg's recipe support 1.21.2+ & 1.13-1.20.4, x.x.x.0 is the pack for 1.13-1.20.4, x.x.x.1 is the pack for 1.21.2+
   
-For compatibility, the root advancement icon is replaced to chest in x.x.x.0 version
+    For compatibility, the root advancement icon is replaced to chest in x.x.x.0 version
 
-Due to the differences between different Minecraft versions ,not every feature in x.x.x.1 can run properly in x.x.x.0 version
+    Due to the differences between different Minecraft versions ,not every feature in x.x.x.1 can run properly in x.x.x.0 version
