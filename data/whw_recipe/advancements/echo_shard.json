@@ -6,7 +6,7 @@
                 "recipe_id": "whw_recipe:echo_shard",
                 "ingredients": [
                     {
-                        "items": "minecraft:sculk"
+                        "items": ["minecraft:sculk"]
                     }
                 ]
             }

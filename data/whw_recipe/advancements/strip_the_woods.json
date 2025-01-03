@@ -6,7 +6,7 @@
                 "recipe_id": "whw_recipe:stripped_acacia_log",
                 "ingredients": [
                     {
-                        "items": "minecraft:acacia_log"
+                        "items": ["minecraft:acacia_log"]
                     }
                 ]
             }
@@ -17,7 +17,7 @@
                 "recipe_id": "whw_recipe:stripped_acacia_wood",
                 "ingredients": [
                     {
-                        "items": "minecraft:acacia_wood"
+                        "items": ["minecraft:acacia_wood"]
                     }
                 ]
             }
@@ -28,7 +28,7 @@
                 "recipe_id": "whw_recipe:stripped_bamboo_block",
                 "ingredients": [
                     {
-                        "items": "minecraft:bamboo_block"
+                        "items": ["minecraft:bamboo_block"]
                     }
                 ]
             }
@@ -39,7 +39,7 @@
                 "recipe_id": "whw_recipe:stripped_birch_log",
                 "ingredients": [
                     {
-                        "items": "minecraft:birch_log"
+                        "items": ["minecraft:birch_log"]
                     }
                 ]
             }
@@ -50,7 +50,7 @@
                 "recipe_id": "whw_recipe:stripped_birch_wood",
                 "ingredients": [
                     {
-                        "items": "minecraft:birch_wood"
+                        "items": ["minecraft:birch_wood"]
                     }
                 ]
             }
@@ -61,7 +61,7 @@
                 "recipe_id": "whw_recipe:stripped_cherry_log",
                 "ingredients": [
                     {
-                        "items": "minecraft:cherry_log"
+                        "items": ["minecraft:cherry_log"]
                     }
                 ]
             }
@@ -72,7 +72,7 @@
                 "recipe_id": "whw_recipe:stripped_cherry_wood",
                 "ingredients": [
                     {
-                        "items": "minecraft:cherry_wood"
+                        "items": ["minecraft:cherry_wood"]
                     }
                 ]
             }
@@ -83,7 +83,7 @@
                 "recipe_id": "whw_recipe:stripped_crimson_hyphae",
                 "ingredients": [
                     {
-                        "items": "minecraft:crimson_hyphae"
+                        "items": ["minecraft:crimson_hyphae"]
                     }
                 ]
             }
@@ -94,7 +94,7 @@
                 "recipe_id": "whw_recipe:stripped_crimson_stem",
                 "ingredients": [
                     {
-                        "items": "minecraft:crimson_stem"
+                        "items": ["minecraft:crimson_stem"]
                     }
                 ]
             }
@@ -105,7 +105,7 @@
                 "recipe_id": "whw_recipe:stripped_dark_oak_log",
                 "ingredients": [
                     {
-                        "items": "minecraft:dark_oak_log"
+                        "items": ["minecraft:dark_oak_log"]
                     }
                 ]
             }
@@ -116,7 +116,7 @@
                 "recipe_id": "whw_recipe:stripped_dark_oak_wood",
                 "ingredients": [
                     {
-                        "items": "minecraft:dark_oak_wood"
+                        "items": ["minecraft:dark_oak_wood"]
                     }
                 ]
             }
@@ -127,7 +127,7 @@
                 "recipe_id": "whw_recipe:stripped_jungle_log",
                 "ingredients": [
                     {
-                        "items": "minecraft:jungle_log"
+                        "items": ["minecraft:jungle_log"]
                     }
                 ]
             }
@@ -138,7 +138,7 @@
                 "recipe_id": "whw_recipe:stripped_jungle_wood",
                 "ingredients": [
                     {
-                        "items": "minecraft:jungle_wood"
+                        "items": ["minecraft:jungle_wood"]
                     }
                 ]
             }
@@ -149,7 +149,7 @@
                 "recipe_id": "whw_recipe:stripped_mangrove_log",
                 "ingredients": [
                     {
-                        "items": "minecraft:mangrove_log"
+                        "items": ["minecraft:mangrove_log"]
                     }
                 ]
             }
@@ -160,7 +160,7 @@
                 "recipe_id": "whw_recipe:stripped_mangrove_wood",
                 "ingredients": [
                     {
-                        "items": "minecraft:mangrove_wood"
+                        "items": ["minecraft:mangrove_wood"]
                     }
                 ]
             }
@@ -171,7 +171,7 @@
                 "recipe_id": "whw_recipe:stripped_oak_log",
                 "ingredients": [
                     {
-                        "items": "minecraft:oak_log"
+                        "items": ["minecraft:oak_log"]
                     }
                 ]
             }
@@ -182,7 +182,7 @@
                 "recipe_id": "whw_recipe:stripped_oak_wood",
                 "ingredients": [
                     {
-                        "items": "minecraft:oak_wood"
+                        "items": ["minecraft:oak_wood"]
                     }
                 ]
             }
@@ -193,7 +193,7 @@
                 "recipe_id": "whw_recipe:stripped_spruce_log",
                 "ingredients": [
                     {
-                        "items": "minecraft:spruce_log"
+                        "items": ["minecraft:spruce_log"]
                     }
                 ]
             }
@@ -204,7 +204,7 @@
                 "recipe_id": "whw_recipe:stripped_spruce_wood",
                 "ingredients": [
                     {
-                        "items": "minecraft:spruce_wood"
+                        "items": ["minecraft:spruce_wood"]
                     }
                 ]
             }
@@ -215,7 +215,7 @@
                 "recipe_id": "whw_recipe:stripped_warped_hyphae",
                 "ingredients": [
                     {
-                        "items": "minecraft:warped_hyphae"
+                        "items": ["minecraft:warped_hyphae"]
                     }
                 ]
             }
@@ -226,7 +226,7 @@
                 "recipe_id": "whw_recipe:stripped_warped_stem",
                 "ingredients": [
                     {
-                        "items": "minecraft:warped_stem"
+                        "items": ["minecraft:warped_stem"]
                     }
                 ]
             }

@@ -6,7 +6,7 @@
                 "recipe_id": "whw_recipe:rabbit_hide",
                 "ingredients": [
                     {
-                        "items":"minecraft:leather"
+                        "items":["minecraft:leather"]
                     }
                 ]
             }

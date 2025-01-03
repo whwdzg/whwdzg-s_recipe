@@ -6,7 +6,7 @@
                 "recipe_id": "whw_recipe:glass_pane",
                 "ingredients": [
                     {
-                        "items": "minecraft:glass"
+                        "items": ["minecraft:glass"]
                     }
                 ]
             }
@@ -17,7 +17,7 @@
                 "recipe_id": "whw_recipe:black_stained_glass_pane",
                 "ingredients": [
                     {
-                        "items": "minecraft:black_stained_glass"
+                        "items": ["minecraft:black_stained_glass"]
                     }
                 ]
             }
@@ -28,7 +28,7 @@
                 "recipe_id": "whw_recipe:blue_stained_glass_pane",
                 "ingredients": [
                     {
-                        "items": "minecraft:blue_stained_glass"
+                        "items": ["minecraft:blue_stained_glass"]
                     }
                 ]
             }
@@ -39,7 +39,7 @@
                 "recipe_id": "whw_recipe:brown_stained_glass_pane",
                 "ingredients": [
                     {
-                        "items": "minecraft:brown_stained_glass"
+                        "items": ["minecraft:brown_stained_glass"]
                     }
                 ]
             }
@@ -50,7 +50,7 @@
                 "recipe_id": "whw_recipe:cyan_stained_glass_pane",
                 "ingredients": [
                     {
-                        "items": "minecraft:cyan_stained_glass"
+                        "items": ["minecraft:cyan_stained_glass"]
                     }
                 ]
             }
@@ -61,7 +61,7 @@
                 "recipe_id": "whw_recipe:gray_stained_glass_pane",
                 "ingredients": [
                     {
-                        "items": "minecraft:gray_stained_glass"
+                        "items": ["minecraft:gray_stained_glass"]
                     }
                 ]
             }
@@ -72,7 +72,7 @@
                 "recipe_id": "whw_recipe:green_stained_glass_pane",
                 "ingredients": [
                     {
-                        "items": "minecraft:green_stained_glass"
+                        "items": ["minecraft:green_stained_glass"]
                     }
                 ]
             }
@@ -83,7 +83,7 @@
                 "recipe_id": "whw_recipe:light_blue_stained_glass_pane",
                 "ingredients": [
                     {
-                        "items": "minecraft:light_blue_stained_glass"
+                        "items": ["minecraft:light_blue_stained_glass"]
                     }
                 ]
             }
@@ -94,7 +94,7 @@
                 "recipe_id": "whw_recipe:light_gray_stained_glass_pane",
                 "ingredients": [
                     {
-                        "items": "minecraft:light_gray_stained_glass"
+                        "items": ["minecraft:light_gray_stained_glass"]
                     }
                 ]
             }
@@ -105,7 +105,7 @@
                 "recipe_id": "whw_recipe:lime_stained_glass_pane",
                 "ingredients": [
                     {
-                        "items": "minecraft:lime_stained_glass"
+                        "items": ["minecraft:lime_stained_glass"]
                     }
                 ]
             }
@@ -116,7 +116,7 @@
                 "recipe_id": "whw_recipe:magenta_stained_glass_pane",
                 "ingredients": [
                     {
-                        "items": "minecraft:magenta_stained_glass"
+                        "items": ["minecraft:magenta_stained_glass"]
                     }
                 ]
             }
@@ -127,7 +127,7 @@
                 "recipe_id": "whw_recipe:orange_stained_glass_pane",
                 "ingredients": [
                     {
-                        "items": "minecraft:orange_stained_glass"
+                        "items": ["minecraft:orange_stained_glass"]
                     }
                 ]
             }
@@ -138,7 +138,7 @@
                 "recipe_id": "whw_recipe:pink_stained_glass_pane",
                 "ingredients": [
                     {
-                        "items": "minecraft:pink_stained_glass"
+                        "items": ["minecraft:pink_stained_glass"]
                     }
                 ]
             }
@@ -149,7 +149,7 @@
                 "recipe_id": "whw_recipe:purple_stained_glass_pane",
                 "ingredients": [
                     {
-                        "items": "minecraft:purple_stained_glass"
+                        "items": ["minecraft:purple_stained_glass"]
                     }
                 ]
             }
@@ -160,7 +160,7 @@
                 "recipe_id": "whw_recipe:red_stained_glass_pane",
                 "ingredients": [
                     {
-                        "items": "minecraft:red_stained_glass"
+                        "items": ["minecraft:red_stained_glass"]
                     }
                 ]
             }
@@ -171,7 +171,7 @@
                 "recipe_id": "whw_recipe:white_stained_glass_pane",
                 "ingredients": [
                     {
-                        "items": "minecraft:white_stained_glass"
+                        "items": ["minecraft:white_stained_glass"]
                     }
                 ]
             }
@@ -182,7 +182,7 @@
                 "recipe_id": "whw_recipe:yellow_stained_glass_pane",
                 "ingredients": [
                     {
-                        "items": "minecraft:yellow_stained_glass"
+                        "items": ["minecraft:yellow_stained_glass"]
                     }
                 ]
             }

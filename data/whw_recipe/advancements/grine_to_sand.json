@@ -6,7 +6,7 @@
                 "recipe_id": "whw_recipe:sand",
                 "ingredients": [
                     {
-                        "items": "minecraft:gravel"
+                        "items": ["minecraft:gravel"]
                     }
                 ]
             }
@@ -17,7 +17,7 @@
                 "recipe_id": "whw_recipe:red_sand",
                 "ingredients": [
                     {
-                        "items": "minecraft:gravel"
+                        "items": ["minecraft:gravel"]
                     }
                 ]
             }
@@ -28,7 +28,7 @@
                 "recipe_id": "whw_recipe:red_sand2",
                 "ingredients": [
                     {
-                        "items": "minecraft:terracotta"
+                        "items": ["minecraft:terracotta"]
                     }
                 ]
             }

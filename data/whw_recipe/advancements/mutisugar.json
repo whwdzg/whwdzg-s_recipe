@@ -6,7 +6,7 @@
                 "recipe_id": "whw_recipe:sugar",
                 "ingredients": [
                     {
-                        "items": "minecraft:apple"
+                        "items": ["minecraft:apple"]
                     }
                 ]
             }
@@ -17,7 +17,7 @@
                 "recipe_id": "whw_recipe:sugar2",
                 "ingredients": [
                     {
-                        "items": "minecraft:melon"
+                        "items": ["minecraft:melon"]
                     }
                 ]
             }
@@ -28,7 +28,7 @@
                 "recipe_id": "whw_recipe:sugar3",
                 "ingredients": [
                     {
-                        "items": "minecraft:pumpkin"
+                        "items": ["minecraft:pumpkin"]
                     }
                 ]
             }
@@ -39,7 +39,7 @@
                 "recipe_id": "whw_recipe:sugar4",
                 "ingredients": [
                     {
-                        "items": "minecraft:sweet_berries"
+                        "items": ["minecraft:sweet_berries"]
                     }
                 ]
             }
@@ -50,7 +50,7 @@
                 "recipe_id": "whw_recipe:sugar5",
                 "ingredients": [
                     {
-                        "items": "minecraft:glow_berries"
+                        "items": ["minecraft:glow_berries"]
                     }
                 ]
             }
@@ -61,7 +61,7 @@
                 "recipe_id": "whw_recipe:sugar6",
                 "ingredients": [
                     {
-                        "items": "minecraft:beetroot_soup"
+                        "items": ["minecraft:beetroot_soup"]
                     }
                 ]
             }

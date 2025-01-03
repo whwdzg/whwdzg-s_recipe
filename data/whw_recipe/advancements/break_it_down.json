@@ -6,7 +6,7 @@
                 "recipe_id": "whw_recipe:brick",
                 "ingredients": [
                     {
-                        "items": "minecraft:bricks"
+                        "items": ["minecraft:bricks"]
                     }
                 ]
             }
@@ -17,7 +17,7 @@
                 "recipe_id": "whw_recipe:nether_brick",
                 "ingredients": [
                     {
-                        "items": "minecraft:nether_bricks"
+                        "items": ["minecraft:nether_bricks"]
                     }
                 ]
             }

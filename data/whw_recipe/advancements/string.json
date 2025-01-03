@@ -6,7 +6,7 @@
                 "recipe_id": "whw_recipe:string",
                 "ingredients": [
                     {
-                        "items": "minecraft:white_wool"
+                        "items":["minecraft:white_wool"]
                     }
                 ]
             }

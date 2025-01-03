@@ -6,7 +6,7 @@
                 "recipe_id": "whw_recipe:gravel",
                 "ingredients": [
                     {
-                        "items": "minecraft:stone"
+                        "items": ["minecraft:stone"]
                     }
                 ]
             }
@@ -17,7 +17,7 @@
                 "recipe_id": "whw_recipe:gravel2",
                 "ingredients": [
                     {
-                        "items": "minecraft:cobblestone"
+                        "items": ["minecraft:cobblestone"]
                     }
                 ]
             }
@@ -28,7 +28,7 @@
                 "recipe_id": "whw_recipe:gravel3",
                 "ingredients": [
                     {
-                        "items": "minecraft:deepslate"
+                        "items": ["minecraft:deepslate"]
                     }
                 ]
             }
@@ -39,7 +39,7 @@
                 "recipe_id": "whw_recipe:gravel4",
                 "ingredients": [
                     {
-                        "items": "minecraft:cobbled_deepslate"
+                        "items": ["minecraft:cobbled_deepslate"]
                     }
                 ]
             }
@@ -50,7 +50,7 @@
                 "recipe_id": "whw_recipe:gravel5",
                 "ingredients": [
                     {
-                        "items": "minecraft:diorite"
+                        "items": ["minecraft:diorite"]
                     }
                 ]
             }
@@ -61,7 +61,7 @@
                 "recipe_id": "whw_recipe:gravel6",
                 "ingredients": [
                     {
-                        "items": "minecraft:andesite"
+                        "items": ["minecraft:andesite"]
                     }
                 ]
             }
@@ -72,7 +72,7 @@
                 "recipe_id": "whw_recipe:gravel7",
                 "ingredients": [
                     {
-                        "items": "minecraft:granite"
+                        "items": ["minecraft:granite"]
                     }
                 ]
             }
@@ -83,7 +83,7 @@
                 "recipe_id": "whw_recipe:gravel8",
                 "ingredients": [
                     {
-                        "items": "minecraft:calcite"
+                        "items": ["minecraft:calcite"]
                     }
                 ]
             }
@@ -94,7 +94,7 @@
                 "recipe_id": "whw_recipe:gravel9",
                 "ingredients": [
                     {
-                        "items": "minecraft:tuff"
+                        "items": ["minecraft:tuff"]
                     }
                 ]
             }
@@ -105,7 +105,7 @@
                 "recipe_id": "whw_recipe:gravel10",
                 "ingredients": [
                     {
-                        "items": "minecraft:basalt"
+                        "items": ["minecraft:basalt"]
                     }
                 ]
             }
@@ -116,7 +116,7 @@
                 "recipe_id": "whw_recipe:gravel11",
                 "ingredients": [
                     {
-                        "items": "minecraft:blackstone"
+                        "items": ["minecraft:blackstone"]
                     }
                 ]
             }

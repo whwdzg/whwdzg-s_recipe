@@ -6,7 +6,7 @@
                 "recipe_id": "whw_recipe:flint",
                 "ingredients": [
                     {
-                        "items": "minecraft:gravel"
+                        "items": ["minecraft:gravel"]
                     }
                 ]
             }
