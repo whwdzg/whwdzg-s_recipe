@@ -7,7 +7,7 @@
     "gravel": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [ { "items": "minecraft:gravel" } ]
+        "items": [ { "items": ["minecraft:gravel"] } ]
       }
     }
     

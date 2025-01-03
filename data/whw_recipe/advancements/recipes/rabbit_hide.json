@@ -7,7 +7,7 @@
       "leather": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
-          "items": [ { "items": "minecraft:leather" } ]
+          "items": [ { "items": ["minecraft:leather" ]} ]
         }
       }
     

@@ -7,7 +7,7 @@
     "acacia_log": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [ { "items": "minecraft:acacia_log" } ]
+        "items": [ { "items": ["minecraft:acacia_log"] } ]
       }
     }
     

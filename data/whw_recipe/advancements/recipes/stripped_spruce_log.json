@@ -7,7 +7,7 @@
     "spruce_log": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [ { "items": "minecraft:spruce_log" } ]
+        "items": [ { "items": ["minecraft:spruce_log"] } ]
       }
     }
     

@@ -7,7 +7,7 @@
       "sweet_berries": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
-          "items": [ { "items": "minecraft:sweet_berries" } ]
+          "items": [ { "items": ["minecraft:sweet_berries"] } ]
         }
       }
     

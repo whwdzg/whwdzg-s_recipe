@@ -7,7 +7,7 @@
       "pink_stained_glass": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
-          "items": [ { "items": "minecraft:pink_stained_glass" } ]
+          "items": [ { "items": ["minecraft:pink_stained_glass"] } ]
         }
       }
       

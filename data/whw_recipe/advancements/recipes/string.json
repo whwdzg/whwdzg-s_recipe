@@ -7,7 +7,7 @@
       "white_wool": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
-          "items": [ { "items": "minecraft:white_wool" } ]
+          "items": [ { "items": ["minecraft:white_wool"] } ]
         }
       }
     

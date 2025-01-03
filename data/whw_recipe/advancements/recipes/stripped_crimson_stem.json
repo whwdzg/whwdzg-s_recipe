@@ -7,7 +7,7 @@
     "crimson_stem": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [ { "items": "minecraft:crimson_stem" } ]
+        "items": [ { "items": ["minecraft:crimson_stem"] } ]
       }
     }
     

@@ -7,7 +7,7 @@
     "mangrove_wood": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [ { "items": "minecraft:mangrove_wood" } ]
+        "items": [ { "items": ["minecraft:mangrove_wood"] } ]
       }
     }
     

@@ -7,7 +7,7 @@
       "dripstone_block": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
-          "items": [ { "items": "minecraft:dripstone_block"}]
+          "items": [ { "items": ["minecraft:dripstone_block"]}]
       }
     }
   },

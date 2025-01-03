@@ -7,7 +7,7 @@
       "beetroot_soup": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
-          "items": [ { "items": "minecraft:beetroot_soup" } ]
+          "items": [ { "items": ["minecraft:beetroot_soup"] } ]
         }
       }
     

@@ -7,13 +7,13 @@
       "oak_slab": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
-          "items": [ { "items": "minecraft:oak_slab" } ]
+          "items": [ { "items": ["minecraft:oak_slab" ]} ]
         }
       },
       "stone_slab": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
-          "items": [ { "items": "minecraft:stone_slab"} ]
+          "items": [ { "items": ["minecraft:stone_slab"]} ]
         }
       }
     },

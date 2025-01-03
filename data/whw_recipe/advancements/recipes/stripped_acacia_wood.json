@@ -7,7 +7,7 @@
     "acacia_wood": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [ { "items": "minecraft:acacia_wood" } ]
+        "items": [ { "items": ["minecraft:acacia_wood"] } ]
       }
     }
     

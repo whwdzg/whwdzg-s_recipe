@@ -7,7 +7,7 @@
     "warped_hyphae": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [ { "items": "minecraft:warped_hyphae" } ]
+        "items": [ { "items": ["minecraft:warped_hyphae"] } ]
       }
     }  
   },

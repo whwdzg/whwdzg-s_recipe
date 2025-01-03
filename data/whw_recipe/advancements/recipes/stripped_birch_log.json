@@ -7,7 +7,7 @@
     "birch_log": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [ { "items": "minecraft:birch_log" } ]
+        "items": [ { "items": ["minecraft:birch_log"] } ]
       }
     }
     

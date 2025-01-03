@@ -7,7 +7,7 @@
     "jungle_log": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [ { "items": "minecraft:jungle_log" } ]
+        "items": [ { "items": ["minecraft:jungle_log"] } ]
       }
     }
     

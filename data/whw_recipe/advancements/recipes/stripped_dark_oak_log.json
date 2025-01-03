@@ -7,7 +7,7 @@
     "dark_oak_log": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [ { "items": "minecraft:dark_oak_log" } ]
+        "items": [ { "items": ["minecraft:dark_oak_log"] } ]
       }
     }
     

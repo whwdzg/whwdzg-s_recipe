@@ -7,7 +7,7 @@
       "melon": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
-          "items": [ { "items": "minecraft:melon" } ]
+          "items": [ { "items": ["minecraft:melon"] } ]
         }
       }
     

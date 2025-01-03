@@ -7,7 +7,7 @@
     "cherry_log": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [ { "items": "minecraft:cherry_log" } ]
+        "items": [ { "items": ["minecraft:cherry_log"] } ]
       }
     }
     

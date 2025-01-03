@@ -7,7 +7,7 @@
     "warped_stem": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [ { "items": "minecraft:warped_stem" } ]
+        "items": [ { "items": ["minecraft:warped_stem"] } ]
       }
     }
   },

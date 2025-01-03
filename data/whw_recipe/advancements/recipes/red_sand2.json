@@ -7,7 +7,7 @@
     "terracotta": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [ { "items": "minecraft:terracotta" } ]
+        "items": [ { "items": ["minecraft:terracotta" ]} ]
       }
     }
     

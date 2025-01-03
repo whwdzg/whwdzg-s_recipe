@@ -7,7 +7,7 @@
       "yellow_stained_glass": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
-          "items": [ { "items": "minecraft:yellow_stained_glass" } ]
+          "items": [ { "items": ["minecraft:yellow_stained_glass"] } ]
         }
       }
       

@@ -7,7 +7,7 @@
     "dark_oak_wood": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [ { "items": "minecraft:dark_oak_wood" } ]
+        "items": [ { "items": ["minecraft:dark_oak_wood"] } ]
       }
     }
     

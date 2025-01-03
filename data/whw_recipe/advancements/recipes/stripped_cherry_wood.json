@@ -7,7 +7,7 @@
     "cherry_wood": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [ { "items": "minecraft:cherry_wood" } ]
+        "items": [ { "items": ["minecraft:cherry_wood"] } ]
       }
     }
     

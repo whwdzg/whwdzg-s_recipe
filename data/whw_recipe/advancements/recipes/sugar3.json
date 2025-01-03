@@ -7,7 +7,7 @@
       "pumpkin": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
-          "items": [ { "items": "minecraft:pumpkin" } ]
+          "items": [ { "items": ["minecraft:pumpkin"] } ]
         }
       }
     

@@ -5,7 +5,7 @@
           "conditions": {
               "items": [
                   {
-                      "items": "minecraft:slime_ball"
+                      "items": ["minecraft:slime_ball"]
                   }
               ]
           }
@@ -15,7 +15,7 @@
           "conditions": {
               "items": [
                   {
-                      "items": "minecraft:string"
+                      "items": ["minecraft:string"
                   }
               ]
           }

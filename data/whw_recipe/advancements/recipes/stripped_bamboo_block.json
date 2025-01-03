@@ -7,7 +7,7 @@
     "bamboo_block": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [ { "items": "minecraft:bamboo_block" } ]
+        "items": [ { "items": ["minecraft:bamboo_block"] } ]
       }
     }
     

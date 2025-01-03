@@ -7,7 +7,7 @@
       "apple": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
-          "items": [ { "items": "minecraft:apple" } ]
+          "items": [ { "items": ["minecraft:apple"] } ]
         }
       }
     

@@ -7,7 +7,7 @@
       "white_stained_glass": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
-          "items": [ { "items": "minecraft:white_stained_glass" } ]
+          "items": [ { "items": ["minecraft:white_stained_glass"] } ]
         }
       }
       

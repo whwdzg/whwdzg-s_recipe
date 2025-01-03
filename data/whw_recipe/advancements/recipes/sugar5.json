@@ -7,7 +7,7 @@
       "glow_berries": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
-          "items": [ { "items": "minecraft:glow_berries" } ]
+          "items": [ { "items": ["minecraft:glow_berries"] } ]
         }
       }
     

@@ -7,7 +7,7 @@
     "jungle_wood": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [ { "items": "minecraft:jungle_wood" } ]
+        "items": [ { "items": ["minecraft:jungle_wood"] } ]
       }
     }
     
