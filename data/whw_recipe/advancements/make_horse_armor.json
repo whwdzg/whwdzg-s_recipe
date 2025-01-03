@@ -36,7 +36,7 @@
     },
     "display": {
         "icon": {    
-            "id": "minecraft:diamond_horse_armor"
+            "item": "minecraft:diamond_horse_armor"
          },
          "title": {
              "translate": "骑士护甲"

@@ -14,7 +14,7 @@
     },
     "display": {
         "icon": {    
-            "id": "minecraft:heart_of_the_sea"
+            "item": "minecraft:heart_of_the_sea"
          },
          "title": {
              "translate": "海洋之力"

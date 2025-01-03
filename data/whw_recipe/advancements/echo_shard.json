@@ -14,7 +14,7 @@
     },
     "display": {
         "icon": {    
-            "id": "minecraft:echo_shard"
+            "item": "minecraft:echo_shard"
          },
          "title": {
              "translate": "幽匿碎片"

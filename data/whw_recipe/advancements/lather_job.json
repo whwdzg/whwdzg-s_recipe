@@ -14,7 +14,7 @@
     },
     "display": {
         "icon": {    
-            "id": "minecraft:rabbit_hide"
+            "item": "minecraft:rabbit_hide"
          },
          "title": {
              "translate": "皮革工艺"

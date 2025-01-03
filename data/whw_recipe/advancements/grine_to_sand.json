@@ -36,7 +36,7 @@
     },
     "display": {
         "icon": {    
-            "id": "minecraft:sand"
+            "item": "minecraft:sand"
          },
          "title": {
              "translate": "精挑细筛"

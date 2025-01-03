@@ -14,7 +14,7 @@
     },
     "display": {
         "icon": {    
-            "id": "minecraft:mud"
+            "item": "minecraft:mud"
          },
          "title": {
              "translate": "和泥巴"

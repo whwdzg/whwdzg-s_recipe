@@ -14,7 +14,7 @@
     },
     "display": {
         "icon": {    
-            "id": "minecraft:experience_bottle"
+            "item": "minecraft:experience_bottle"
          },
          "title": {
              "translate": "附魔力量"

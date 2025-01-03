@@ -14,7 +14,7 @@
     },
     "display": {
         "icon": {    
-            "id": "minecraft:leather"
+            "item": "minecraft:leather"
          },
          "title": {
              "translate": "废物利用"

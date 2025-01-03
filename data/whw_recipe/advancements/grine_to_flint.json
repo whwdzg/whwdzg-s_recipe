@@ -14,7 +14,7 @@
     },
     "display": {
         "icon": {    
-            "id": "minecraft:flint"
+            "item": "minecraft:flint"
          },
          "title": {
              "translate": "机床切石"

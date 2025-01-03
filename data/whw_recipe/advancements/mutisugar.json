@@ -69,7 +69,7 @@
     },
     "display": {
         "icon": {    
-            "id": "minecraft:sugar"
+            "item": "minecraft:sugar"
          },
          "title": {
              "translate": "果糖提取"

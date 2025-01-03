@@ -14,7 +14,7 @@
     },
     "display": {
         "icon": {    
-            "id": "minecraft:cobweb"
+            "item": "minecraft:cobweb"
          },
          "title": {
              "translate": "黏线织网"

@@ -80,7 +80,7 @@
     },
     "display": {
         "icon": {    
-            "id": "minecraft:amethyst_block"
+            "item": "minecraft:amethyst_block"
          },
          "title": {
              "translate": "早该如此"

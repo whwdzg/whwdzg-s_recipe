@@ -14,7 +14,7 @@
     },
     "display": {
         "icon": {    
-            "id": "minecraft:clay"
+            "item": "minecraft:clay"
          },
          "title": {
              "translate": "水的蒸发"

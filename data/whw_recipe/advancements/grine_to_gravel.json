@@ -124,7 +124,7 @@
     },
     "display": {
         "icon": {    
-            "id": "minecraft:gravel"
+            "item": "minecraft:gravel"
          },
          "title": {
              "translate": "研磨成砾"

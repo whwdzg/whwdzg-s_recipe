@@ -14,7 +14,7 @@
     },
     "display": {
         "icon": {    
-            "id": "minecraft:trident"
+            "item": "minecraft:trident"
          },
          "title": {
              "translate": "海王武器"

@@ -234,7 +234,7 @@
     },
     "display": {
         "icon": {    
-            "id": "minecraft:stripped_oak_wood"
+            "item": "minecraft:stripped_oak_wood"
          },
          "title": {
              "translate": "快速去皮"

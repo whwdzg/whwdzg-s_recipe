@@ -25,7 +25,7 @@
     },
     "display": {
         "icon": {    
-            "id": "minecraft:brick"
+            "item": "minecraft:brick"
          },
          "title": {
              "translate": "打破砖墙"

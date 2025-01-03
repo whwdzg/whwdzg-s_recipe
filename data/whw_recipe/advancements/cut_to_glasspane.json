@@ -190,7 +190,7 @@
     },
     "display": {
         "icon": {    
-            "id": "minecraft:glass_pane"
+            "item": "minecraft:glass_pane"
          },
          "title": {
              "translate": "玻璃切片"

@@ -14,7 +14,7 @@
     },
     "display": {
         "icon": {    
-            "id": "minecraft:string"
+            "item": "minecraft:string"
          },
          "title": {
              "translate": "羊毛制线"

@@ -14,7 +14,7 @@
     },
     "display": {
         "icon": {    
-            "id": "minecraft:skeleton_skull"
+            "item": "minecraft:skeleton_skull"
          },
          "title": {
              "translate": "头颅骨"

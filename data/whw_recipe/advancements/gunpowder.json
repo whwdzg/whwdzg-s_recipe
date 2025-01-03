@@ -25,7 +25,7 @@
     },
     "display": {
         "icon": {    
-            "id": "minecraft:gunpowder"
+            "item": "minecraft:gunpowder"
          },
          "title": {
              "translate": "火药制作"

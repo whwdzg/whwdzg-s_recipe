@@ -14,7 +14,7 @@
     },
     "display": {
         "icon": {    
-            "id": "minecraft:saddle"
+            "item": "minecraft:saddle"
          },
          "title": {
              "translate": "坐骑之始"

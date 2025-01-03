@@ -14,7 +14,7 @@
     },
     "display": {
         "icon": {    
-            "id": "minecraft:light"
+            "item": "minecraft:light"
          },
          "title": {
              "translate": "光芒四射"
