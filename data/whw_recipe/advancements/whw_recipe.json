@@ -13,7 +13,7 @@
     },
     "display": {
         "icon": {    
-            "item": "minecraft:bundle"
+            "item": "minecraft:chest"
          },
          "title": {
              "translate": "whwdzg's recipe"
