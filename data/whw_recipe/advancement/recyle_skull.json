@@ -57,7 +57,7 @@
          },
          "frame": "challenge",    
          "announce_to_chat": true,     
-         "hidden": false,
+         "hidden": true,
          "show_toast": true
     },
     "parent": "whw_recipe:head_head",
