@@ -14,7 +14,7 @@
     },
     "display": {
         "icon": {    
-            "id": "minecraft:petrified_oak_slab"
+            "item": "minecraft:petrified_oak_slab"
          },
          "title": {
              "translate": "远古遗物"
