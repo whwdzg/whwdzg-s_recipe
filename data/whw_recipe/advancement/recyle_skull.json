@@ -53,7 +53,7 @@
              "translate": "头骨回收"
          },
          "description": {
-             "translate": "-不是，你在干什么！-移植头骨！"
+             "translate": "不是，你在干什么！移植头骨！"
          },
          "frame": "challenge",    
          "announce_to_chat": true,     
