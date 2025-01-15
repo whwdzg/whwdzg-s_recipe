@@ -2,13 +2,13 @@
   "type": "minecraft:crafting_shapeless",
   "category":"misc",
   "result": {
-      "item": "minecraft:sculk",
+      "item": "minecraft:echo_shard",
       "count": 2
   },
   "ingredients": [
       [
           {
-              "item": "minecraft:echo_shard" 
+              "item": "minecraft:sculk" 
           }
       ]
   ]
