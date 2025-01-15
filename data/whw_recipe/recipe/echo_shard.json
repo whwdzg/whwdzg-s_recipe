@@ -2,7 +2,8 @@
   "type": "minecraft:crafting_shapeless",
   "category":"misc",
   "result": {
-      "id": "minecraft:echo_shard"
+      "id": "minecraft:echo_shard",
+      "count": 2
     },
   "ingredients": [
       [
