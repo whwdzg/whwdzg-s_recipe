@@ -1,0 +1,37 @@
+{
+    "criteria": {   
+        "petrified_oak_slab": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:petrified_oak_slab",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:stone_slab","minecraft:oak_slab"]
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "icon": {    
+            "id": "minecraft:petrified_oak_slab"
+         },
+         "title": {
+             "translate": "远古遗物"
+         },
+         "description": {
+             "translate": "化石级遗物，石台阶和木台阶的结合体"
+         },
+         "frame": "task",    
+         "announce_to_chat": true,     
+         "hidden": false,   
+         "show_toast": true
+    },
+    "parent": "whw_recipe:whw_recipe",
+    "requirements": [    
+        ["petrified_oak_slab"]
+    ],
+    "rewards": {    
+        "experience": 10    
+    }
+}
