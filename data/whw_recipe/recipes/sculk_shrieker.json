@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "XX"
+  ],
+  "key": {
+    "#": {
+     "item":"minecraft:bone"
+    },
+    "X": {
+      "item":"minecraft:sculk"
+    }
+  },
+  "result": {
+    "item": "minecraft:sculk_shrieker",
+    "count":2
+  }
+}

@@ -10,6 +10,17 @@
                     }
                 ]
             }
+        },
+        "sculk": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:sculk",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:echo_shard"]
+                    }
+                ]
+            }
         }
     },
     "display": {
@@ -20,7 +31,7 @@
              "translate": "幽匿碎片"
          },
          "description": {
-             "translate": "用幽匿块合成回声碎片，这质量守恒吗？"
+             "translate": "通过幽匿块与回声碎片的分解，探寻洞穴深处的神秘"
          },
          "frame": "task",    
          "announce_to_chat": true,     
@@ -29,7 +40,7 @@
     },
     "parent": "whw_recipe:whw_recipe",
     "requirements": [    
-        ["echo_shard"]
+        ["echo_shard","sculk"]
     ],
     "rewards": {    
         "experience": 10    
