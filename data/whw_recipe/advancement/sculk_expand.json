@@ -1,0 +1,70 @@
+{
+    "criteria": {   
+        "sculk_catalyst": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:sculk_catalyst",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:sculk","minecraft:bone_block"]
+                    }
+                ]
+            }
+        },
+        "sculk_sensor": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:sculk_sensor",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:echo_shard","minecraft:sculk"]
+                    }
+                ]
+            }
+        },
+        "sculk_shrieker": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:sculk_shrieker",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:sculk","minecraft:bone"]
+                    }
+                ]
+            }
+        },
+        "sculk_vein": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:sculk_vein",
+                "ingredients": [
+                    {
+                        "items": "minecraft:sculk"
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "icon": {    
+            "id": "minecraft:sculk_catalyst"
+         },
+         "title": {
+             "translate": "幽匿衍生"
+         },
+         "description": {
+             "translate": "合成各类幽匿方块，就能掌握那种神秘力量？"
+         },
+         "frame": "challenge",    
+         "announce_to_chat": true,     
+         "hidden": false,   
+         "show_toast": true
+    },
+    "parent": "whw_recipe:echo_shard",
+    "requirements": [    
+        ["sculk_catalyst","sculk_sensor","sculk_shrieker","sculk_vein"]
+    ],
+    "rewards": {    
+        "experience": 10    
+    }
+}
