@@ -1,0 +1,21 @@
+{
+  "criteria": {   
+      "charcoal": {    
+          "trigger": "minecraft:inventory_changed",    
+          "conditions": {
+              "items": [
+                  {
+                      "items": "minecraft:charcoal"
+                  }
+              ]
+          }
+      }
+  },
+  "requirements": [    
+      ["charcoal"]
+  ],
+  "parent": "whw_recipe:whw_recipe",
+  "rewards": {    
+      "recipes": ["whw_recipe:coal_block"]  
+  }
+}
