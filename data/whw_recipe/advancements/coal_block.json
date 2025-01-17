@@ -1,0 +1,37 @@
+{
+    "criteria": {   
+        "coal_block": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:coal_block",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:charcoal"]
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "icon": {    
+            "item": "minecraft:coal_block"
+         },
+         "title": {
+             "translate": "压缩能源"
+         },
+         "description": {
+             "translate": "木炭集合体"
+         },
+         "frame": "task",    
+         "announce_to_chat": true,     
+         "hidden": false,   
+         "show_toast": true
+    },
+    "parent": "whw_recipe:whw_recipe",
+    "requirements": [    
+        ["coal_block"]
+    ],
+    "rewards": {    
+        "experience": 10    
+    }
+}
