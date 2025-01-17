@@ -116,7 +116,7 @@
                 "recipe_id": "whw_recipe:gravel11",
                 "ingredients": [
                     {
-                        "items": "minecraft:blackstone"
+                        "items": ["minecraft:blackstone"]
                     }
                 ]
             }
@@ -127,7 +127,7 @@
                 "recipe_id": "whw_recipe:gravel12",
                 "ingredients": [
                     {
-                        "items": "minecraft:netherrack"
+                        "items": ["minecraft:netherrack"]
                     }
                 ]
             }
@@ -138,7 +138,7 @@
                 "recipe_id": "whw_recipe:gravel13",
                 "ingredients": [
                     {
-                        "items": "minecraft:end_stone"
+                        "items": ["minecraft:end_stone"]
                     }
                 ]
             }
