@@ -14,7 +14,7 @@
     },
     "display": {
         "icon": {    
-            "id": "minecraft:charcoal"
+            "id": "minecraft:coal_block"
          },
          "title": {
              "translate": "压缩能源"
