@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+     "minecraft:netherrack"
+  ],
+  "result": {
+    "id": "minecraft:gravel",
+    "count": 1
+  }
+}

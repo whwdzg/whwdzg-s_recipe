@@ -120,6 +120,28 @@
                     }
                 ]
             }
+        },
+        "netherrack": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:gravel12",
+                "ingredients": [
+                    {
+                        "items": "minecraft:netherrack"
+                    }
+                ]
+            }
+        },
+        "end_stone": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:gravel13",
+                "ingredients": [
+                    {
+                        "items": "minecraft:end_stone"
+                    }
+                ]
+            }
         }
     },
     "display": {
@@ -139,7 +161,7 @@
     },
     "parent": "whw_recipe:strip_the_woods",
     "requirements": [    
-        ["stone","cobblestone","deepslate","cobbled_deepslate","diorite","andesite","granite","calcite","tuff","basalt","blackstone"]
+        ["stone","cobblestone","deepslate","cobbled_deepslate","diorite","andesite","granite","calcite","tuff","basalt","blackstone","netherrack","end_stone"]
     ],
     "rewards": {    
         "experience": 10    

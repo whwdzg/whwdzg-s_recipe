@@ -1,0 +1,21 @@
+{
+  "criteria": {   
+      "end_stone": {    
+          "trigger": "minecraft:inventory_changed",    
+          "conditions": {
+              "items": [
+                  {
+                      "items": "minecraft:end_stone"
+                  }
+              ]
+          }
+      }
+  },
+  "requirements": [    
+      ["end_stone"]
+  ],
+  "parent": "whw_recipe:whw_recipe",
+  "rewards": {    
+      "recipes": ["whw_recipe:gravel13"]  
+  }
+}
