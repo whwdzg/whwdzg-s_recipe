@@ -1,0 +1,39 @@
+{
+  "criteria": {
+    "end_stone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:end_stone"],
+            "count": {
+              "min": 3
+            }
+          }
+        ]
+      }
+    },
+    "stick": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:stick"],
+            "count":{
+              "min": 2
+            }
+          }
+        ]
+      }
+    }
+  },  
+  "rewards":{
+    "recipes": ["whw_recipe:stone_axe"]
+  },
+  "requirements": [
+    [
+      "end_stone",
+      "stick"
+    ]
+  ]
+}
