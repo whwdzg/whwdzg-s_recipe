@@ -88,15 +88,16 @@
                 ]
             }
         }
+    },
     "display": {
         "icon": {    
             "id": "minecraft:chainmail_chestplate"
          },
          "title": {
-             "translate": "隐藏护甲"
+             "translate": "石质工具扩展"
          },
          "description": {
-             "translate": "寻找未知护甲的秘密，并解锁隐藏的力量。"
+             "translate": "用各类石头制成工具，从此废石不再是废石。"
          },
          "frame": "task",    
          "announce_to_chat": true,     
@@ -105,7 +106,7 @@
     },
     "parent": "whw_recipe:whw_recipe",
     "requirements": [    
-        ["chainmail_boots", "chainmail_leggings", "chainmail_chestplate", "chainmail_helmet"]
+        ["stone_pickaxe","stone_pickaxe2","stone_pickaxe3","stone_pickaxe4","stone_pickaxe5","stone_pickaxe6","stone_pickaxe7","stone_pickaxe8"]
     ],
     "rewards": {    
         "experience": 10    
