@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "X",
+    "X"
+  ],
+  "key": {
+    "#": [
+     "minecraft:diorite"
+    ],
+    "X": [
+       "minecraft:stick"
+    ]
+  },
+  "result": {
+    "id": "minecraft:stone_shovel"
+  }
+}
