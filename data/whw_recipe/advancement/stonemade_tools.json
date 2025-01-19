@@ -1,0 +1,113 @@
+{
+    "criteria": {   
+        "stone_pickaxe": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:stone_pickaxe",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:diorite","minecraft:stick"]
+                    }
+                ]
+            }
+        },
+        "stone_pickaxe2": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:stone_pickaxe2",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:andesite","minecraft:stick"]
+                    }
+                ]
+            }
+        },
+        "stone_pickaxe3": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:stone_pickaxe3",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:granite","minecraft:stick"]
+                    }
+                ]
+            }
+        },
+        "stone_pickaxe4": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "whw_recipe:stone_pickaxe4",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:calcite","minecraft:stick"]
+                    }
+                ]
+            }
+        },
+        "stone_pickaxe5": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "whw_recipe:stone_pickaxe5",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:tuff","minecraft:stick"]
+                    }
+                ]
+            }
+        },
+        "stone_pickaxe6": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "whw_recipe:stone_pickaxe6",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:basalt","minecraft:stick"]
+                    }
+                ]
+            }
+        },
+        "stone_pickaxe7": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "whw_recipe:stone_pickaxe7",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:netherrack","minecraft:stick"]
+                    }
+                ]
+            }
+        },
+        "stone_pickaxe8": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "whw_recipe:stone_pickaxe8",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:end_stone","minecraft:stick"]
+                    }
+                ]
+            }
+        }
+    "display": {
+        "icon": {    
+            "id": "minecraft:chainmail_chestplate"
+         },
+         "title": {
+             "translate": "隐藏护甲"
+         },
+         "description": {
+             "translate": "寻找未知护甲的秘密，并解锁隐藏的力量。"
+         },
+         "frame": "task",    
+         "announce_to_chat": true,     
+         "hidden": false,   
+         "show_toast": true
+    },
+    "parent": "whw_recipe:whw_recipe",
+    "requirements": [    
+        ["chainmail_boots", "chainmail_leggings", "chainmail_chestplate", "chainmail_helmet"]
+    ],
+    "rewards": {    
+        "experience": 10    
+    }
+}
