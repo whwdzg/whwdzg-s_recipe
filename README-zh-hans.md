@@ -1,8 +1,7 @@
 <div align="center">
     <img align="center" src="https://raw.githubusercontent.com/whwdzg/whwdzg-s_recipe/main/pack.png" alt="logo" width="200">
     <h1 align="center">whwdzg的配方(whwdzg's_recipe)</h1>
-    <p align="center">为Minecraft添加更多合理的配方</p>
-    <a href="https://github.com/whwdzg/whwdzg-s_recipe/blob/main/README-en.md">English Ver.</a>
+    <p align="enter">为Minecraft添加更多合理的配方</p>
     <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/whwdzg/whwdzg-s_recipe">
     <img alt="GitHub forks" src="https://img.shields.io/github/forks/whwdzg/whwdzg-s_recipe">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/whwdzg/whwdzg-s_recipe">
