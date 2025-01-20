@@ -443,7 +443,7 @@
     },
     "display": {
         "icon": {    
-            "item": "minecraft:chainmail_chestplate"
+            "item": "minecraft:stone_pickaxe"
          },
          "title": {
              "translate": "石质工具扩展"
