@@ -27,7 +27,7 @@
          "hidden": false,   
          "show_toast": true
     },
-    "parent": "whw_recipe:string",
+    "parent": "whw_recipe:reuse",
     "requirements": [    
         ["rabbit_hide"]
     ],
