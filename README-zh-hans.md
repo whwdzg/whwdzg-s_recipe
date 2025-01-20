@@ -1,7 +1,7 @@
 <div align="center">
     <img align="center" src="https://raw.githubusercontent.com/whwdzg/whwdzg-s_recipe/main/pack.png" alt="logo" width="200">
-    <h1 align="center">whwdzg's_recipe</h1>
-    <p align="enter">Add some recipes to Minecraft</p>
+    <h1 align="center">whwdzg的配方(whwdzg's_recipe)</h1>
+    <p align="enter">为Minecraft添加更多合理的配方</p>
     <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/whwdzg/whwdzg-s_recipe">
     <img alt="GitHub forks" src="https://img.shields.io/github/forks/whwdzg/whwdzg-s_recipe">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/whwdzg/whwdzg-s_recipe">
@@ -19,11 +19,11 @@
 [https://www.mcmod.cn/class/17614.html](https://www.mcmod.cn/class/17614.html)
 
 # Q&A
-- **1.How to get the recipe?**
+- **1.如何获取配方？**
 
-  After you install the datapack/mod, when you get the ingredients in each recipe, you can see the recipe in the tooltip.
+  在安装了该模组/数据包的情况下，当你获取了足够的对应配方的原材料，配方便会解锁，你可以在工作台里的配方书中看到，你也可以使用JEI之类的合成辅助模组。
 
-- **2.Where can I check out the recipes that are included in whwdzg's recipe?**
+- **2.本模组/**
 
   In Github Wiki of the whwdzg/whwdzg-s_recipe repo
 **(Not Finished Yet)**.
