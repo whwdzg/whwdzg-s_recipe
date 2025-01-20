@@ -1,0 +1,466 @@
+{
+    "criteria": {   
+        "stone_pickaxe": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:stone_pickaxe",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:diorite","minecraft:stick"]
+                    }
+                ]
+            }
+        },
+        "stone_pickaxe2": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:stone_pickaxe2",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:andesite","minecraft:stick"]
+                    }
+                ]
+            }
+        },
+        "stone_pickaxe3": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:stone_pickaxe3",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:granite","minecraft:stick"]
+                    }
+                ]
+            }
+        },
+        "stone_pickaxe4": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "whw_recipe:stone_pickaxe4",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:calcite","minecraft:stick"]
+                    }
+                ]
+            }
+        },
+        "stone_pickaxe5": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "whw_recipe:stone_pickaxe5",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:tuff","minecraft:stick"]
+                    }
+                ]
+            }
+        },
+        "stone_pickaxe6": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "whw_recipe:stone_pickaxe6",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:basalt","minecraft:stick"]
+                    }
+                ]
+            }
+        },
+        "stone_pickaxe7": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "whw_recipe:stone_pickaxe7",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:netherrack","minecraft:stick"]
+                    }
+                ]
+            }
+        },
+        "stone_pickaxe8": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "whw_recipe:stone_pickaxe8",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:end_stone","minecraft:stick"]
+                    }
+                ]
+            }
+        },
+        "stone_axe": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:stone_axe",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:diorite","minecraft:stick"]
+                    }
+                ]
+            }
+        },
+        "stone_axe2": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:stone_axe2",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:andesite","minecraft:stick"]
+                    }
+                ]
+            }
+        },
+        "stone_axe3": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:stone_axe3",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:granite","minecraft:stick"]
+                    }
+                ]
+            }
+        },
+        "stone_axe4": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "whw_recipe:stone_axe4",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:calcite","minecraft:stick"]
+                    }
+                ]
+            }
+        },
+        "stone_axe5": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "whw_recipe:stone_axe5",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:tuff","minecraft:stick"]
+                    }
+                ]
+            }
+        },
+        "stone_axe6": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "whw_recipe:stone_axe6",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:basalt","minecraft:stick"]
+                    }
+                ]
+            }
+        },
+        "stone_axe7": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "whw_recipe:stone_axe7",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:netherrack","minecraft:stick"]
+                    }
+                ]
+            }
+        },
+        "stone_axe8": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "whw_recipe:stone_axe8",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:end_stone","minecraft:stick"]
+                    }
+                ]
+            }
+        },
+        "stone_hoe": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:stone_hoe",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:diorite","minecraft:stick"]
+                    }
+                ]
+            }
+        },
+        "stone_hoe2": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:stone_hoe2",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:andesite","minecraft:stick"]
+                    }
+                ]
+            }
+        },
+        "stone_hoe3": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:stone_hoe3",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:granite","minecraft:stick"]
+                    }
+                ]
+            }
+        },
+        "stone_hoe4": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "whw_recipe:stone_hoe4",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:calcite","minecraft:stick"]
+                    }
+                ]
+            }
+        },
+        "stone_hoe5": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "whw_recipe:stone_hoe5",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:tuff","minecraft:stick"]
+                    }
+                ]
+            }
+        },
+        "stone_hoe6": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "whw_recipe:stone_hoe6",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:basalt","minecraft:stick"]
+                    }
+                ]
+            }
+        },
+        "stone_hoe7": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "whw_recipe:stone_hoe7",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:netherrack","minecraft:stick"]
+                    }
+                ]
+            }
+        },
+        "stone_hoe8": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "whw_recipe:stone_hoe8",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:end_stone","minecraft:stick"]
+                    }
+                ]
+            }
+        },
+        "stone_shovel": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:stone_shovel",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:diorite","minecraft:stick"]
+                    }
+                ]
+            }
+        },
+        "stone_shovel2": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:stone_shovel2",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:andesite","minecraft:stick"]
+                    }
+                ]
+            }
+        },
+        "stone_shovel3": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:stone_shovel3",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:granite","minecraft:stick"]
+                    }
+                ]
+            }
+        },
+        "stone_shovel4": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "whw_recipe:stone_shovel4",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:calcite","minecraft:stick"]
+                    }
+                ]
+            }
+        },
+        "stone_shovel5": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "whw_recipe:stone_shovel5",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:tuff","minecraft:stick"]
+                    }
+                ]
+            }
+        },
+        "stone_shovel6": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "whw_recipe:stone_shovel6",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:basalt","minecraft:stick"]
+                    }
+                ]
+            }
+        },
+        "stone_shovel7": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "whw_recipe:stone_shovel7",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:netherrack","minecraft:stick"]
+                    }
+                ]
+            }
+        },
+        "stone_shovel8": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "whw_recipe:stone_shovel8",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:end_stone","minecraft:stick"]
+                    }
+                ]
+            }
+        },
+        "stone_sword": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:stone_sword",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:diorite","minecraft:stick"]
+                    }
+                ]
+            }
+        },
+        "stone_sword2": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:stone_sword2",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:andesite","minecraft:stick"]
+                    }
+                ]
+            }
+        },
+        "stone_sword3": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:stone_sword3",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:granite","minecraft:stick"]
+                    }
+                ]
+            }
+        },
+        "stone_sword4": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "whw_recipe:stone_sword4",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:calcite","minecraft:stick"]
+                    }
+                ]
+            }
+        },
+        "stone_sword5": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "whw_recipe:stone_sword5",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:tuff","minecraft:stick"]
+                    }
+                ]
+            }
+        },
+        "stone_sword6": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "whw_recipe:stone_sword6",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:basalt","minecraft:stick"]
+                    }
+                ]
+            }
+        },
+        "stone_sword7": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "whw_recipe:stone_sword7",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:netherrack","minecraft:stick"]
+                    }
+                ]
+            }
+        },
+        "stone_sword8": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "whw_recipe:stone_sword8",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:end_stone","minecraft:stick"]
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "icon": {    
+            "item": "minecraft:chainmail_chestplate"
+         },
+         "title": {
+             "translate": "石质工具扩展"
+         },
+         "description": {
+             "translate": "用各类石头制成工具，从此废石不再是废石。"
+         },
+         "frame": "task",    
+         "announce_to_chat": true,     
+         "hidden": false,   
+         "show_toast": true
+    },
+    "parent": "whw_recipe:whw_recipe",
+    "requirements": [    
+        ["stone_pickaxe","stone_pickaxe2","stone_pickaxe3","stone_pickaxe4","stone_pickaxe5","stone_pickaxe6","stone_pickaxe7","stone_pickaxe8","stone_axe","stone_axe2","stone_axe3","stone_axe4","stone_axe5","stone_axe6","stone_axe7","stone_axe8","stone_hoe","stone_hoe2","stone_hoe3","stone_hoe4","stone_hoe5","stone_hoe6","stone_hoe7","stone_hoe8","stone_shovel","stone_shovel2","stone_shovel3","stone_shovel4","stone_shovel5","stone_shovel6","stone_shovel7","stone_shovel8","stone_sword","stone_sword2","stone_sword3","stone_sword4","stone_sword5","stone_sword6","stone_sword7","stone_sword8"]
+    ],
+    "rewards": {    
+        "experience": 10    
+    }
+}
