@@ -23,10 +23,10 @@
 
   在安装了该模组/数据包的情况下，当你获取了足够的对应配方的原材料，配方便会解锁，你可以在工作台里的配方书中看到，你也可以使用JEI之类的合成辅助模组。
 
-- **2.本模组/**
+- **2.如何查看本模组/模组添加了哪些配方？**
 
-  In Github Wiki of the whwdzg/whwdzg-s_recipe repo
-**(Not Finished Yet)**.
+  在Github的whwdzg/whw-recipe仓库的Github Wiki中查看
+**(尚未完成)**.
 
 - **3.How can I get the advncemnets of the recipes?**
 
