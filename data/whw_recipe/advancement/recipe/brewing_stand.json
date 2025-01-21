@@ -1,39 +1,39 @@
 {
   "criteria": {
-    "granite": {
+    "stone_resourse_crafting": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": ["minecraft:granite"],
+            "items": "#whw_recipe:stone_resourse_crafting",
             "count": {
-              "min": 2
+              "min": 3
             }
           }
         ]
       }
     },
-    "stick": {
+    "blaze_rod":{
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": ["minecraft:stick"],
-            "count":{
-              "min": 2
+            "items": ["minecraft:blaze_rod"],
+            "count": {
+              "min": 1
             }
           }
         ]
       }
-    }
+    }   
   },  
   "rewards":{
-    "recipes": ["whw_recipe:stone_hoe"]
+    "recipes": ["whw_recipe:brewing_stand"]
   },
   "requirements": [
     [
-      "granite",
-      "stick"
+      "stone_resourse_crafting",
+      "blaze_rod"
     ]
   ]
 }

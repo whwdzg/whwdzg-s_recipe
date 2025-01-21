@@ -6,9 +6,8 @@
     "###"
   ],
   "key": {
-    "#": [
-     "minecraft:diorite"
-    ]
+    "#": 
+     "#whw_recipe:stone_resourse_crafting"
   },
   "result": {
     "id": "minecraft:furnace"

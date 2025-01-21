@@ -6,9 +6,9 @@
     "X"
   ],
   "key": {
-    "#": [
-     "minecraft:diorite"
-    ],
+    "#": 
+     "#whw_recipe:stone_resourse_crafting"
+    ,
     "X": [
        "minecraft:stick"
     ]

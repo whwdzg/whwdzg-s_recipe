@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": [
-     "minecraft:stone"
-  ],
+  "ingredient": 
+     "#whw_recipe:stone_resourse"
+  ,
   "result": {
     "id": "minecraft:gravel",
     "count": 1
