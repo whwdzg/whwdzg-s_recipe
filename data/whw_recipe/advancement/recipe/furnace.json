@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "diorite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:diorite"],
+            "count": {
+              "min": 8
+            }
+          }
+        ]
+      }
+    }
+  },  
+  "rewards":{
+    "recipes": ["whw_recipe:furnace"]
+  },
+  "requirements": [
+    [
+      "diorite"
+    ]
+  ]
+}

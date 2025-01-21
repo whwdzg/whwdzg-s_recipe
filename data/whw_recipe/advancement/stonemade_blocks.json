@@ -1,0 +1,114 @@
+{
+    "criteria": {   
+        "furnace": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:furnace",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:diorite"]
+                    }
+                ]
+            }
+        },
+        "furnace2": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:furnace2",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:andesite"]
+                    }
+                ]
+            }
+        },
+        "furnace3": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:furnace3",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:granite"]
+                    }
+                ]
+            }
+        },
+        "furnace4": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:furnace4",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:calcite"]
+                    }
+                ]
+            }
+        },
+        "furnace5": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:furnace5",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:tuff"]
+                    }
+                ]
+            }
+        },
+        "furnace6": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:furnace6",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:basalt"]
+                    }
+                ]
+            }
+        },
+        "furnace7": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:furnace7",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:netherrack"]
+                    }
+                ]
+            }
+        },
+        "furnace8": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:furnace8",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:end_stone"]
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "icon": {    
+            "id": "minecraft:furnace"
+         },
+         "title": {
+             "translate": "石质工作方块扩展"
+         },
+         "description": {
+             "translate": "用各类石头制成工作方块。"
+         },
+         "frame": "task",    
+         "announce_to_chat": true,     
+         "hidden": false,   
+         "show_toast": true
+    },
+    "parent": "whw_recipe:stonemade_tools",
+    "requirements": [    
+        ["furnace", "furnace2", "furnace3", "furnace4", "furnace5", "furnace6", "furnace7", "furnace8"]
+    ],
+    "rewards": {    
+        "experience": 10    
+    }
+}

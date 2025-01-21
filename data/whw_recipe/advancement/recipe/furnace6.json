@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "basalt": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:basalt"],
+            "count": {
+              "min": 8
+            }
+          }
+        ]
+      }
+    }
+  },  
+  "rewards":{
+    "recipes": ["whw_recipe:furnace6"]
+  },
+  "requirements": [
+    [
+      "basalt"
+    ]
+  ]
+}
