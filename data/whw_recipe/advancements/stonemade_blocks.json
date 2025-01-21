@@ -1,9 +1,9 @@
 {
     "criteria": {   
-        "stone_pickaxe": {    
+        "furnace": {    
             "trigger": "minecraft:recipe_crafted",    
             "conditions": {
-                "recipe_id": "whw_recipe:stone_pickaxe",
+                "recipe_id": "whw_recipe:furnace",
                 "ingredients": [
                     {
                         "tag": "whw_recipe:stone_resourse_crafting"
@@ -11,10 +11,10 @@
                 ]
             }
         },
-        "stone_axe": {    
+        "observer": {    
             "trigger": "minecraft:recipe_crafted",    
             "conditions": {
-                "recipe_id": "whw_recipe:stone_axe",
+                "recipe_id": "whw_recipe:observer",
                 "ingredients": [
                     {
                         "tag": "whw_recipe:stone_resourse_crafting"
@@ -22,10 +22,10 @@
                 ]
             }
         },
-        "stone_hoe": {    
+        "dispenser": {    
             "trigger": "minecraft:recipe_crafted",    
             "conditions": {
-                "recipe_id": "whw_recipe:stone_hoe",
+                "recipe_id": "whw_recipe:dispenser",
                 "ingredients": [
                     {
                         "tag": "whw_recipe:stone_resourse_crafting"
@@ -33,11 +33,10 @@
                 ]
             }
         },
-        
-        "stone_shovel": {    
+        "dropper": {    
             "trigger": "minecraft:recipe_crafted",    
             "conditions": {
-                "recipe_id": "whw_recipe:stone_shovel",
+                "recipe_id": "whw_recipe:dropper",
                 "ingredients": [
                     {
                         "tag": "whw_recipe:stone_resourse_crafting"
@@ -45,10 +44,21 @@
                 ]
             }
         },
-        "stone_sword": {    
+        "piston": {    
             "trigger": "minecraft:recipe_crafted",    
             "conditions": {
-                "recipe_id": "whw_recipe:stone_sword",
+                "recipe_id": "whw_recipe:piston",
+                "ingredients": [
+                    {
+                        "tag": "whw_recipe:stone_resourse_crafting"
+                    }
+                ]
+            }
+        },
+        "brewing_stand": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:brewing_stand",
                 "ingredients": [
                     {
                         "tag": "whw_recipe:stone_resourse_crafting"
@@ -59,22 +69,22 @@
     },
     "display": {
         "icon": {    
-            "item": "minecraft:stone_pickaxe"
+            "item": "minecraft:furnace"
          },
          "title": {
-             "translate": "石质工具扩展"
+             "translate": "石质工作方块扩展"
          },
          "description": {
-             "translate": "用各类石头制成工具，从此废石不再是废石。"
+             "translate": "用各类石头制成工作方块。"
          },
          "frame": "task",    
          "announce_to_chat": true,     
          "hidden": false,   
          "show_toast": true
     },
-    "parent": "whw_recipe:whw_recipe",
+    "parent": "whw_recipe:stonemade_tools",
     "requirements": [    
-        ["stone_pickaxe","stone_axe","stone_hoe","stone_shovel","stone_sword"]
+        ["furnace", "observer",  "dispenser", "dropper", "piston","brewing_stand"]
     ],
     "rewards": {    
         "experience": 10    

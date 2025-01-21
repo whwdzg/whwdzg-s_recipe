@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#&#",
+    "#X#"
+  ],
+  "key": {
+    "#": 
+     {"tag": "whw_recipe:stone_resourse_crafting"}
+    ,
+    "X": {
+     "item": "minecraft:redstone"
+    },
+    "&": {
+     "item": "minecraft:bow"
+    }
+  },
+  "result": {
+    "item": "minecraft:dispenser"
+  }
+}

@@ -6,11 +6,11 @@
     " X"
   ],
   "key": {
-    "#": {
-     "item":"minecraft:diorite"
+    "#":{ 
+    "item": "whw_recipe:stone_resourse_crafting"
     },
     "X": {
-      "item": "minecraft:stick"
+       "item":"minecraft:stick"
     }
   },
   "result": {

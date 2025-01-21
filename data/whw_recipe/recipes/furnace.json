@@ -1,18 +1,15 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "#",
-    "#",
-    "X"
+    "###",
+    "# #",
+    "###"
   ],
   "key": {
     "#": 
      {"tag":"whw_recipe:stone_resourse_crafting"}
-    ,
-    "X": 
-      {"item":"minecraft:stick"}
   },
   "result": {
-    "item": "minecraft:stone_sword"
+    "item": "minecraft:furnace"
   }
 }

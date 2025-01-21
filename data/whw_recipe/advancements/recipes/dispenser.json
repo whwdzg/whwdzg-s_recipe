@@ -7,33 +7,47 @@
           {
             "tag": "whw_recipe:stone_resourse_crafting",
             "count": {
+              "min": 7
+            }
+          }
+        ]
+      }
+    },
+    "redstone":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:redstone"],
+            "count": {
               "min": 1
             }
           }
         ]
       }
     },
-    "stick": {
+    "bow":{
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": ["minecraft:stick"],
-            "count":{
-              "min": 2
+            "items": ["minecraft:bow"],
+            "count": {
+              "min": 1
             }
           }
         ]
       }
-    }
+    }      
   },  
   "rewards":{
-    "recipes": ["whw_recipe:stone_shovel"]
+    "recipes": ["whw_recipe:dispenser"]
   },
   "requirements": [
     [
       "stone_resourse_crafting",
-      "stick"
+      "redstone",
+      "bow"
     ]
   ]
 }

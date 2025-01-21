@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "stone_resourse_crafting": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "whw_recipe:stone_resourse_crafting",
+            "count": {
+              "min": 8
+            }
+          }
+        ]
+      }
+    }
+  },  
+  "rewards":{
+    "recipes": ["whw_recipe:furnace"]
+  },
+  "requirements": [
+    [
+      "stone_resourse_crafting"
+    ]
+  ]
+}

@@ -7,33 +7,47 @@
           {
             "tag": "whw_recipe:stone_resourse_crafting",
             "count": {
-              "min": 1
+              "min": 6
             }
           }
         ]
       }
     },
-    "stick": {
+    "redstone":{
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": ["minecraft:stick"],
-            "count":{
+            "items": ["minecraft:redstone"],
+            "count": {
               "min": 2
             }
           }
         ]
       }
-    }
+    },
+    "quartz":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:quartz_block"],
+            "count": {
+              "min": 1
+            }
+          }
+        ]
+      }
+    }      
   },  
   "rewards":{
-    "recipes": ["whw_recipe:stone_shovel"]
+    "recipes": ["whw_recipe:observer"]
   },
   "requirements": [
     [
       "stone_resourse_crafting",
-      "stick"
+      "redstone",
+      "quartz"
     ]
   ]
 }

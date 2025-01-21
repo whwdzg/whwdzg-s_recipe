@@ -1,18 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "##",
-    "#X",
-    " X"
+    "###",
+    "# #",
+    "#X#"
   ],
   "key": {
     "#": 
      {"tag": "whw_recipe:stone_resourse_crafting"}
     ,
     "X": 
-       {"item":"minecraft:stick"}
+     {"item": "minecraft:redstone"}
   },
   "result": {
-    "item": "minecraft:stone_axe"
+    "item": "minecraft:dropper"
   }
 }

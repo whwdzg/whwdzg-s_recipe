@@ -7,33 +7,33 @@
           {
             "tag": "whw_recipe:stone_resourse_crafting",
             "count": {
-              "min": 1
+              "min": 3
             }
           }
         ]
       }
     },
-    "stick": {
+    "blaze_rod":{
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": ["minecraft:stick"],
-            "count":{
-              "min": 2
+            "items": ["minecraft:blaze_rod"],
+            "count": {
+              "min": 1
             }
           }
         ]
       }
-    }
+    }   
   },  
   "rewards":{
-    "recipes": ["whw_recipe:stone_shovel"]
+    "recipes": ["whw_recipe:brewing_stand"]
   },
   "requirements": [
     [
       "stone_resourse_crafting",
-      "stick"
+      "blaze_rod"
     ]
   ]
 }

@@ -5,7 +5,7 @@
           "conditions": {
               "items": [
                   {
-                      "items": ["minecraft:stone"]
+                    "tag": "whw_recipe:stone_resourse_crafting"
                   }
               ]
           }
