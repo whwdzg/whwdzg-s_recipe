@@ -1,0 +1,67 @@
+{
+  "criteria": {
+    "end_stone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:end_stone"],
+            "count": {
+              "min": 4
+            }
+          }
+        ]
+      }
+    },
+    "redstone":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:redstone"],
+            "count": {
+              "min": 1
+            }
+          }
+        ]
+      }
+    },
+    "iron_ingot":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:iron_ingot"],
+            "count": {
+              "min": 1
+            }
+          }
+        ]
+      }
+    },
+    "planks":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:planks",
+            "count": {
+              "min": 3
+            }
+          }
+        ]
+      }
+    }      
+  },   
+  "rewards":{
+    "recipes": ["whw_recipe:piston8"]
+  },
+  "requirements": [
+    [
+      "end_stone",
+      "redstone",
+      "iron_ingot",
+      "planks"
+    ]
+  ]
+}

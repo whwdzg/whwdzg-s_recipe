@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "&&&",
+    "#*#",
+    "#X#"
+  ],
+  "key": {
+    "#": [
+     "minecraft:tuff"
+    ],
+    "X": [
+     "minecraft:redstone"
+    ],
+    "&":
+     "#minecraft:planks"
+    ,
+    "*": [
+      "minecraft:iron_ingot"
+    ]
+  },
+  "result": {
+    "id": "minecraft:piston"
+  }
+}
