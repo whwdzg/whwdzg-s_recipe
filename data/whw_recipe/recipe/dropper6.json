@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "# #",
+    "#X#"
+  ],
+  "key": {
+    "#": [
+     "minecraft:basalt"
+    ],
+    "X": [
+     "minecraft:redstone"
+    ]
+  },
+  "result": {
+    "id": "minecraft:dropper"
+  }
+}

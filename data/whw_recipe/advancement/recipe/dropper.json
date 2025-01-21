@@ -1,0 +1,39 @@
+{
+  "criteria": {
+    "diorite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:diorite"],
+            "count": {
+              "min": 7
+            }
+          }
+        ]
+      }
+    },
+    "redstone":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:redstone"],
+            "count": {
+              "min": 1
+            }
+          }
+        ]
+      }
+    }   
+  },  
+  "rewards":{
+    "recipes": ["whw_recipe:dropper"]
+  },
+  "requirements": [
+    [
+      "diorite",
+      "redstone"
+    ]
+  ]
+}
