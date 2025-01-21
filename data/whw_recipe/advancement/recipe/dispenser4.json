@@ -1,0 +1,53 @@
+{
+  "criteria": {
+    "calcite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:calcite"],
+            "count": {
+              "min": 7
+            }
+          }
+        ]
+      }
+    },
+    "redstone":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:redstone"],
+            "count": {
+              "min": 1
+            }
+          }
+        ]
+      }
+    },
+    "bow":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:bow"],
+            "count": {
+              "min": 1
+            }
+          }
+        ]
+      }
+    }      
+  }, 
+  "rewards":{
+    "recipes": ["whw_recipe:dispenser4"]
+  },
+  "requirements": [
+    [
+      "calcite",
+      "redstone",
+      "bow"
+    ]
+  ]
+}

@@ -175,6 +175,94 @@
                     }
                 ]
             }
+        },
+        "dispenser": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:dispenser",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:diorite"]
+                    }
+                ]
+            }
+        },
+        "dispenser2": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:dispenser2",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:andesite"]
+                    }
+                ]
+            }
+        },
+        "dispenser3": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:dispenser3",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:granite"]
+                    }
+                ]
+            }
+        },
+        "dispenser4": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:dispenser4",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:calcite"]
+                    }
+                ]
+            }
+        },
+        "dispenser5": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:dispenser5",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:tuff"]
+                    }
+                ]
+            }
+        },
+        "dispenser6": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:dispenser6",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:basalt"]
+                    }
+                ]
+            }
+        },
+        "dispenser7": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:dispenser7",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:netherrack"]
+                    }
+                ]
+            }
+        },
+        "dispenser8": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:dispenser8",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:end_stone"]
+                    }
+                ]
+            }
         }
     },
     "display": {
@@ -194,7 +282,7 @@
     },
     "parent": "whw_recipe:stonemade_tools",
     "requirements": [    
-        ["furnace", "furnace2", "furnace3", "furnace4", "furnace5", "furnace6", "furnace7", "furnace8", "observer", "observer2", "observer3", "observer4", "observer5", "observer6", "observer7", "observer8"]
+        ["furnace", "furnace2", "furnace3", "furnace4", "furnace5", "furnace6", "furnace7", "furnace8", "observer", "observer2", "observer3", "observer4", "observer5", "observer6", "observer7", "observer8", "dispenser", "dispenser2", "dispenser3", "dispenser4", "dispenser5", "dispenser6", "dispenser7", "dispenser8"]
     ],
     "rewards": {    
         "experience": 10    

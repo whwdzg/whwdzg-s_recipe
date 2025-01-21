@@ -1,0 +1,53 @@
+{
+  "criteria": {
+    "netherrack": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:netherrack"],
+            "count": {
+              "min": 7
+            }
+          }
+        ]
+      }
+    },
+    "redstone":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:redstone"],
+            "count": {
+              "min": 1
+            }
+          }
+        ]
+      }
+    },
+    "bow":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:bow"],
+            "count": {
+              "min": 1
+            }
+          }
+        ]
+      }
+    }      
+  }, 
+  "rewards":{
+    "recipes": ["whw_recipe:dispenser7"]
+  },
+  "requirements": [
+    [
+      "netherrack",
+      "redstone",
+      "bow"
+    ]
+  ]
+}
