@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "XX&",
+    "###"
+  ],
+  "key": {
+    "#": [
+     "minecraft:tuff"
+    ],
+    "X": [
+     "minecraft:redstone"
+    ],
+    "&": [
+     "minecraft:quartz"
+    ]
+  },
+  "result": {
+    "id": "minecraft:observer"
+  }
+}

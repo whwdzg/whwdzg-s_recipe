@@ -87,6 +87,94 @@
                     }
                 ]
             }
+        },
+        "observer": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:observer",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:diorite"]
+                    }
+                ]
+            }
+        },
+        "observer2": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:observer2",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:andesite"]
+                    }
+                ]
+            }
+        },
+        "observer3": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:observer3",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:granite"]
+                    }
+                ]
+            }
+        },
+        "observer4": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:observer4",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:calcite"]
+                    }
+                ]
+            }
+        },
+        "observer5": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:observer5",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:tuff"]
+                    }
+                ]
+            }
+        },
+        "observer6": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:observer6",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:basalt"]
+                    }
+                ]
+            }
+        },
+        "observer7": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:observer7",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:netherrack"]
+                    }
+                ]
+            }
+        },
+        "observer8": {    
+            "trigger": "minecraft:recipe_crafted",    
+            "conditions": {
+                "recipe_id": "whw_recipe:observer8",
+                "ingredients": [
+                    {
+                        "items": ["minecraft:end_stone"]
+                    }
+                ]
+            }
         }
     },
     "display": {
@@ -106,7 +194,7 @@
     },
     "parent": "whw_recipe:stonemade_tools",
     "requirements": [    
-        ["furnace", "furnace2", "furnace3", "furnace4", "furnace5", "furnace6", "furnace7", "furnace8"]
+        ["furnace", "furnace2", "furnace3", "furnace4", "furnace5", "furnace6", "furnace7", "furnace8", "observer", "observer2", "observer3", "observer4", "observer5", "observer6", "observer7", "observer8"]
     ],
     "rewards": {    
         "experience": 10    

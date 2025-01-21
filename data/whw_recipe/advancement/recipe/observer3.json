@@ -1,0 +1,53 @@
+{
+  "criteria": {
+    "granite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:granite"],
+            "count": {
+              "min": 6
+            }
+          }
+        ]
+      }
+    },
+    "redstone":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:redstone"],
+            "count": {
+              "min": 2
+            }
+          }
+        ]
+      }
+    },
+    "quartz":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:quartz_block"],
+            "count": {
+              "min": 1
+            }
+          }
+        ]
+      }
+    }
+  },  
+  "rewards":{
+    "recipes": ["whw_recipe:observer3"]
+  },
+  "requirements": [
+    [
+      "granite",
+      "redstone",
+      "quartz"
+    ]
+  ]
+}

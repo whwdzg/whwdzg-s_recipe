@@ -1,0 +1,53 @@
+{
+  "criteria": {
+    "end_stone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:end_stone"],
+            "count": {
+              "min": 6
+            }
+          }
+        ]
+      }
+    },
+    "redstone":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:redstone"],
+            "count": {
+              "min": 2
+            }
+          }
+        ]
+      }
+    },
+    "quartz":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:quartz_block"],
+            "count": {
+              "min": 1
+            }
+          }
+        ]
+      }
+    }
+  },  
+  "rewards":{
+    "recipes": ["whw_recipe:observer8"]
+  },
+  "requirements": [
+    [
+      "end_stone",
+      "redstone",
+      "quartz"
+    ]
+  ]
+}

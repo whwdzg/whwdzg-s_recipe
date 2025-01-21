@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "XX&",
+    "###"
+  ],
+  "key": {
+    "#": [
+     "minecraft:end_stone"
+    ],
+    "X": [
+     "minecraft:redstone"
+    ],
+    "&": [
+     "minecraft:quartz"
+    ]
+  },
+  "result": {
+    "id": "minecraft:observer"
+  }
+}
