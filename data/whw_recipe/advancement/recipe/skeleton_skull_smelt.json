@@ -1,11 +1,11 @@
 {
   "criteria": {
-    "creeper_head": {
+    "wither_skeleton_skull": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": ["minecraft:creeper_head"],
+            "items": "#whw_recipe:skeleton_skull_smelt",
             "count": {
               "min": 1
             }
@@ -15,11 +15,11 @@
     }
     },
   "rewards":{
-    "recipes": ["whw_recipe:skeleton_skull4"]
+    "recipes": ["whw_recipe:skeleton_skull_smelt"]
   },
   "requirements": [
     [
-      "creeper_head"
+      "wither_skeleton_skull"
     ]
   ]
 }

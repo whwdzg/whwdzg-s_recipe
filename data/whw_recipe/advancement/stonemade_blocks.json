@@ -6,7 +6,7 @@
                 "recipe_id": "whw_recipe:furnace",
                 "ingredients": [
                     {
-                        "items": "#whw_recipe:stone_resourse_crafting"
+                        "items": "#whw_recipe:stone_resource_crafting"
                     }
                 ]
             }
@@ -17,7 +17,7 @@
                 "recipe_id": "whw_recipe:observer",
                 "ingredients": [
                     {
-                        "items": "#whw_recipe:stone_resourse_crafting"
+                        "items": "#whw_recipe:stone_resource_crafting"
                     }
                 ]
             }
@@ -28,7 +28,7 @@
                 "recipe_id": "whw_recipe:dispenser",
                 "ingredients": [
                     {
-                        "items": "#whw_recipe:stone_resourse_crafting"
+                        "items": "#whw_recipe:stone_resource_crafting"
                     }
                 ]
             }
@@ -39,7 +39,7 @@
                 "recipe_id": "whw_recipe:dropper",
                 "ingredients": [
                     {
-                        "items": "#whw_recipe:stone_resourse_crafting"
+                        "items": "#whw_recipe:stone_resource_crafting"
                     }
                 ]
             }
@@ -50,7 +50,7 @@
                 "recipe_id": "whw_recipe:piston",
                 "ingredients": [
                     {
-                        "items": "#whw_recipe:stone_resourse_crafting"
+                        "items": "#whw_recipe:stone_resource_crafting"
                     }
                 ]
             }
@@ -61,7 +61,7 @@
                 "recipe_id": "whw_recipe:brewing_stand",
                 "ingredients": [
                     {
-                        "items": "#whw_recipe:stone_resourse_crafting"
+                        "items": "#whw_recipe:stone_resource_crafting"
                     }
                 ]
             }

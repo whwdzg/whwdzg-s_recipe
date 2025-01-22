@@ -1,11 +1,11 @@
 {
   "criteria": {
-    "stone_resourse_crafting": {
+    "stone_resource_crafting": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "#whw_recipe:stone_resourse_crafting",
+            "items": "#whw_recipe:stone_resource_crafting",
             "count": {
               "min": 7
             }
@@ -32,7 +32,7 @@
   },
   "requirements": [
     [
-      "stone_resourse_crafting",
+      "stone_resource_crafting",
       "redstone"
     ]
   ]

@@ -6,62 +6,18 @@
                 "recipe_id": "whw_recipe:sugar",
                 "ingredients": [
                     {
-                        "items": "minecraft:apple"
+                        "items": "#whw_recipe:sugar_resource"
                     }
                 ]
             }
         },
-        "sugar2":{
+        "sugar_3": {    
             "trigger": "minecraft:recipe_crafted",    
             "conditions": {
-                "recipe_id": "whw_recipe:sugar2",
+                "recipe_id": "whw_recipe:sugar_3",
                 "ingredients": [
                     {
-                        "items": "minecraft:melon"
-                    }
-                ]
-            }
-        },
-        "sugar3":{
-            "trigger": "minecraft:recipe_crafted",    
-            "conditions": {
-                "recipe_id": "whw_recipe:sugar3",
-                "ingredients": [
-                    {
-                        "items": "minecraft:pumpkin"
-                    }
-                ]
-            }
-        },
-        "sugar4":{
-            "trigger": "minecraft:recipe_crafted",    
-            "conditions": {
-                "recipe_id": "whw_recipe:sugar4",
-                "ingredients": [
-                    {
-                        "items": "minecraft:sweet_berries"
-                    }
-                ]
-            }
-        },
-        "sugar5":{
-            "trigger": "minecraft:recipe_crafted",    
-            "conditions": {
-                "recipe_id": "whw_recipe:sugar5",
-                "ingredients": [
-                    {
-                        "items": "minecraft:glow_berries"
-                    }
-                ]
-            }
-        },
-        "sugar6":{
-            "trigger": "minecraft:recipe_crafted",    
-            "conditions": {
-                "recipe_id": "whw_recipe:sugar6",
-                "ingredients": [
-                    {
-                        "items": "minecraft:beetroot_soup"
+                        "items": "#whw_recipe:sugar_resource_3"
                     }
                 ]
             }
@@ -84,7 +40,7 @@
     },
     "parent": "whw_recipe:whw_recipe",
     "requirements": [    
-        ["sugar","sugar2","sugar3","sugar4","sugar5","sugar6"]
+        ["sugar","sugar_3"]
     ],
     "rewards": {    
         "experience": 10    

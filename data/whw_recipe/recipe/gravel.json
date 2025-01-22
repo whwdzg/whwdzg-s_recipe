@@ -1,7 +1,7 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": 
-     "#whw_recipe:stone_resourse"
+     "#whw_recipe:stone_resource"
   ,
   "result": {
     "id": "minecraft:gravel",

@@ -6,7 +6,7 @@
                 "recipe_id": "whw_recipe:stone_pickaxe",
                 "ingredients": [
                     {
-                        "items": "#whw_recipe:stone_resourse_crafting"
+                        "items": "#whw_recipe:stone_resource_crafting"
                     }
                 ]
             }
@@ -17,7 +17,7 @@
                 "recipe_id": "whw_recipe:stone_axe",
                 "ingredients": [
                     {
-                        "items": "#whw_recipe:stone_resourse_crafting"
+                        "items": "#whw_recipe:stone_resource_crafting"
                     }
                 ]
             }
@@ -28,7 +28,7 @@
                 "recipe_id": "whw_recipe:stone_hoe",
                 "ingredients": [
                     {
-                        "items": "#whw_recipe:stone_resourse_crafting"
+                        "items": "#whw_recipe:stone_resource_crafting"
                     }
                 ]
             }
@@ -40,7 +40,7 @@
                 "recipe_id": "whw_recipe:stone_shovel",
                 "ingredients": [
                     {
-                        "items": "#whw_recipe:stone_resourse_crafting"
+                        "items": "#whw_recipe:stone_resource_crafting"
                     }
                 ]
             }
@@ -51,7 +51,7 @@
                 "recipe_id": "whw_recipe:stone_sword",
                 "ingredients": [
                     {
-                        "items": "#whw_recipe:stone_resourse_crafting"
+                        "items": "#whw_recipe:stone_resource_crafting"
                     }
                 ]
             }

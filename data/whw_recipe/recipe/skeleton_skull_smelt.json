@@ -1,8 +1,8 @@
 {
   "type": "minecraft:smelting",
-  "ingredient": [
-     "minecraft:creeper_head"
-  ],
+  "ingredient": 
+     "#whw_recipe:skeleton_skull_smelt"
+  ,
   "result": {
     "id": "minecraft:skeleton_skull"
   },

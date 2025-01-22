@@ -5,7 +5,7 @@
           "conditions": {
               "items": [
                   {
-                      "items": "#whw_recipe:stone_resourse"
+                      "items": "#whw_recipe:stone_resource"
                   }
               ]
           }

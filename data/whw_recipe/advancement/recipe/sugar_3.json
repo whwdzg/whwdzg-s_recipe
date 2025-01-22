@@ -1,7 +1,7 @@
 {
   "parent": "whw_recipe:whw_recipe",
     "rewards": {
-      "recipes": [ "whw_recipe:sugar" ]
+      "recipes": [ "whw_recipe:sugar_3" ]
     },
     "criteria": {
       "sugar_resource": {
@@ -9,7 +9,7 @@
         "conditions": {
           "items": [
             {
-              "items": "#whw_recipe:sugar_resource",
+              "items": "#whw_recipe:sugar_resource_3",
               "count": {
                 "min": 1
               }
