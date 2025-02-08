@@ -1,8 +1,9 @@
 {
   "type": "minecraft:crafting_shapeless",
   "result": {
-      "id": "minecraft:sugar"
+      "id": "minecraft:sugar",
+      "count": 1
   },
   "ingredients": 
-    ["#whw_recipe:sugar_resource"]
+    ["#whw_recipe:sugar_resource_3"]
 }
