@@ -1,20 +1,23 @@
 {
   "parent": "whw_recipe:whw_recipe",
     "rewards": {
-      "recipes": [ "whw_recipe:sugar6" ]
+      "recipes": [ "whw_recipe:sugar_3" ]
     },
     "criteria": {
-      "beetroot_soup": {
+      "sugar_resource_3": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
-          "items": [ { "items": ["minecraft:beetroot_soup"] } ]
+          "items": [
+            {
+              "tag": "whw_recipe:sugar_resource_3"
+            }
+          ] 
         }
       }
-    
     },
     "requirements": [
       [
-        "beetroot_soup"
+        "sugar_resource_3"
       ]
     ]
   }

@@ -1,20 +1,23 @@
 {
   "parent": "whw_recipe:whw_recipe",
     "rewards": {
-      "recipes": [ "whw_recipe:sugar" ]
+      "recipes": [ "whw_recipe:sugar_1" ]
     },
     "criteria": {
-      "apple": {
+      "sugar_resource_1": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
-          "items": [ { "items": ["minecraft:apple"] } ]
+          "items": [
+            {
+              "tag": "whw_recipe:sugar_resource_1"
+            }
+          ] 
         }
       }
-    
     },
     "requirements": [
       [
-        "apple"
+        "sugar_resource_1"
       ]
     ]
   }
