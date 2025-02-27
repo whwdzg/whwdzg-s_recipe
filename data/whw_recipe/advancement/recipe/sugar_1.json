@@ -1,15 +1,15 @@
 {
   "parent": "whw_recipe:whw_recipe",
     "rewards": {
-      "recipes": [ "whw_recipe:sugar" ]
+      "recipes": [ "whw_recipe:sugar_1" ]
     },
     "criteria": {
-      "sugar_resource": {
+      "sugar_resource_1": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
           "items": [
             {
-              "items": "#whw_recipe:sugar_resource",
+              "items": "#whw_recipe:sugar_resource_1",
               "count": {
                 "min": 1
               }
@@ -20,7 +20,7 @@
     },
     "requirements": [
       [
-        "sugar_resource"
+        "sugar_resource_1"
       ]
     ]
   }

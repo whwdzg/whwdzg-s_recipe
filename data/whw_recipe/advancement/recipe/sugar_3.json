@@ -4,7 +4,7 @@
       "recipes": [ "whw_recipe:sugar_3" ]
     },
     "criteria": {
-      "sugar_resource": {
+      "sugar_resource_3": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
           "items": [
@@ -20,7 +20,7 @@
     },
     "requirements": [
       [
-        "sugar_resource"
+        "sugar_resource_3"
       ]
     ]
   }
