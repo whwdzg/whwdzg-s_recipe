@@ -3,7 +3,7 @@
         "sugar_1": {    
             "trigger": "minecraft:recipe_crafted",    
             "conditions": {
-                "recipe_id": "whw_recipe:sugar_one",
+                "recipe_id": "whw_recipe:sugar_1",
                 "ingredients": [
                     {
                         "items": "#whw_recipe:sugar_resource_1"
@@ -11,10 +11,10 @@
                 ]
             }
         },
-        "sugar_3": {    
+        "sugar_3":{
             "trigger": "minecraft:recipe_crafted",    
             "conditions": {
-                "recipe_id": "whw_recipe:sugar_three",
+                "recipe_id": "whw_recipe:sugar_3",
                 "ingredients": [
                     {
                         "items": "#whw_recipe:sugar_resource_3"
@@ -31,7 +31,7 @@
              "translate": "果糖提取"
          },
          "description": {
-             "translate": "果糖也是糖！"
+             "translate": "果糖也是糖！还有那么多别的甜食，都是糖！"
          },
          "frame": "task",    
          "announce_to_chat": true,     
