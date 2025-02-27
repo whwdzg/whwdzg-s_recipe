@@ -1,12 +1,12 @@
 {
     "criteria": {   
-        "sugar": {    
+        "sugar_1": {    
             "trigger": "minecraft:recipe_crafted",    
             "conditions": {
-                "recipe_id": "whw_recipe:sugar",
+                "recipe_id": "whw_recipe:sugar_1",
                 "ingredients": [
                     {
-                        "items": "#whw_recipe:sugar_resource"
+                        "items": "#whw_recipe:sugar_resource_1"
                     }
                 ]
             }
@@ -40,7 +40,7 @@
     },
     "parent": "whw_recipe:whw_recipe",
     "requirements": [    
-        ["sugar","sugar_3"]
+        ["sugar_1","sugar_3"]
     ],
     "rewards": {    
         "experience": 10    
