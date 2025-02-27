@@ -5,10 +5,8 @@
       "count": 1
   },
   "ingredients": [
-      [
-          {
-              "item": "glow_berries" 
-          }
-      ]
+    {
+    "tag":"whw_recipe:sugar_resource_1"
+    }
   ]
 }

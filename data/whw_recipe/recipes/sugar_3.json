@@ -2,13 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "result": {
       "item": "minecraft:sugar",
-      "count": 2
+      "count": 3
   },
   "ingredients": [
-      [
-          {
-              "item": "beetroot_soup" 
-          }
-      ]
+  {
+    "tag":"whw_recipe:sugar_resource_3"
+    }
   ]
 }
