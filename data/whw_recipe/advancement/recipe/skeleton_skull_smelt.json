@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "wither_skeleton_skull": {
+    "skeleton_skull_smelt": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -19,7 +19,7 @@
   },
   "requirements": [
     [
-      "wither_skeleton_skull"
+      "skeleton_skull_smelt"
     ]
   ]
 }
