@@ -1,45 +1,12 @@
 {
     "criteria": {   
-        "zombie_head_to": {    
+        "skeleton_skull_smelt": {    
             "trigger": "minecraft:recipe_crafted",    
             "conditions": {
-                "recipe_id": "whw_recipe:skeleton_skull3",
+                "recipe_id": "whw_recipe:skeleton_skull_smelt",
                 "ingredients": [
                     {
-                        "items": ["minecraft:zombie_head"]
-                    }
-                ]
-            }
-        },
-        "creeper_head_to": {    
-            "trigger": "minecraft:recipe_crafted",    
-            "conditions": {
-                "recipe_id": "whw_recipe:skeleton_skull4",
-                "ingredients": [
-                    {
-                        "items": ["minecraft:creeper_head"]
-                    }
-                ]
-            }
-        },
-        "piglin_head_to": {    
-            "trigger": "minecraft:recipe_crafted",    
-            "conditions": {
-                "recipe_id": "whw_recipe:skeleton_skull5",
-                "ingredients": [
-                    {
-                        "items": ["minecraft:piglin_head"]
-                    }
-                ]
-            }
-        },
-        "wither_skeleton_skull_to": {    
-            "trigger": "minecraft:recipe_crafted",    
-            "conditions": {
-                "recipe_id": "whw_recipe:skeleton_skull2",
-                "ingredients": [
-                    {
-                        "items": ["minecraft:wither_skeleton_skull"]
+                        "tag": "whw_recipe:skeleton_skull_smelt"
                     }
                 ]
             }
@@ -62,7 +29,7 @@
     },
     "parent": "whw_recipe:head_head",
     "requirements": [    
-        ["zombie_head_to", "creeper_head_to", "piglin_head_to", "wither_skeleton_skull_to"]
+        ["skeleton_skull_smelt"]
     ],
     "rewards": {    
         "experience": 100 
