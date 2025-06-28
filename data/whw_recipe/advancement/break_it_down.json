@@ -28,10 +28,10 @@
             "id": "minecraft:brick"
          },
          "title": {
-             "translate": "advancements.whw_recipe.break_it_down.title"
+             "translate": "打破砖墙"
          },
          "description": {
-             "translate": "advancements.whw_recipe.break_it_down.description"
+             "translate": "拆东墙，补西墙"
          },
          "frame": "task",    
          "announce_to_chat": true,     
