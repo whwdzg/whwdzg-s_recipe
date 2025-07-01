@@ -23,7 +23,7 @@
              "translate": "-不是，你在干什么！-移植头骨！"
          },
          "frame": "challenge",    
-         "announce_to_chat": true,     
+         "announce_to_chat": false,     
          "hidden": true,
          "show_toast": true
     },

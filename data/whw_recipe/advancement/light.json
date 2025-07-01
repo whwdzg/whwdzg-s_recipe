@@ -23,7 +23,7 @@
              "translate": "啊，我的眼睛！"
          },
          "frame": "task",    
-         "announce_to_chat": true,     
+         "announce_to_chat": false,     
          "hidden": false,   
          "show_toast": true
     },

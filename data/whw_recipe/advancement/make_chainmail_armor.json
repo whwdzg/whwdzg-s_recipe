@@ -56,7 +56,7 @@
              "translate": "寻找未知护甲的秘密，并解锁隐藏的力量。"
          },
          "frame": "task",    
-         "announce_to_chat": true,     
+         "announce_to_chat": false,     
          "hidden": false,   
          "show_toast": true
     },

@@ -34,7 +34,7 @@
              "translate": "通过幽匿块与回声碎片的分解，探寻洞穴深处的神秘"
          },
          "frame": "task",    
-         "announce_to_chat": true,     
+         "announce_to_chat": false,     
          "hidden": false,   
          "show_toast": true
     },
