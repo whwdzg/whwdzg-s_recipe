@@ -243,7 +243,7 @@
              "translate": "使用切石机快速去皮木材，或者应该叫切木机？"
          },
          "frame": "task",    
-         "announce_to_chat": true,     
+         "announce_to_chat": false,     
          "hidden": false,   
          "show_toast": true
     },

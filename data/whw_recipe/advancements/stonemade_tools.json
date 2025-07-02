@@ -68,7 +68,7 @@
              "translate": "用各类石头制成工具，从此废石不再是废石。"
          },
          "frame": "task",    
-         "announce_to_chat": true,     
+         "announce_to_chat": false,     
          "hidden": false,   
          "show_toast": true
     },
