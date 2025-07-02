@@ -23,7 +23,7 @@
              "translate": "准备好你的鞍，踏上世界征途"
          },
          "frame": "task",    
-         "announce_to_chat": true,     
+         "announce_to_chat": false,     
          "hidden": false,   
          "show_toast": true
     },

@@ -45,7 +45,7 @@
              "translate": "锻造更好的马铠，然后准备为你的宝马装备它。"
          },
          "frame": "task",    
-         "announce_to_chat": true,     
+         "announce_to_chat": false,     
          "hidden": false,   
          "show_toast": true
     },

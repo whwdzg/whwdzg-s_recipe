@@ -56,7 +56,7 @@
              "translate": "合成各类幽匿方块，就能掌握那种神秘力量？"
          },
          "frame": "challenge",    
-         "announce_to_chat": true,     
+         "announce_to_chat": false,     
          "hidden": false,   
          "show_toast": true
     },

@@ -23,7 +23,7 @@
              "translate": "使用切石机将砂土均匀打散为泥土"
          },
          "frame": "task",    
-         "announce_to_chat": true,     
+         "announce_to_chat": false,     
          "hidden": false,   
          "show_toast": true
     },
